@@ -1,24 +1,76 @@
+import argparse
+import csv
 import re
 from collections import Counter
 
 from bs4 import BeautifulSoup
 
+# Argument parsing
+parser = argparse.ArgumentParser(description="Tag FSH files with keyword extensions.")
+parser.add_argument("source", help="Path to the input FSH file")
+parser.add_argument("destination", help="Path to the output FSH file")
+parser.add_argument(
+    "--keywords", default="keywords.csv", help="CSV file with keyword metadata"
+)
+
+args = parser.parse_args()
+
+source_path = args.source
+destination_path = args.destination
 file = "/Users/joaoalmeida/Desktop/hl7Europe/gravitate/gravitate-health/input/fsh/examples/rawEPI/amox-ema-automatic/composition-en-b62cc095c7be2116a8a65157286376a3.fsh"
 # Define keywords and highlight classes
-keywords = {
-    "diabetes": "highlight-diabetes",
-    "children": "highlight-children",
-    "rash": "highlight-rash",
-}
 
-# Concept mapping: word → (code, display)
-concept_mapping = {
-    "diabetes": ("DB01234", "METFORMIN"),
-    "pregnancy": ("DB00045", "THALIDOMIDE"),
-    "hypertension": ("DB00321", "ENALAPRIL"),
-    "children": ("DB99999", "PARACETAMOL"),
-    "rash": ("DB99999", "PARACETAMOL"),
+keywords = {
+    "diabetes": {
+        "class": "diabetes",
+        "code": "DB01234",
+        "system": "snomed",
+        "display": "METFORMIN",
+    },
+    "children": {
+        "class": "children",
+        "code": "DB99999",
+        "system": "snomed",
+        "display": "PARACETAMOL",
+    },
+    "rash": {
+        "class": "rash",
+        "code": "DB99998",
+        "system": "snomed",
+        "display": "PARACETAMOL",
+    },
+    "elderly": {
+        "class": "jonwort",
+        "code": "DB00099",
+        "system": "snomed",
+        "display": "HYPERICUM",
+    },
+    "Adults": {
+        "class": "jonwort",
+        "code": "DB00099",
+        "system": "snomed",
+        "display": "HYPERICUM",
+    },
+    "hepatitis B": {
+        "class": "jonwort",
+        "code": "66071002",
+        "system": "snomed",
+        "display": "Viral hepatitis type B (disorder)",
+    },
 }
+# Load keywords from CSV
+
+with open(args.keywords, newline="", encoding="utf-8") as csvfile:
+    reader = csv.DictReader(csvfile, delimiter=";")
+    for row in reader:
+        print(row)
+        keyword = row["keyword"].strip()
+        keywords[keyword] = {
+            "class": row["class"].strip(),
+            "system": row["system"].strip(),
+            "code": row["code"].strip(),
+            "display": row["display"].strip(),
+        }
 
 
 # Count matches
@@ -27,35 +79,39 @@ keyword_counter = Counter()
 
 def tag_deepest_elements(html: str, keywords: dict) -> str:
     soup = BeautifulSoup(html, "lxml")
+    known_classes = [v["class"] for v in keywords.values()]
 
     def matches_keyword(tag_text):
-        for word, css_class in keywords.items():
-            if word.lower() in tag_text.lower():
-                return word, css_class
-        return None, None
+        matches = []
+        tag_text_lower = tag_text.lower()
+        for word, data in keywords.items():
+            if word.lower() in tag_text_lower:
+                matches.append((word, data["class"]))
+        return matches
 
     for tag in reversed(soup.find_all(["li", "p", "span", "div"])):
+        # Skip if any child already has one of the classes
         if tag.find(
             attrs={
-                "class": lambda c: c
-                and any(cls.startswith("highlight-") for cls in c.split())
+                "class": lambda c: c and any(cls in c.split() for cls in known_classes)
             }
         ):
             continue
 
         tag_text = tag.get_text(strip=True)
-        matched_word, css_class = matches_keyword(tag_text)
-        if matched_word:
-            keyword_counter[matched_word] += 1
-            existing_class = tag.get("class", [])
-            if css_class not in existing_class:
-                tag["class"] = existing_class + [css_class]
+        matches = matches_keyword(tag_text)
+
+        for keyword, css_class in matches:
+            keyword_counter[keyword] += 1
+            existing_classes = tag.get("class", [])
+            if css_class not in existing_classes:
+                tag["class"] = existing_classes + [css_class]
 
     return str(soup)
 
 
 # Load FSH
-with open(file, "r", encoding="utf-8") as f:
+with open(source_path, "r", encoding="utf-8") as f:
     fsh_content = f.read()
 
 # --- Update text.div blocks ---
@@ -95,22 +151,29 @@ else:
 
 # Add extension block to FSH
 extension_lines = []
+tagged = []
 for keyword, count in keyword_counter.items():
-    if keyword not in concept_mapping:
+    if keyword not in keywords:
         continue
-    code, display = concept_mapping[keyword]
-    css_class = keywords[keyword]
 
-    extension_lines.extend(
-        [
-            '* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"',
-            '* extension[=].extension[+].url = "elementClass"',
-            f'* extension[=].extension[=].valueString = "{css_class}"',
-            '* extension[=].extension[+].url = "concept"',
-            f'* extension[=].extension[=].valueCodeableReference.concept.coding = $ginas#{code} "{display}"',
-            "",
-        ]
-    )
+    data = keywords[keyword]
+    css_class = data["class"]
+    code = data["code"]
+    display = data["display"]
+    system = data["system"]
+    if code + display + system + css_class not in tagged:
+        extension_lines.extend(
+            [
+                '* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"',
+                '* extension[=].extension[+].url = "elementClass"',
+                f'* extension[=].extension[=].valueString = "{css_class}"',
+                '* extension[=].extension[+].url = "concept"',
+                f'* extension[=].extension[=].valueCodeableReference.concept.coding = {system}#{code} "{display}"',
+                "",
+            ]
+        )
+        tagged.append(code + display + system + css_class)
+
 
 # Combine extension lines into a single string block
 extension_block = "\n// Auto-tagged extensions\n" + "\n".join(extension_lines) + "\n"
@@ -130,7 +193,7 @@ else:
     fsh_content += extension_block
 
 # Save updated FSH
-with open("example_tagged.fsh", "w", encoding="utf-8") as f:
+with open(destination_path, "w", encoding="utf-8") as f:
     f.write(fsh_content)
 
 # --- Print keyword stats ---

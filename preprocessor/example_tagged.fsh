@@ -32,15 +32,45 @@ Usage: #inline
 // Auto-tagged extensions
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
-* extension[=].extension[=].valueString = "highlight-rash"
+* extension[=].extension[=].valueString = "breastfeeding"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.concept.coding = $ginas#DB99999 "PARACETAMOL"
+* extension[=].extension[=].valueCodeableReference.concept.coding = $sct#69840006 "Normal breast feeding"
 
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
-* extension[=].extension[=].valueString = "highlight-children"
+* extension[=].extension[=].valueString = "pregnancy"
 * extension[=].extension[+].url = "concept"
-* extension[=].extension[=].valueCodeableReference.concept.coding = $ginas#DB99999 "PARACETAMOL"
+* extension[=].extension[=].valueCodeableReference.concept.coding = $sct#77386006 "Pregnancy"
+
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "pregnancy"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = icpc-2#W78 "Pregnancy"
+
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "rash"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = snomed#DB99998 "PARACETAMOL"
+
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "children"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = snomed#DB99999 "PARACETAMOL"
+
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "jonwort"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = snomed#DB00099 "HYPERICUM"
+
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "hiv"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = $sct#19030005 "HIV"
 
 * section[+].
   * title = "B. Package Leaflet"
@@ -120,7 +150,7 @@ Amoxicillin Capsule may also be used in combination with other medicines to trea
 <ul>
 <li>if you are allergic to amoxicillin, penicillin or any of the other ingredients of this medicine (listed in
 section 6)</li>
-<li class="highlight-rash">if you have ever had an allergic reaction to any antibiotic. This can include a skin rash or swelling
+<li class="rash">if you have ever had an allergic reaction to any antibiotic. This can include a skin rash or swelling
 of the face or throat.
 Do not take Amoxicillin Capsules if any of the above apply. If you are not sure, talk to your doctor or
 pharmacist before taking Amoxicillin Capsules.</li>
@@ -138,7 +168,7 @@ Amoxicillin Capsules.</li>
 <p>If you are having:</p>
 <ul>
 <li>Urine tests (glucose) or blood tests for liver function</li>
-<li>Oestriol tests (used during pregnancy to check the baby is developing normally)
+<li class="pregnancy">Oestriol tests (used during pregnancy to check the baby is developing normally)
 Tell your doctor or pharmacist that you are taking Amoxicillin Capsule. This is because Amoxicillin
 Capsule can affect the results of these tests.</li>
 </ul>
@@ -156,8 +186,8 @@ tests.</li>
 <li>If you are taking methotrexate (used to treat cancer and severe psoriasis), penicillins may reduce the
 excretion of methotrexate causing a potential increase in side effects.</li>
 </ul>
-<p><strong>Pregnancy and breast-feeding</strong></p>
-<p>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask your
+<p class="pregnancy breastfeeding"><strong>Pregnancy and breast-feeding</strong></p>
+<p class="breastfeeding pregnancy">If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask your
 doctor or pharmacist for advice before taking this medicine.</p>
 <p><strong>Driving and using machines</strong></p>
 <p>Amoxicillin Capsules can have side effects and the symptoms (such as allergic reactions, dizziness and
@@ -178,7 +208,7 @@ pharmacist if you are not sure.</p>
 <li>Space the doses evenly during the day, at least 4 hours apart.</li>
 </ul>
 <p>The recommended dose is:</p>
-<p class="highlight-children"><strong>Children weighing less than 40 kg</strong></p>
+<p class="children"><strong>Children weighing less than 40 kg</strong></p>
 <p>All doses are worked out depending on the child’s body weight in kilograms.</p>
 <ul>
 <li>Your doctor will advise you how much Amoxicillin Capsules you should give to your baby or child.</li>
@@ -186,13 +216,13 @@ pharmacist if you are not sure.</p>
 divided doses.</li>
 <li>The maximum recommended dose is 100 mg for each kilogram of body weight a day.</li>
 </ul>
-<p class="highlight-children"><strong>Adults, elderly patients and children weighing 40 kg or more</strong></p>
+<p class="children jonwort"><strong>Adults, elderly patients and children weighing 40 kg or more</strong></p>
 <p>The usual dose of Amoxicillin Capsules is 250 mg to 500 mg three times a day or 750 mg to 1 g every 12
 hours, depending on the severity and type of infection.</p>
 <ul>
 <li>Severe infections: 750 mg to 1 g three times a day.</li>
 <li>Urinary tract infection: 3 g twice daily for one day.</li>
-<li class="highlight-rash">Lyme disease (an infection spread by parasites called ticks): Isolated erythema migrans (early
+<li class="rash">Lyme disease (an infection spread by parasites called ticks): Isolated erythema migrans (early
 stage – red or pink circular rash): 4 g a day, Systemic manifestations (late stage – for more serious
 symptoms or when the disease spreads around your body): up to 6 g a day.</li>
 <li>Stomach ulcers: one 750 mg or one 1 g dose twice a day for 7 days with other antibiotics and
@@ -238,31 +268,31 @@ Stop taking Amoxicillin Capsules and see a doctor straight away, if you notice a
 serious side effects – you may need urgent medical treatment:</p>
 <p>The following are very rare (may affect up to 1 in 10,000 people)</p>
 <ul>
-<li class="highlight-rash">allergic reactions, the signs may include: skin itching or rash, swelling of the face, lips, tongue,
+<li class="rash">allergic reactions, the signs may include: skin itching or rash, swelling of the face, lips, tongue,
 body or breathing difficulties. These can be serious and occasionally deaths have occurred</li>
-<li class="highlight-rash">rash or pinpoint flat red round spots under the skin surface or bruising of the skin. This is due to
+<li class="rash">rash or pinpoint flat red round spots under the skin surface or bruising of the skin. This is due to
 inflammation of blood vessel walls due to an allergic reaction. It can be associated with joint pain
 (arthritis) and kidney problems</li>
-<li class="highlight-rash">a delayed allergic reaction can occur usually 7 to 12 days after having Amoxicillin Capsules, some
+<li class="rash">a delayed allergic reaction can occur usually 7 to 12 days after having Amoxicillin Capsules, some
 signs include: rashes, fever, joint pains and enlargement of the lymph nodes especially under the
 arms</li>
-<li>a skin reaction known as ‘erythema multiforme’ where you may develop: itchy reddish purple
+<li class="hiv">a skin reaction known as ‘erythema multiforme’ where you may develop: itchy reddish purple
 patches on the skin especially on the palms of the hands or soles of the feet, ‘hive-like’raised
 swollen areas on the skin, tender areas on the surfaces of the mouth, eyes and genitals. You may
 have a fever and be very tired</li>
 <li>other severe skin reactions can include: changes in skin colour, bumps under the skin, blistering,
 pustules, peeling, redness, pain, itching, scaling. These may be associated with fever, headaches and
 body aches</li>
-<li class="highlight-rash">flu-like symptoms with a rash, fever, swollen glands, and abnormal blood test results (including
+<li class="rash">flu-like symptoms with a rash, fever, swollen glands, and abnormal blood test results (including
 increased white blood cells (eosinophilia) and liver enzymes) (Drug Reaction with Eosinophilia and
 Systemic Symptoms (DRESS)).</li>
 <li>high temperature (fever), chills, a sore throat or other signs of an infection, or if you bruise easily.
 These may be signs of a problem with your blood cells</li>
-<li class="highlight-rash">the Jarisch-Herxheimer reaction which occur during treatment with Amoxicillin Capsules for Lyme
+<li class="rash">the Jarisch-Herxheimer reaction which occur during treatment with Amoxicillin Capsules for Lyme
 disease and causes fever, chills, headache, muscle pain and skin rash.</li>
 <li>inflammation of the large bowel (colon) with diarrhoea (sometimes containing blood), pain and
 fever</li>
-<li>serious liver side effects may occur. They are mainly associated with people having treatment over
+<li class="jonwort">serious liver side effects may occur. They are mainly associated with people having treatment over
 a long period, males and the elderly. You must tell doctor urgently if you get:<ul>
 <li>severe diarrhoea with bleeding</li>
 <li>blisters, redness or bruising of the skin</li>
@@ -276,14 +306,14 @@ result in jaundice.</li>
 <p>If any of the above happens stop taking the medicine and see your doctor straight away.
 Sometimes you may get less severe skin reactions such as:</p>
 <ul>
-<li class="highlight-rash">a middle itchy rash (round, pink-red patches), ‘hive-like’ swollen areas on forearms, legs, palms,
+<li class="rash hiv">a middle itchy rash (round, pink-red patches), ‘hive-like’ swollen areas on forearms, legs, palms,
 hands or feet. This is uncommon (may affect up to 1 in 100 people).
 If you have any of these talk to your doctor as Amoxicillin Capsules will need to be stopped.
 The other possible side effects are:</li>
 </ul>
 <p><em>Common (may affect up to 1 in 10 people)</em> </p>
 <ul>
-<li class="highlight-rash">skin rash</li>
+<li class="rash">skin rash</li>
 <li>feeling sick (nausea)</li>
 <li>diarrhoea.</li>
 </ul>
@@ -312,11 +342,11 @@ the eyes</li>
 nosebleed or cut yourself.</li>
 <li>Chest pain in the context of allergic reactions, which may be a symptom of allergy triggered cardiac
 infarction (Kounis syndrome)</li>
-<li class="highlight-children">Drug-induced enterocolitis syndrome (DIES): DIES has been reported mainly in children receiving
+<li class="children">Drug-induced enterocolitis syndrome (DIES): DIES has been reported mainly in children receiving
 amoxicillin. It is a certain kind of allergic reaction with the leading symptom of repetitive vomiting
 (1-4 hours after drug administration). Further symptoms could comprise abdominal pain, lethargy,
 diarrhoea, and low blood pressure.</li>
-<li class="highlight-rash">Rash with blisters arranged in a circle with central crusting or like a string of pearls (linear
+<li class="rash">Rash with blisters arranged in a circle with central crusting or like a string of pearls (linear
 IgA disease)</li>
 <li>Inflammation of the membranes that surround the brain and spinal cord (aseptic meningitis)
 Reporting of side effects
@@ -333,7 +363,7 @@ safety of this medicine.</li>
   * code.text = "5. How to store amoxicillin"
   * text.status = #additional
   * text.div = """
-<html><body><div xmlns="http://www.w3.org/1999/xhtml"> <p class="highlight-children">Keep this medicine out of the sight and reach of children.</p>
+<html><body><div xmlns="http://www.w3.org/1999/xhtml"> <p class="children">Keep this medicine out of the sight and reach of children.</p>
 <p>Do not use this medicine after the expiry date which is stated on the carton after EXP. The expiry date refers to the last day of that month.</p>
 <p>Store in the original pack below 30°C.</p>
 <p>Do not use this medicine if you notice visible signs of deterioration.</p>
