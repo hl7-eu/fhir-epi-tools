@@ -68,6 +68,12 @@ Usage: #inline
 
 * extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
 * extension[=].extension[+].url = "elementClass"
+* extension[=].extension[=].valueString = "difficult"
+* extension[=].extension[+].url = "concept"
+* extension[=].extension[=].valueCodeableReference.concept.coding = local#diff001 "Difficult text"
+
+* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/HtmlElementLink"
+* extension[=].extension[+].url = "elementClass"
 * extension[=].extension[=].valueString = "hiv"
 * extension[=].extension[+].url = "concept"
 * extension[=].extension[=].valueCodeableReference.concept.coding = $sct#19030005 "HIV"
@@ -79,7 +85,7 @@ Usage: #inline
   * text.status = #additional
 
   * text.div = """
-<html><body><div xmlns="http://www.w3.org/1999/xhtml">unavailable</div></body></html>
+<html><body><div class="difficult" xmlns="http://www.w3.org/1999/xhtml">unavailable</div></body></html>
 """
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
@@ -116,7 +122,7 @@ not listed in this leaflet. See section 4.</li>
 <li>What Amoxicillin capsules is and what it is used for</li>
 <li>What you need to know before you take Amoxicillin capsules</li>
 <li>How to take Amoxicillin capsules</li>
-<li>Possible side effects</li>
+<li class="difficult">Possible side effects</li>
 <li>How to store Amoxicillin capsules</li>
 <li>Contents of the pack and other information</li>
 </ol> </div></body></html>
@@ -155,7 +161,7 @@ of the face or throat.
 Do not take Amoxicillin Capsules if any of the above apply. If you are not sure, talk to your doctor or
 pharmacist before taking Amoxicillin Capsules.</li>
 </ul>
-<p><strong>Warnings and Precautions</strong></p>
+<p class="difficult"><strong>Warnings and Precautions</strong></p>
 <p>Talk to your doctor or pharmacist before taking Amoxicillin Capsule if you:</p>
 <ul>
 <li>have glandular fever (fever, sore throat, swollen glands and extreme tiredness)</li>
@@ -183,10 +189,10 @@ Amoxicillin Capsules.</li>
 <li>If you are taking medicines to help stop blood clots (such as warfarin), you may need extra blood
 tests.</li>
 <li>If you are taking other antibiotics (such as tetracycline) Amoxicillin Capsules may be less effective.</li>
-<li>If you are taking methotrexate (used to treat cancer and severe psoriasis), penicillins may reduce the
+<li class="difficult">If you are taking methotrexate (used to treat cancer and severe psoriasis), penicillins may reduce the
 excretion of methotrexate causing a potential increase in side effects.</li>
 </ul>
-<p class="pregnancy breastfeeding"><strong>Pregnancy and breast-feeding</strong></p>
+<p class="pregnancy breastfeeding difficult"><strong>Pregnancy and breast-feeding</strong></p>
 <p class="breastfeeding pregnancy">If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask your
 doctor or pharmacist for advice before taking this medicine.</p>
 <p><strong>Driving and using machines</strong></p>
@@ -222,7 +228,7 @@ hours, depending on the severity and type of infection.</p>
 <ul>
 <li>Severe infections: 750 mg to 1 g three times a day.</li>
 <li>Urinary tract infection: 3 g twice daily for one day.</li>
-<li class="rash">Lyme disease (an infection spread by parasites called ticks): Isolated erythema migrans (early
+<li class="rash difficult">Lyme disease (an infection spread by parasites called ticks): Isolated erythema migrans (early
 stage – red or pink circular rash): 4 g a day, Systemic manifestations (late stage – for more serious
 symptoms or when the disease spreads around your body): up to 6 g a day.</li>
 <li>Stomach ulcers: one 750 mg or one 1 g dose twice a day for 7 days with other antibiotics and
@@ -232,7 +238,7 @@ Other medicines may also be given at the same time. Your doctor, pharmacist or n
 more details.</li>
 <li>The maximum recommended dose is 6 g per day.</li>
 </ul>
-<p><strong>Kidney problems</strong></p>
+<p class="difficult"><strong>Kidney problems</strong></p>
 <p>If you have kidney problems the dose might be lower than the usual dose.</p>
 <p><strong>If you take more Amoxicillin Capsules than you should</strong></p>
 <p>If you have taken too much Amoxicillin Capsules, signs might be an upset stomach (feeling sick, being
@@ -268,12 +274,12 @@ Stop taking Amoxicillin Capsules and see a doctor straight away, if you notice a
 serious side effects – you may need urgent medical treatment:</p>
 <p>The following are very rare (may affect up to 1 in 10,000 people)</p>
 <ul>
-<li class="rash">allergic reactions, the signs may include: skin itching or rash, swelling of the face, lips, tongue,
+<li class="rash difficult">allergic reactions, the signs may include: skin itching or rash, swelling of the face, lips, tongue,
 body or breathing difficulties. These can be serious and occasionally deaths have occurred</li>
 <li class="rash">rash or pinpoint flat red round spots under the skin surface or bruising of the skin. This is due to
 inflammation of blood vessel walls due to an allergic reaction. It can be associated with joint pain
 (arthritis) and kidney problems</li>
-<li class="rash">a delayed allergic reaction can occur usually 7 to 12 days after having Amoxicillin Capsules, some
+<li class="rash difficult">a delayed allergic reaction can occur usually 7 to 12 days after having Amoxicillin Capsules, some
 signs include: rashes, fever, joint pains and enlargement of the lymph nodes especially under the
 arms</li>
 <li class="hiv">a skin reaction known as ‘erythema multiforme’ where you may develop: itchy reddish purple
@@ -292,9 +298,9 @@ These may be signs of a problem with your blood cells</li>
 disease and causes fever, chills, headache, muscle pain and skin rash.</li>
 <li>inflammation of the large bowel (colon) with diarrhoea (sometimes containing blood), pain and
 fever</li>
-<li class="jonwort">serious liver side effects may occur. They are mainly associated with people having treatment over
+<li>serious liver side effects may occur. They are mainly associated with people having treatment over
 a long period, males and the elderly. You must tell doctor urgently if you get:<ul>
-<li>severe diarrhoea with bleeding</li>
+<li class="difficult">severe diarrhoea with bleeding</li>
 <li>blisters, redness or bruising of the skin</li>
 <li>darker urine or paler stools</li>
 <li>yellowing of the skin or the whites of the eyes (jaundice). See also anaemia below which might
@@ -315,21 +321,21 @@ The other possible side effects are:</li>
 <ul>
 <li class="rash">skin rash</li>
 <li>feeling sick (nausea)</li>
-<li>diarrhoea.</li>
+<li class="difficult">diarrhoea.</li>
 </ul>
 <p><em>Uncommon (may affect up to 1 in 100 people)</em></p>
 <ul>
-<li>being sick (vomiting).</li>
+<li class="difficult">being sick (vomiting).</li>
 </ul>
 <p><em>Very rare (may affect up to 1 in 10,000 people)</em></p>
 <ul>
 <li>thrush (a yeast infection of the vagina, mouth or skin folds), you can get treatment for thrush from
 your doctor or pharmacist</li>
-<li>kidney problems</li>
+<li class="difficult">kidney problems</li>
 <li>fits (convulsions), seen in patients on high doses or with kidney problems</li>
-<li>dizziness</li>
-<li>hyperactivity</li>
-<li>crystals in urine, leading to acute renal injury which may be seen as cloudy urine, or difficulty or
+<li class="difficult">dizziness</li>
+<li class="difficult">hyperactivity</li>
+<li class="difficult">crystals in urine, leading to acute renal injury which may be seen as cloudy urine, or difficulty or
 discomfort in passing urine. Make sure you drink plenty of fluids to reduce the chances of these
 symptoms</li>
 <li>the tongue may change to yellow, brown or black and it may have a hairy appearance</li>
@@ -342,7 +348,7 @@ the eyes</li>
 nosebleed or cut yourself.</li>
 <li>Chest pain in the context of allergic reactions, which may be a symptom of allergy triggered cardiac
 infarction (Kounis syndrome)</li>
-<li class="children">Drug-induced enterocolitis syndrome (DIES): DIES has been reported mainly in children receiving
+<li class="children difficult">Drug-induced enterocolitis syndrome (DIES): DIES has been reported mainly in children receiving
 amoxicillin. It is a certain kind of allergic reaction with the leading symptom of repetitive vomiting
 (1-4 hours after drug administration). Further symptoms could comprise abdominal pain, lethargy,
 diarrhoea, and low blood pressure.</li>
@@ -379,7 +385,7 @@ away medicines you no longer use. These measures will help protect the environme
   * text.status = #additional
 
   * text.div = """
-<html><body><div xmlns="http://www.w3.org/1999/xhtml">unavailable</div></body></html>
+<html><body><div class="difficult" xmlns="http://www.w3.org/1999/xhtml">unavailable</div></body></html>
 """
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable      
 

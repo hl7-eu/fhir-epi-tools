@@ -3,7 +3,17 @@ import csv
 import re
 from collections import Counter
 
+import textstat
 from bs4 import BeautifulSoup
+
+READABILITY_THRESHOLD = 40  # Ex: Flesch Reading Ease: the lower, the harder it is.
+DIFFICULT_CLASS = "difficult"
+DIFFICULTY_EXTENSION = {
+    "class": DIFFICULT_CLASS,
+    "code": "diff001",
+    "system": "local",
+    "display": "Difficult text",
+}
 
 # Argument parsing
 parser = argparse.ArgumentParser(description="Tag FSH files with keyword extensions.")
@@ -19,6 +29,7 @@ source_path = args.source
 destination_path = args.destination
 file = "/Users/joaoalmeida/Desktop/hl7Europe/gravitate/gravitate-health/input/fsh/examples/rawEPI/amox-ema-automatic/composition-en-b62cc095c7be2116a8a65157286376a3.fsh"
 # Define keywords and highlight classes
+DIFFICULT_CLASS = "difficult"
 
 keywords = {
     "diabetes": {
@@ -57,13 +68,19 @@ keywords = {
         "system": "snomed",
         "display": "Viral hepatitis type B (disorder)",
     },
+    "difficult": {
+        "class": DIFFICULT_CLASS,
+        "code": "diff001",
+        "system": "local",
+        "display": "Difficult text",
+    },
 }
 # Load keywords from CSV
 
 with open(args.keywords, newline="", encoding="utf-8") as csvfile:
     reader = csv.DictReader(csvfile, delimiter=";")
     for row in reader:
-        print(row)
+        # print(row)
         keyword = row["keyword"].strip()
         keywords[keyword] = {
             "class": row["class"].strip(),
@@ -101,6 +118,11 @@ def tag_deepest_elements(html: str, keywords: dict) -> str:
         tag_text = tag.get_text(strip=True)
         matches = matches_keyword(tag_text)
 
+        # Check readability difficulty
+        if tag_text and textstat.flesch_reading_ease(tag_text) < READABILITY_THRESHOLD:
+            print(textstat.flesch_reading_ease(tag_text))
+            matches.append(("difficult_text", DIFFICULT_CLASS))
+
         for keyword, css_class in matches:
             keyword_counter[keyword] += 1
             existing_classes = tag.get("class", [])
@@ -128,7 +150,6 @@ for start, html, end in matches:
 instance_match = re.search(r"^Instance:\s*(\S+)", fsh_content, flags=re.MULTILINE)
 if instance_match:
     original_name = instance_match.group(1)
-    top_keyword = keyword_counter.most_common(1)[0][0] if keyword_counter else "tagged"
     new_name = f"{original_name}_preprocessed"
     fsh_content = re.sub(
         rf"^Instance:\s*{original_name}",
