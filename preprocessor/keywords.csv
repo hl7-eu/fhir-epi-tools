@@ -1,861 +1,914 @@
-keyword;class;system;code;display
-Normal breast feeding;breastfeeding;$sct;69840006;Normal breast feeding
-Pregnancy;pregnancy;$sct;77386006;Pregnancy
-Pregnancy;pregnancy;icpc-2;W78;Pregnancy
-Number of pregnancies, currently pregnant;pregnancy;$sct;127363001;Number of pregnancies, currently pregnant
-Primigravida;pregnancy;$sct;127364007;Primigravida
-Primiparity;pregnancy;$sct;3882004;Primiparity
-Primipara;pregnancy;$sct;3882004;Primipara
-Extra-amniotic pregnancy;pregnancy;$sct;9279009;Extra-amniotic pregnancy
-Abnormal pregnancy;pregnancy;$sct;11082009;Abnormal pregnancy
-Precocious pregnancy;pregnancy;$sct;14418008;Precocious pregnancy
-Multiple gestation;pregnancy;$sct;16356006;Multiple gestation
-Multiple pregnancy;pregnancy;$sct;16356006;Multiple pregnancy
-Prenatal examination and care of mother;pregnancy;$sct;18114009;Prenatal examination and care of mother
-Antepartum care of mother;pregnancy;$sct;18114009;Antepartum care of mother
-Multiparity;pregnancy;$sct;28079008;Multiparity
-Antepartum state of mother;pregnancy;$sct;34784006;Antepartum state of mother
-Third trimester pregnancy;pregnancy;$sct;41587001;Third trimester pregnancy
-Last trimester of pregnancy;pregnancy;$sct;41587001;Last trimester of pregnancy
-Pre-admission observation, undelivered mother;pregnancy;$sct;42102002;Pre-admission observation, undelivered mother
-Extrachorial pregnancy;pregnancy;$sct;45307008;Extrachorial pregnancy
-High risk pregnancy;pregnancy;$sct;47200007;High risk pregnancy
-First trimester pregnancy;pregnancy;$sct;57630001;First trimester pregnancy
-Unwanted pregnancy;pregnancy;$sct;58532003;Unwanted pregnancy
-Second trimester pregnancy;pregnancy;$sct;59466002;Second trimester pregnancy
-Intrauterine pregnancy;pregnancy;$sct;65727000;Intrauterine pregnancy
-Normal pregnancy;pregnancy;$sct;72892002;Normal pregnancy
-Unintended pregnancy;pregnancy;$sct;83074005;Unintended pregnancy
-Term pregnancy;pregnancy;$sct;87527008;Term pregnancy
-Megaloblastic anemia due to pregnancy;pregnancy;$sct;91217009;Megaloblastic anemia due to pregnancy
-Unconfirmed pregnancy;pregnancy;$sct;102874004;Unconfirmed pregnancy
-Surrogate pregnancy;pregnancy;$sct;102875003;Surrogate pregnancy
-Multiple previous pregnancies;pregnancy;$sct;102876002;Multiple previous pregnancies
-Multigravida;pregnancy;$sct;102876002;Multigravida
-Nulliparity;pregnancy;$sct;102877006;Nulliparity
-Nullipara;pregnancy;$sct;102877006;Nullipara
-First pregnancy;pregnancy;$sct;127364007;First pregnancy
-Routine antenatal care;pregnancy;$sct;134435003;Routine antenatal care
-Possible pregnancy;pregnancy;$sct;146799005;Possible pregnancy
-Wife pregnant;pregnancy;$sct;160884000;Wife pregnant
-H/O: stillbirth;pregnancy;$sct;161743003;H/O: stillbirth
-H/O: miscarriage;pregnancy;$sct;161744009;H/O: miscarriage
-No history of miscarriage;pregnancy;$sct;161745005;No history of miscarriage
-H/O: 1 miscarriage;pregnancy;$sct;161747002;H/O: 1 miscarriage
-H/O: 2 miscarriages;pregnancy;$sct;161748007;H/O: 2 miscarriages
-H/O: 3 miscarriages;pregnancy;$sct;161749004;H/O: 3 miscarriages
-H/O: 4 miscarriages;pregnancy;$sct;161750004;H/O: 4 miscarriages
-H/O: 5 miscarriages;pregnancy;$sct;161751000;H/O: 5 miscarriages
-H/O: 6 miscarriages;pregnancy;$sct;161752007;H/O: 6 miscarriages
-H/O: miscarriage NOS;pregnancy;$sct;161753002;H/O: miscarriage NOS
-No history of abortion;pregnancy;$sct;161755009;No history of abortion
-H/O: 1 abortion;pregnancy;$sct;161756005;H/O: 1 abortion
-H/O: 2 abortions;pregnancy;$sct;161757001;H/O: 2 abortions
-H/O: 3 abortions;pregnancy;$sct;161758006;H/O: 3 abortions
-H/O: 4 abortions;pregnancy;$sct;161759003;H/O: 4 abortions
-H/O: 5 abortions;pregnancy;$sct;161760008;H/O: 5 abortions
-H/O: 6 abortions;pregnancy;$sct;161761007;H/O: 6 abortions
-H/O: abortion NOS;pregnancy;$sct;161762000;H/O: abortion NOS
-H/O: ectopic pregnancy;pregnancy;$sct;161763005;H/O: ectopic pregnancy
-H/O: premature delivery;pregnancy;$sct;161765003;H/O: premature delivery
-Past pregnancy outcome NOS;pregnancy;$sct;161766002;Past pregnancy outcome NOS
-H/O: obstetric problem;pregnancy;$sct;161803004;H/O: obstetric problem
-H/O: antepartum hemorrhage;pregnancy;$sct;161804005;H/O: antepartum hemorrhage
-H/O: antepartum haemorrhage;pregnancy;$sct;161804005;H/O: antepartum haemorrhage
-H/O: caesarean section;pregnancy;$sct;161805006;H/O: caesarean section
-H/O: cesarean section;pregnancy;$sct;161805006;H/O: cesarean section
-H/O: eclampsia;pregnancy;$sct;161806007;H/O: eclampsia
-H/O: severe pre-eclampsia;pregnancy;$sct;161807003;H/O: severe pre-eclampsia
-H/O:manual removal of placenta;pregnancy;$sct;161808008;H/O:manual removal of placenta
-H/O: postpartum hemorrhage;pregnancy;$sct;161809000;H/O: postpartum hemorrhage
-H/O: postpartum haemorrhage;pregnancy;$sct;161809000;H/O: postpartum haemorrhage
-H/O: long labour;pregnancy;$sct;161810005;H/O: long labour
-H/O: prolonged labour;pregnancy;$sct;161810005;H/O: prolonged labour
-H/O: long labor;pregnancy;$sct;161810005;H/O: long labor
-H/O: prolonged labor;pregnancy;$sct;161810005;H/O: prolonged labor
-H/O: perinatal fetal loss;pregnancy;$sct;161811009;H/O: perinatal fetal loss
-H/O: perinatal death;pregnancy;$sct;161811009;H/O: perinatal death
-H/O: previous forceps delivery;pregnancy;$sct;161813007;H/O: previous forceps delivery
-H/O: obstetric problem NOS;pregnancy;$sct;161814001;H/O: obstetric problem NOS
-Obstetric examination;pregnancy;$sct;163497009;Obstetric examination
-Nulliparous;pregnancy;$sct;102877006;Nulliparous
-Pregnant - urine test confirms;pregnancy;$sct;169560008;Pregnant - urine test confirms
-Pregnant - blood test confirms;pregnancy;$sct;169561007;Pregnant - blood test confirms
-Pregnant - V.E. confirms;pregnancy;$sct;169562000;Pregnant - V.E. confirms
-Pregnant - on history;pregnancy;$sct;169563005;Pregnant - on history
-Pregnant - on abdom. palpation;pregnancy;$sct;169564004;Pregnant - on abdom. palpation
-Patient pregnant NOS;pregnancy;$sct;169571009;Patient pregnant NOS
-Antenatal booking examination;pregnancy;$sct;169711001;Antenatal booking examination
-Antenatal 12 weeks examination;pregnancy;$sct;169712008;Antenatal 12 weeks examination
-Antenatal 16 week examination;pregnancy;$sct;169713003;Antenatal 16 week examination
-A/N 16 week examination;pregnancy;$sct;169713003;A/N 16 week examination
-Antenatal 20 week examination;pregnancy;$sct;169714009;Antenatal 20 week examination
-Antenatal 24 week examination;pregnancy;$sct;169715005;Antenatal 24 week examination
-Antenatal 28 week examination;pregnancy;$sct;169716006;Antenatal 28 week examination
-Antenatal 30 week examination;pregnancy;$sct;169717002;Antenatal 30 week examination
-Antenatal 32 week examination;pregnancy;$sct;169718007;Antenatal 32 week examination
-Antenatal 34 week examination;pregnancy;$sct;169719004;Antenatal 34 week examination
-Antenatal 35 week examination;pregnancy;$sct;169720005;Antenatal 35 week examination
-Antenatal 36 week examination;pregnancy;$sct;169721009;Antenatal 36 week examination
-Antenatal 37 week examination;pregnancy;$sct;169722002;Antenatal 37 week examination
-Antenatal 38 week examination;pregnancy;$sct;169723007;Antenatal 38 week examination
-Antenatal 39 week examination;pregnancy;$sct;169724001;Antenatal 39 week examination
-Antenatal 40 week examination;pregnancy;$sct;169725000;Antenatal 40 week examination
-Antenatal 41 week examination;pregnancy;$sct;169726004;Antenatal 41 week examination
-Antenatal 42 week examination;pregnancy;$sct;169727008;Antenatal 42 week examination
-Mother currently breast-feeding;pregnancy;$sct;169750002;Mother currently breast-feeding
-Postnatal visit;pregnancy;$sct;169762003;Postnatal visit
-Postnatal - first day visit;pregnancy;$sct;169763008;Postnatal - first day visit
-Postnatal - second day visit;pregnancy;$sct;169764002;Postnatal - second day visit
-Postnatal - third day visit;pregnancy;$sct;169765001;Postnatal - third day visit
-Postnatal - fourth day visit;pregnancy;$sct;169766000;Postnatal - fourth day visit
-Postnatal - fifth day visit;pregnancy;$sct;169767009;Postnatal - fifth day visit
-Postnatal - sixth day visit;pregnancy;$sct;169768004;Postnatal - sixth day visit
-Postnatal - seventh day visit;pregnancy;$sct;169769007;Postnatal - seventh day visit
-Postnatal - eighth day visit;pregnancy;$sct;169770008;Postnatal - eighth day visit
-Postnatal - ninth day visit;pregnancy;$sct;169771007;Postnatal - ninth day visit
-Postnatal - tenth day visit;pregnancy;$sct;169772000;Postnatal - tenth day visit
-Infections of urethra in pregnancy;pregnancy;$sct;199206009;Infections of urethra in pregnancy
-Albuminuria in pregnancy without hypertension;pregnancy;$sct;237232007;Albuminuria in pregnancy without hypertension
-Low risk pregnancy;pregnancy;$sct;237239003;Low risk pregnancy
-H/O: abortion;pregnancy;$sct;267014009;H/O: abortion
-H/O: full term delivery;pregnancy;$sct;267015005;H/O: full term delivery
-H/O: myomectomy/hysterotomy;pregnancy;$sct;267021009;H/O: myomectomy/hysterotomy
-H/O: pregnancy;pregnancy;$sct;271903000;H/O: pregnancy
-H/O fetal loss;pregnancy;$sct;271904006;H/O fetal loss
-History of past delivery;pregnancy;$sct;272058002;History of past delivery
-H/O: termination;pregnancy;$sct;275567001;H/O: termination
-H/O: normal delivery;pregnancy;$sct;275568006;H/O: normal delivery
-H/O: delivery no details;pregnancy;$sct;275569003;H/O: delivery no details
-H/O: hysterotomy;pregnancy;$sct;275573000;H/O: hysterotomy
-H/O: myomectomy;pregnancy;$sct;275574006;H/O: myomectomy
-Pregnancy-related examination;pregnancy;$sct;312891008;Pregnancy-related examination
-Antenatal examination;pregnancy;$sct;18114009;Antenatal examination
-Multiparous;pregnancy;$sct;28079008;Multiparous
-Primiparous;pregnancy;$sct;3882004;Primiparous
-Unplanned pregnancy;pregnancy;$sct;83074005;Unplanned pregnancy
-Megaloblastic anaemia due to pregnancy;pregnancy;$sct;91217009;Megaloblastic anaemia due to pregnancy
-Routine antenatal care (procedure);pregnancy;$sct;134435003;Routine antenatal care (procedure)
-Wife pregnant (context-dependent category);pregnancy;$sct;160884000;Wife pregnant (context-dependent category)
-History of - stillbirth (context-dependent category);pregnancy;$sct;161743003;History of - stillbirth (context-dependent category)
-History of - miscarriage (context-dependent category);pregnancy;$sct;161744009;History of - miscarriage (context-dependent category)
-No history of miscarriage (context-dependent category);pregnancy;$sct;161745005;No history of miscarriage (context-dependent category)
-History of - 1 miscarriage (context-dependent category);pregnancy;$sct;161747002;History of - 1 miscarriage (context-dependent category)
-History of - 2 miscarriages (context-dependent category);pregnancy;$sct;161748007;History of - 2 miscarriages (context-dependent category)
-History of - 3 miscarriages (context-dependent category);pregnancy;$sct;161749004;History of - 3 miscarriages (context-dependent category)
-History of - 4 miscarriages (context-dependent category);pregnancy;$sct;161750004;History of - 4 miscarriages (context-dependent category)
-History of - 5 miscarriages (context-dependent category);pregnancy;$sct;161751000;History of - 5 miscarriages (context-dependent category)
-History of - 6 miscarriages (context-dependent category);pregnancy;$sct;161752007;History of - 6 miscarriages (context-dependent category)
-History of - miscarriage NOS (context-dependent category);pregnancy;$sct;161753002;History of - miscarriage NOS (context-dependent category)
-No history of abortion (context-dependent category);pregnancy;$sct;161755009;No history of abortion (context-dependent category)
-History of - 1 abortion (context-dependent category);pregnancy;$sct;161756005;History of - 1 abortion (context-dependent category)
-History of - 2 abortions (context-dependent category);pregnancy;$sct;161757001;History of - 2 abortions (context-dependent category)
-History of - 3 abortions (context-dependent category);pregnancy;$sct;161758006;History of - 3 abortions (context-dependent category)
-History of - 4 abortions (context-dependent category);pregnancy;$sct;161759003;History of - 4 abortions (context-dependent category)
-History of - 5 abortions (context-dependent category);pregnancy;$sct;161760008;History of - 5 abortions (context-dependent category)
-History of - 6 abortions (context-dependent category);pregnancy;$sct;161761007;History of - 6 abortions (context-dependent category)
-History of - abortion NOS (context-dependent category);pregnancy;$sct;161762000;History of - abortion NOS (context-dependent category)
-History of - ectopic pregnancy (context-dependent category);pregnancy;$sct;161763005;History of - ectopic pregnancy (context-dependent category)
-History of - premature delivery (context-dependent category);pregnancy;$sct;161765003;History of - premature delivery (context-dependent category)
-Past pregnancy outcome NOS (context-dependent category);pregnancy;$sct;161766002;Past pregnancy outcome NOS (context-dependent category)
-History of - obstetric problem (context-dependent category);pregnancy;$sct;161803004;History of - obstetric problem (context-dependent category)
-History of - antepartum hemorrhage (context-dependent category);pregnancy;$sct;161804005;History of - antepartum hemorrhage (context-dependent category)
-History of - cesarean section (context-dependent category);pregnancy;$sct;161805006;History of - cesarean section (context-dependent category)
-History of - eclampsia (context-dependent category);pregnancy;$sct;161806007;History of - eclampsia (context-dependent category)
-History of - severe pre-eclampsia (context-dependent category);pregnancy;$sct;161807003;History of - severe pre-eclampsia (context-dependent category)
-History of - manual removal of placenta (context-dependent category);pregnancy;$sct;161808008;History of - manual removal of placenta (context-dependent category)
-History of - postpartum hemorrhage (context-dependent category);pregnancy;$sct;161809000;History of - postpartum hemorrhage (context-dependent category)
-History of - prolonged labor (context-dependent category);pregnancy;$sct;161810005;History of - prolonged labor (context-dependent category)
-History of - perinatal fetal loss (context-dependent category);pregnancy;$sct;161811009;History of - perinatal fetal loss (context-dependent category)
-History of - previous forceps delivery (context-dependent category);pregnancy;$sct;161813007;History of - previous forceps delivery (context-dependent category)
-History of - obstetric problem NOS (context-dependent category);pregnancy;$sct;161814001;History of - obstetric problem NOS (context-dependent category)
-Obstetric examination (procedure);pregnancy;$sct;163497009;Obstetric examination (procedure)
-Possible pregnancy (finding);pregnancy;$sct;102874004;Possible pregnancy (finding)
-Surrogate pregnancy (finding);pregnancy;$sct;102875003;Surrogate pregnancy (finding)
-Multigravida (finding);pregnancy;$sct;102876002;Multigravida (finding)
-Nulliparous (finding);pregnancy;$sct;102877006;Nulliparous (finding)
-Pregnant - urine test confirms (finding);pregnancy;$sct;169560008;Pregnant - urine test confirms (finding)
-Pregnant - blood test confirms (finding);pregnancy;$sct;169561007;Pregnant - blood test confirms (finding)
-Pregnant - vaginal examination confirms (finding);pregnancy;$sct;169562000;Pregnant - vaginal examination confirms (finding)
-Pregnant - on history (finding);pregnancy;$sct;169563005;Pregnant - on history (finding)
-Pregnant - on abdominal palpation (finding);pregnancy;$sct;169564004;Pregnant - on abdominal palpation (finding)
-Patient pregnant NOS (finding);pregnancy;$sct;169571009;Patient pregnant NOS (finding)
-Antenatal booking examination (procedure);pregnancy;$sct;169711001;Antenatal booking examination (procedure)
-Antenatal 12 weeks examination (procedure);pregnancy;$sct;169712008;Antenatal 12 weeks examination (procedure)
-Antenatal 16 week examination (procedure);pregnancy;$sct;169713003;Antenatal 16 week examination (procedure)
-Antenatal 20 week examination (procedure);pregnancy;$sct;169714009;Antenatal 20 week examination (procedure)
-Antenatal 24 week examination (procedure);pregnancy;$sct;169715005;Antenatal 24 week examination (procedure)
-Antenatal 28 week examination (procedure);pregnancy;$sct;169716006;Antenatal 28 week examination (procedure)
-Antenatal 30 week examination (procedure);pregnancy;$sct;169717002;Antenatal 30 week examination (procedure)
-Antenatal 32 week examination (procedure);pregnancy;$sct;169718007;Antenatal 32 week examination (procedure)
-Antenatal 34 week examination (procedure);pregnancy;$sct;169719004;Antenatal 34 week examination (procedure)
-Antenatal 35 week examination (procedure);pregnancy;$sct;169720005;Antenatal 35 week examination (procedure)
-Antenatal 36 week examination (procedure);pregnancy;$sct;169721009;Antenatal 36 week examination (procedure)
-Antenatal 37 week examination (procedure);pregnancy;$sct;169722002;Antenatal 37 week examination (procedure)
-Antenatal 38 week examination (procedure);pregnancy;$sct;169723007;Antenatal 38 week examination (procedure)
-Antenatal 39 week examination (procedure);pregnancy;$sct;169724001;Antenatal 39 week examination (procedure)
-Antenatal 40 week examination (procedure);pregnancy;$sct;169725000;Antenatal 40 week examination (procedure)
-Antenatal 41 week examination (procedure);pregnancy;$sct;169726004;Antenatal 41 week examination (procedure)
-Antenatal 42 week examination (procedure);pregnancy;$sct;169727008;Antenatal 42 week examination (procedure)
-Mother currently breast-feeding (finding);pregnancy;$sct;169750002;Mother currently breast-feeding (finding)
-Postnatal visit (procedure);pregnancy;$sct;169762003;Postnatal visit (procedure)
-Postnatal - first day visit (procedure);pregnancy;$sct;169763008;Postnatal - first day visit (procedure)
-Postnatal - second day visit (procedure);pregnancy;$sct;169764002;Postnatal - second day visit (procedure)
-Postnatal - third day visit (procedure);pregnancy;$sct;169765001;Postnatal - third day visit (procedure)
-Postnatal - fourth day visit (procedure);pregnancy;$sct;169766000;Postnatal - fourth day visit (procedure)
-Postnatal - fifth day visit (procedure);pregnancy;$sct;169767009;Postnatal - fifth day visit (procedure)
-Postnatal - sixth day visit (procedure);pregnancy;$sct;169768004;Postnatal - sixth day visit (procedure)
-Postnatal - seventh day visit (procedure);pregnancy;$sct;169769007;Postnatal - seventh day visit (procedure)
-Postnatal - eighth day visit (procedure);pregnancy;$sct;169770008;Postnatal - eighth day visit (procedure)
-Postnatal - ninth day visit (procedure);pregnancy;$sct;169771007;Postnatal - ninth day visit (procedure)
-Postnatal - tenth day visit (procedure);pregnancy;$sct;169772000;Postnatal - tenth day visit (procedure)
-Infections of urethra in pregnancy (disorder);pregnancy;$sct;199206009;Infections of urethra in pregnancy (disorder)
-Abnormal pregnancy (finding);pregnancy;$sct;11082009;Abnormal pregnancy (finding)
-Albuminuria in pregnancy without hypertension (finding);pregnancy;$sct;237232007;Albuminuria in pregnancy without hypertension (finding)
-Low risk pregnancy (finding);pregnancy;$sct;237239003;Low risk pregnancy (finding)
-History of - abortion (context-dependent category);pregnancy;$sct;267014009;History of - abortion (context-dependent category)
-History of - full term delivery (context-dependent category);pregnancy;$sct;267015005;History of - full term delivery (context-dependent category)
-History of - myomectomy/hysterotomy (context-dependent category);pregnancy;$sct;267021009;History of - myomectomy/hysterotomy (context-dependent category)
-History of - pregnancy (context-dependent category);pregnancy;$sct;271903000;History of - pregnancy (context-dependent category)
-History of - fetal loss (context-dependent category);pregnancy;$sct;271904006;History of - fetal loss (context-dependent category)
-History of past delivery (context-dependent category);pregnancy;$sct;272058002;History of past delivery (context-dependent category)
-History of - termination (context-dependent category);pregnancy;$sct;275567001;History of - termination (context-dependent category)
-History of - normal delivery (context-dependent category);pregnancy;$sct;275568006;History of - normal delivery (context-dependent category)
-History of - delivery no details (context-dependent category);pregnancy;$sct;275569003;History of - delivery no details (context-dependent category)
-History of - hysterotomy (context-dependent category);pregnancy;$sct;275573000;History of - hysterotomy (context-dependent category)
-History of - myomectomy (context-dependent category);pregnancy;$sct;275574006;History of - myomectomy (context-dependent category)
-Pregnancy-related examination (procedure);pregnancy;$sct;312891008;Pregnancy-related examination (procedure)
-Number of pregnancies, currently pregnant (finding);pregnancy;$sct;127363001;Number of pregnancies, currently pregnant (finding)
-Primigravida (finding);pregnancy;$sct;127364007;Primigravida (finding)
-Precocious pregnancy (finding);pregnancy;$sct;14418008;Precocious pregnancy (finding)
-Multiple pregnancy (disorder);pregnancy;$sct;16356006;Multiple pregnancy (disorder)
-Prenatal examination and care of mother (procedure);pregnancy;$sct;18114009;Prenatal examination and care of mother (procedure)
-Multiparous (finding);pregnancy;$sct;28079008;Multiparous (finding)
-Antepartum state of mother (finding);pregnancy;$sct;34784006;Antepartum state of mother (finding)
-Primiparous (finding);pregnancy;$sct;3882004;Primiparous (finding)
-Third trimester pregnancy (finding);pregnancy;$sct;41587001;Third trimester pregnancy (finding)
-Pre-admission observation, undelivered mother (procedure);pregnancy;$sct;42102002;Pre-admission observation, undelivered mother (procedure)
-Extrachorial pregnancy (finding);pregnancy;$sct;45307008;Extrachorial pregnancy (finding)
-High risk pregnancy (finding);pregnancy;$sct;47200007;High risk pregnancy (finding)
-First trimester pregnancy (finding);pregnancy;$sct;57630001;First trimester pregnancy (finding)
-Unwanted pregnancy (finding);pregnancy;$sct;58532003;Unwanted pregnancy (finding)
-Second trimester pregnancy (finding);pregnancy;$sct;59466002;Second trimester pregnancy (finding)
-Intrauterine pregnancy (finding);pregnancy;$sct;65727000;Intrauterine pregnancy (finding)
-Normal pregnancy (finding);pregnancy;$sct;72892002;Normal pregnancy (finding)
-Unplanned pregnancy (finding);pregnancy;$sct;83074005;Unplanned pregnancy (finding)
-Term pregnancy (finding);pregnancy;$sct;87527008;Term pregnancy (finding)
-Megaloblastic anemia due to pregnancy (disorder);pregnancy;$sct;91217009;Megaloblastic anemia due to pregnancy (disorder)
-Extra-amniotic pregnancy (finding);pregnancy;$sct;9279009;Extra-amniotic pregnancy (finding)
-Patient ? pregnant;pregnancy;$sct;102874004;Patient ? pregnant
-Think I am pregnant;pregnancy;$sct;102874004;Think I am pregnant
-Think I am going to have a baby;pregnancy;$sct;102874004;Think I am going to have a baby
-Multip;pregnancy;$sct;102876002;Multip
-Primip;pregnancy;$sct;127364007;Primip
-HRP - High risk pregnancy;pregnancy;$sct;47200007;HRP - High risk pregnancy
-Accidental pregnancy;pregnancy;$sct;83074005;Accidental pregnancy
-Postnatal maternal examination (procedure);pregnancy;$sct;384634009;Postnatal maternal examination (procedure)
-Full postnatal examination (procedure);pregnancy;$sct;384635005;Full postnatal examination (procedure)
-Maternal postnatal 6 week examination (procedure);pregnancy;$sct;384636006;Maternal postnatal 6 week examination (procedure)
-Childbirth preparation (regime/therapy);pregnancy;$sct;386235000;Childbirth preparation (regime/therapy)
-Postnatal visit (regime/therapy);pregnancy;$sct;169762003;Postnatal visit (regime/therapy)
-Postnatal - first day visit (regime/therapy);pregnancy;$sct;169763008;Postnatal - first day visit (regime/therapy)
-Postnatal - second day visit (regime/therapy);pregnancy;$sct;169764002;Postnatal - second day visit (regime/therapy)
-Postnatal - third day visit (regime/therapy);pregnancy;$sct;169765001;Postnatal - third day visit (regime/therapy)
-Postnatal - fourth day visit (regime/therapy);pregnancy;$sct;169766000;Postnatal - fourth day visit (regime/therapy)
-Postnatal - fifth day visit (regime/therapy);pregnancy;$sct;169767009;Postnatal - fifth day visit (regime/therapy)
-Postnatal - sixth day visit (regime/therapy);pregnancy;$sct;169768004;Postnatal - sixth day visit (regime/therapy)
-Postnatal - seventh day visit (regime/therapy);pregnancy;$sct;169769007;Postnatal - seventh day visit (regime/therapy)
-Postnatal - eighth day visit (regime/therapy);pregnancy;$sct;169770008;Postnatal - eighth day visit (regime/therapy)
-Postnatal - ninth day visit (regime/therapy);pregnancy;$sct;169771007;Postnatal - ninth day visit (regime/therapy)
-Postnatal - tenth day visit (regime/therapy);pregnancy;$sct;169772000;Postnatal - tenth day visit (regime/therapy)
-Routine antenatal care (regime/therapy);pregnancy;$sct;134435003;Routine antenatal care (regime/therapy)
-Postnatal maternal examination;pregnancy;$sct;384634009;Postnatal maternal examination
-Full postnatal examination;pregnancy;$sct;384635005;Full postnatal examination
-Maternal postnatal 6 week examination;pregnancy;$sct;384636006;Maternal postnatal 6 week examination
-Childbirth preparation;pregnancy;$sct;386235000;Childbirth preparation
-Pregnancy follow-up examination;pregnancy;$sct;384634009;Pregnancy follow-up examination
-Postnatal appointment;pregnancy;$sct;384634009;Postnatal appointment
-H/O: medical termination of pregnancy (context-dependent category);pregnancy;$sct;412758008;H/O: medical termination of pregnancy (context-dependent category)
-H/O: medical termination of pregnancy;pregnancy;$sct;412758008;H/O: medical termination of pregnancy
-History of - fetal loss;pregnancy;$sct;267014009;History of - fetal loss
-History of - medical termination of pregnancy (context-dependent category);pregnancy;$sct;412758008;History of - medical termination of pregnancy (context-dependent category)
-Wife pregnant (situation);pregnancy;$sct;160884000;Wife pregnant (situation)
-History of - perinatal fetal loss (situation);pregnancy;$sct;161811009;History of - perinatal fetal loss (situation)
-History of - previous forceps delivery (situation);pregnancy;$sct;161813007;History of - previous forceps delivery (situation)
-History of - obstetric problem NOS (situation);pregnancy;$sct;161814001;History of - obstetric problem NOS (situation)
-History of - obstetric problem (situation);pregnancy;$sct;161803004;History of - obstetric problem (situation)
-History of - antepartum hemorrhage (situation);pregnancy;$sct;161804005;History of - antepartum hemorrhage (situation)
-History of - cesarean section (situation);pregnancy;$sct;161805006;History of - cesarean section (situation)
-History of - eclampsia (situation);pregnancy;$sct;161806007;History of - eclampsia (situation)
-History of - severe pre-eclampsia (situation);pregnancy;$sct;161807003;History of - severe pre-eclampsia (situation)
-History of - manual removal of placenta (situation);pregnancy;$sct;161808008;History of - manual removal of placenta (situation)
-History of - postpartum hemorrhage (situation);pregnancy;$sct;161809000;History of - postpartum hemorrhage (situation)
-History of - prolonged labor (situation);pregnancy;$sct;161810005;History of - prolonged labor (situation)
-History of - stillbirth (situation);pregnancy;$sct;161743003;History of - stillbirth (situation)
-History of - miscarriage (situation);pregnancy;$sct;161744009;History of - miscarriage (situation)
-No history of miscarriage (situation);pregnancy;$sct;161745005;No history of miscarriage (situation)
-History of - 1 miscarriage (situation);pregnancy;$sct;161747002;History of - 1 miscarriage (situation)
-History of - 2 miscarriages (situation);pregnancy;$sct;161748007;History of - 2 miscarriages (situation)
-History of - 3 miscarriages (situation);pregnancy;$sct;161749004;History of - 3 miscarriages (situation)
-History of - 4 miscarriages (situation);pregnancy;$sct;161750004;History of - 4 miscarriages (situation)
-History of - 5 miscarriages (situation);pregnancy;$sct;161751000;History of - 5 miscarriages (situation)
-History of - 6 miscarriages (situation);pregnancy;$sct;161752007;History of - 6 miscarriages (situation)
-History of - miscarriage NOS (situation);pregnancy;$sct;161753002;History of - miscarriage NOS (situation)
-No history of abortion (situation);pregnancy;$sct;161755009;No history of abortion (situation)
-History of - 1 abortion (situation);pregnancy;$sct;161756005;History of - 1 abortion (situation)
-History of - 2 abortions (situation);pregnancy;$sct;161757001;History of - 2 abortions (situation)
-History of - 3 abortions (situation);pregnancy;$sct;161758006;History of - 3 abortions (situation)
-History of - 4 abortions (situation);pregnancy;$sct;161759003;History of - 4 abortions (situation)
-History of - 5 abortions (situation);pregnancy;$sct;161760008;History of - 5 abortions (situation)
-History of - 6 abortions (situation);pregnancy;$sct;161761007;History of - 6 abortions (situation)
-History of - abortion NOS (situation);pregnancy;$sct;161762000;History of - abortion NOS (situation)
-History of - ectopic pregnancy (situation);pregnancy;$sct;161763005;History of - ectopic pregnancy (situation)
-History of - premature delivery (situation);pregnancy;$sct;161765003;History of - premature delivery (situation)
-Past pregnancy outcome NOS (situation);pregnancy;$sct;161766002;Past pregnancy outcome NOS (situation)
-History of - abortion (situation);pregnancy;$sct;267014009;History of - abortion (situation)
-History of - full term delivery (situation);pregnancy;$sct;267015005;History of - full term delivery (situation)
-History of - myomectomy/hysterotomy (situation);pregnancy;$sct;267021009;History of - myomectomy/hysterotomy (situation)
-History of past delivery (situation);pregnancy;$sct;272058002;History of past delivery (situation)
-History of - hysterotomy (situation);pregnancy;$sct;275573000;History of - hysterotomy (situation)
-History of - myomectomy (situation);pregnancy;$sct;275574006;History of - myomectomy (situation)
-History of - pregnancy (situation);pregnancy;$sct;271903000;History of - pregnancy (situation)
-History of - normal delivery (situation);pregnancy;$sct;275568006;History of - normal delivery (situation)
-History of - delivery no details (situation);pregnancy;$sct;275569003;History of - delivery no details (situation)
-History of - medical termination of pregnancy (situation);pregnancy;$sct;412758008;History of - medical termination of pregnancy (situation)
-Prenatal visit (regime/therapy);pregnancy;$sct;424619006;Prenatal visit (regime/therapy)
-Prenatal initial visit (regime/therapy);pregnancy;$sct;424441002;Prenatal initial visit (regime/therapy)
-Prenatal continuous visit (regime/therapy);pregnancy;$sct;422808006;Prenatal continuous visit (regime/therapy)
-Prenatal visit;pregnancy;$sct;424619006;Prenatal visit
-Prenatal initial visit;pregnancy;$sct;424441002;Prenatal initial visit
-Prenatal supplemental visit;pregnancy;$sct;422808006;Prenatal supplemental visit
-Patient thinks they are pregnant;pregnancy;$sct;102874004;Patient thinks they are pregnant
-Initial prenatal visit;pregnancy;$sct;424441002;Initial prenatal visit
-Antepartum initial visit;pregnancy;$sct;424441002;Antepartum initial visit
-Supplemental prenatal visit;pregnancy;$sct;422808006;Supplemental prenatal visit
-Antepartum supplemental visit;pregnancy;$sct;422808006;Antepartum supplemental visit
-Prenatal continuous visit;pregnancy;$sct;422808006;Prenatal continuous visit
-History of - perinatal fetal loss;pregnancy;$sct;161811009;History of - perinatal fetal loss
-History of - previous forceps delivery;pregnancy;$sct;161813007;History of - previous forceps delivery
-History of - obstetric problem NOS;pregnancy;$sct;161814001;History of - obstetric problem NOS
-History of - obstetric problem;pregnancy;$sct;161803004;History of - obstetric problem
-History of - antepartum hemorrhage;pregnancy;$sct;161804005;History of - antepartum hemorrhage
-History of - cesarean section;pregnancy;$sct;161805006;History of - cesarean section
-History of - eclampsia;pregnancy;$sct;161806007;History of - eclampsia
-History of - severe pre-eclampsia;pregnancy;$sct;161807003;History of - severe pre-eclampsia
-History of - manual removal of placenta;pregnancy;$sct;161808008;History of - manual removal of placenta
-History of - postpartum hemorrhage;pregnancy;$sct;161809000;History of - postpartum hemorrhage
-History of - prolonged labor;pregnancy;$sct;161810005;History of - prolonged labor
-History of - 5 miscarriages;pregnancy;$sct;161751000;History of - 5 miscarriages
-History of - 6 miscarriages;pregnancy;$sct;161752007;History of - 6 miscarriages
-History of - miscarriage NOS;pregnancy;$sct;161753002;History of - miscarriage NOS
-History of - 1 abortion;pregnancy;$sct;161756005;History of - 1 abortion
-History of - 2 abortions;pregnancy;$sct;161757001;History of - 2 abortions
-History of - 3 abortions;pregnancy;$sct;161758006;History of - 3 abortions
-History of - 4 abortions;pregnancy;$sct;161759003;History of - 4 abortions
-History of - 5 abortions;pregnancy;$sct;161760008;History of - 5 abortions
-History of - 6 abortions;pregnancy;$sct;161761007;History of - 6 abortions
-History of - abortion NOS;pregnancy;$sct;161762000;History of - abortion NOS
-History of - ectopic pregnancy;pregnancy;$sct;161763005;History of - ectopic pregnancy
-History of - premature delivery;pregnancy;$sct;161765003;History of - premature delivery
-History of - stillbirth;pregnancy;$sct;161743003;History of - stillbirth
-History of - miscarriage;pregnancy;$sct;161744009;History of - miscarriage
-History of - 1 miscarriage;pregnancy;$sct;161747002;History of - 1 miscarriage
-History of - 2 miscarriages;pregnancy;$sct;161748007;History of - 2 miscarriages
-History of - 3 miscarriages;pregnancy;$sct;161749004;History of - 3 miscarriages
-History of - 4 miscarriages;pregnancy;$sct;161750004;History of - 4 miscarriages
-Pregnant - on abdominal palpation;pregnancy;$sct;169564004;Pregnant - on abdominal palpation
-History of - abortion;pregnancy;$sct;267014009;History of - abortion
-History of - full term delivery;pregnancy;$sct;267015005;History of - full term delivery
-History of - pregnancy;pregnancy;$sct;271903000;History of - pregnancy
-History of - normal delivery;pregnancy;$sct;275568006;History of - normal delivery
-History of - delivery no details;pregnancy;$sct;275569003;History of - delivery no details
-History of - myomectomy/hysterotomy;pregnancy;$sct;267021009;History of - myomectomy/hysterotomy
-History of - hysterotomy;pregnancy;$sct;275573000;History of - hysterotomy
-History of - myomectomy;pregnancy;$sct;275574006;History of - myomectomy
-History of - medical termination of pregnancy;pregnancy;$sct;412758008;History of - medical termination of pregnancy
-History of choriocarcinoma of placenta (situation);pregnancy;$sct;428978004;History of choriocarcinoma of placenta (situation)
-History of choriocarcinoma of placenta;pregnancy;$sct;428978004;History of choriocarcinoma of placenta
-Gastrointestinal tract finding associated with pregnancy (finding);pregnancy;$sct;430257003;Gastrointestinal tract finding associated with pregnancy (finding)
-Possible pregnancy (situation);pregnancy;$sct;146799005;Possible pregnancy (situation)
-Gastrointestinal tract finding associated with pregnancy;pregnancy;$sct;430257003;Gastrointestinal tract finding associated with pregnancy
-Pregnant - vaginal examination confirms;pregnancy;$sct;169562000;Pregnant - vaginal examination confirms
-Intends to continue pregnancy (finding);pregnancy;$sct;439311009;Intends to continue pregnancy (finding)
-Intends to continue pregnancy;pregnancy;$sct;439311009;Intends to continue pregnancy
-History of premature labor;pregnancy;$sct;441493008;History of premature labor
-History of premature labour;pregnancy;$sct;441493008;History of premature labour
-History of premature labor (situation);pregnancy;$sct;441493008;History of premature labor (situation)
-History of - foetal loss;pregnancy;$sct;267014009;History of - foetal loss
-Granuloma gravidarum (disorder);pregnancy;$sct;447222001;Granuloma gravidarum (disorder)
-Granuloma gravidarum;pregnancy;$sct;447222001;Granuloma gravidarum
-History of gestational diabetes mellitus (situation);pregnancy;$sct;472971004;History of gestational diabetes mellitus (situation)
-History of gestational diabetes mellitus;pregnancy;$sct;472971004;History of gestational diabetes mellitus
-No history of induced termination of pregnancy;pregnancy;$sct;161755009;No history of induced termination of pregnancy
-History of obstetric problem (situation);pregnancy;$sct;161803004;History of obstetric problem (situation)
-History of delivery with no details;pregnancy;$sct;275569003;History of delivery with no details
-History of one miscarriage;pregnancy;$sct;161747002;History of one miscarriage
-History of three miscarriages;pregnancy;$sct;161749004;History of three miscarriages
-History of five miscarriages;pregnancy;$sct;161751000;History of five miscarriages
-History of cesarean section;pregnancy;$sct;161805006;History of cesarean section
-History of severe pre-eclampsia;pregnancy;$sct;161807003;History of severe pre-eclampsia
-History of four abortions (situation);pregnancy;$sct;161759003;History of four abortions (situation)
-History of prolonged labor;pregnancy;$sct;161810005;History of prolonged labor
-History of five abortions (situation);pregnancy;$sct;161760008;History of five abortions (situation)
-History of myomectomy (situation);pregnancy;$sct;275574006;History of myomectomy (situation)
-History of miscarriage (situation);pregnancy;$sct;161744009;History of miscarriage (situation)
-History of five miscarriages (situation);pregnancy;$sct;161751000;History of five miscarriages (situation)
-History of eclampsia;pregnancy;$sct;161806007;History of eclampsia
-History of full term delivery;pregnancy;$sct;267015005;History of full term delivery
-History of previous forceps delivery;pregnancy;$sct;161813007;History of previous forceps delivery
-History of myomectomy or hysterotomy (situation);pregnancy;$sct;267021009;History of myomectomy or hysterotomy (situation)
-History of cesarean section (situation);pregnancy;$sct;161805006;History of cesarean section (situation)
-History of manual removal of placenta;pregnancy;$sct;161808008;History of manual removal of placenta
-History of full term delivery (situation);pregnancy;$sct;267015005;History of full term delivery (situation)
-History of perinatal fetal loss (situation);pregnancy;$sct;161811009;History of perinatal fetal loss (situation)
-History of four miscarriages;pregnancy;$sct;161750004;History of four miscarriages
-History of premature delivery;pregnancy;$sct;161765003;History of premature delivery
-History of fetal loss;pregnancy;$sct;267014009;History of fetal loss
-History of perinatal fetal loss;pregnancy;$sct;161811009;History of perinatal fetal loss
-History of six abortions;pregnancy;$sct;161761007;History of six abortions
-History of pregnancy (situation);pregnancy;$sct;271903000;History of pregnancy (situation)
-History of postpartum haemorrhage;pregnancy;$sct;161809000;History of postpartum haemorrhage
-History of prolonged labor (situation);pregnancy;$sct;161810005;History of prolonged labor (situation)
-History of one abortion (situation);pregnancy;$sct;161756005;History of one abortion (situation)
-History of one miscarriage (situation);pregnancy;$sct;161747002;History of one miscarriage (situation)
-History of hysterotomy;pregnancy;$sct;275573000;History of hysterotomy
-History of four abortions;pregnancy;$sct;161759003;History of four abortions
-History of ectopic pregnancy;pregnancy;$sct;161763005;History of ectopic pregnancy
-History of abortion (situation);pregnancy;$sct;267014009;History of abortion (situation)
-History of two abortions;pregnancy;$sct;161757001;History of two abortions
-History of previous forceps delivery (situation);pregnancy;$sct;161813007;History of previous forceps delivery (situation)
-History of normal delivery (situation);pregnancy;$sct;275568006;History of normal delivery (situation)
-History of premature delivery (situation);pregnancy;$sct;161765003;History of premature delivery (situation)
-History of antepartum hemorrhage;pregnancy;$sct;161804005;History of antepartum hemorrhage
-History of six abortions (situation);pregnancy;$sct;161761007;History of six abortions (situation)
-History of obstetric problem;pregnancy;$sct;161803004;History of obstetric problem
-History of stillbirth (situation);pregnancy;$sct;161743003;History of stillbirth (situation)
-History of severe pre-eclampsia (situation);pregnancy;$sct;161807003;History of severe pre-eclampsia (situation)
-History of postpartum hemorrhage;pregnancy;$sct;161809000;History of postpartum hemorrhage
-History of eclampsia (situation);pregnancy;$sct;161806007;History of eclampsia (situation)
-History of four miscarriages (situation);pregnancy;$sct;161750004;History of four miscarriages (situation)
-History of two miscarriages (situation);pregnancy;$sct;161748007;History of two miscarriages (situation)
-History of delivery with no details (situation);pregnancy;$sct;275569003;History of delivery with no details (situation)
-History of medical termination of pregnancy (situation);pregnancy;$sct;412758008;History of medical termination of pregnancy (situation)
-History of three miscarriages (situation);pregnancy;$sct;161749004;History of three miscarriages (situation)
-History of antepartum hemorrhage (situation);pregnancy;$sct;161804005;History of antepartum hemorrhage (situation)
-History of three abortions (situation);pregnancy;$sct;161758006;History of three abortions (situation)
-History of manual removal of placenta (situation);pregnancy;$sct;161808008;History of manual removal of placenta (situation)
-History of medical termination of pregnancy;pregnancy;$sct;412758008;History of medical termination of pregnancy
-History of ectopic pregnancy (situation);pregnancy;$sct;161763005;History of ectopic pregnancy (situation)
-History of miscarriage;pregnancy;$sct;161744009;History of miscarriage
-History of two abortions (situation);pregnancy;$sct;161757001;History of two abortions (situation)
-History of abortion;pregnancy;$sct;267014009;History of abortion
-History of myomectomy;pregnancy;$sct;275574006;History of myomectomy
-History of pregnancy;pregnancy;$sct;271903000;History of pregnancy
-History of stillbirth;pregnancy;$sct;161743003;History of stillbirth
-History of foetal loss;pregnancy;$sct;267014009;History of foetal loss
-History of five abortions;pregnancy;$sct;161760008;History of five abortions
-History of one abortion;pregnancy;$sct;161756005;History of one abortion
-History of normal delivery;pregnancy;$sct;275568006;History of normal delivery
-History of postpartum hemorrhage (situation);pregnancy;$sct;161809000;History of postpartum hemorrhage (situation)
-History of six miscarriages (situation);pregnancy;$sct;161752007;History of six miscarriages (situation)
-History of hysterotomy (situation);pregnancy;$sct;275573000;History of hysterotomy (situation)
-History of myomectomy or hysterotomy;pregnancy;$sct;267021009;History of myomectomy or hysterotomy
-History of six miscarriages;pregnancy;$sct;161752007;History of six miscarriages
-History of three abortions;pregnancy;$sct;161758006;History of three abortions
-History of two miscarriages;pregnancy;$sct;161748007;History of two miscarriages
-History of prolonged labour;pregnancy;$sct;161810005;History of prolonged labour
-History of induced termination of pregnancy under unsafe conditions (situation);pregnancy;$sct;697994009;History of induced termination of pregnancy under unsafe conditions (situation)
-History of induced termination of pregnancy under unsafe conditions;pregnancy;$sct;697994009;History of induced termination of pregnancy under unsafe conditions
-History of preterm delivery;pregnancy;$sct;161765003;History of preterm delivery
-H/O: perinatal foetal loss;pregnancy;$sct;161811009;H/O: perinatal foetal loss
-History of - perinatal foetal loss;pregnancy;$sct;161811009;History of - perinatal foetal loss
-Partner pregnant (situation);pregnancy;$sct;704502000;Partner pregnant (situation)
-Partner pregnant;pregnancy;$sct;704502000;Partner pregnant
-History of gestational hypertension;pregnancy;$sct;709881001;History of gestational hypertension
-History of gestational hypertension (situation);pregnancy;$sct;709881001;History of gestational hypertension (situation)
-History of preeclampsia;pregnancy;$sct;1,06E+14;History of preeclampsia
-History of preeclampsia (situation);pregnancy;$sct;1,06E+14;History of preeclampsia (situation)
-History of delivery of macrosomal infant (situation);pregnancy;$sct;3,23E+13;History of delivery of macrosomal infant (situation)
-History of delivery of macrosomal infant;pregnancy;$sct;3,23E+13;History of delivery of macrosomal infant
-History of pregnancy with abortive outcome;pregnancy;$sct;713651007;History of pregnancy with abortive outcome
-History of induced termination of pregnancy (situation);pregnancy;$sct;713649008;History of induced termination of pregnancy (situation)
-History of pregnancy with abortive outcome (situation);pregnancy;$sct;713651007;History of pregnancy with abortive outcome (situation)
-History of induced termination of pregnancy;pregnancy;$sct;713649008;History of induced termination of pregnancy
-Pyogenic granuloma of gingiva co-occurrent and due to pregnancy (disorder);pregnancy;$sct;713249002;Pyogenic granuloma of gingiva co-occurrent and due to pregnancy (disorder)
-Pyogenic granuloma of gingiva co-occurrent and due to pregnancy;pregnancy;$sct;713249002;Pyogenic granuloma of gingiva co-occurrent and due to pregnancy
-History of pre-eclampsia (situation);pregnancy;$sct;1,06E+14;History of pre-eclampsia (situation)
-History of pre-eclampsia;pregnancy;$sct;1,06E+14;History of pre-eclampsia
-History of defibulation of vulva to facilitate delivery (situation);pregnancy;$sct;719594003;History of defibulation of vulva to facilitate delivery (situation)
-History of defibulation of vulva to facilitate delivery;pregnancy;$sct;719594003;History of defibulation of vulva to facilitate delivery
-History of placenta previa (situation);pregnancy;$sct;725924008;History of placenta previa (situation)
-History of placenta previa;pregnancy;$sct;725924008;History of placenta previa
-History of placenta praevia;pregnancy;$sct;725924008;History of placenta praevia
-History of third degree perineal laceration (situation);pregnancy;$sct;725941005;History of third degree perineal laceration (situation)
-History of third degree perineal laceration;pregnancy;$sct;725941005;History of third degree perineal laceration
-History of fourth degree perineal laceration (situation);pregnancy;$sct;725942003;History of fourth degree perineal laceration (situation)
-History of fourth degree perineal laceration;pregnancy;$sct;725942003;History of fourth degree perineal laceration
-History of second degree perineal laceration (situation);pregnancy;$sct;725943008;History of second degree perineal laceration (situation)
-History of second degree perineal laceration;pregnancy;$sct;725943008;History of second degree perineal laceration
-History of episiotomy (situation);pregnancy;$sct;725944002;History of episiotomy (situation)
-History of episiotomy;pregnancy;$sct;725944002;History of episiotomy
-History of retained placenta (situation);pregnancy;$sct;725948004;History of retained placenta (situation)
-History of retained placenta;pregnancy;$sct;725948004;History of retained placenta
-History of elective cesarean section (situation);pregnancy;$sct;725949007;History of elective cesarean section (situation)
-History of elective cesarean section;pregnancy;$sct;725949007;History of elective cesarean section
-History of elective caesarean section;pregnancy;$sct;725949007;History of elective caesarean section
-History of placenta accreta (situation);pregnancy;$sct;725950007;History of placenta accreta (situation)
-History of placenta accreta;pregnancy;$sct;725950007;History of placenta accreta
-History of emergency cesarean section (situation);pregnancy;$sct;725951006;History of emergency cesarean section (situation)
-History of emergency cesarean section;pregnancy;$sct;725951006;History of emergency cesarean section
-History of emergency caesarean section;pregnancy;$sct;725951006;History of emergency caesarean section
-History of induced onset of labor (situation);pregnancy;$sct;725954003;History of induced onset of labor (situation)
-History of induced onset of labor;pregnancy;$sct;725954003;History of induced onset of labor
-History of induced onset of labour;pregnancy;$sct;725954003;History of induced onset of labour
-History of live birth (situation);pregnancy;$sct;726001007;History of live birth (situation)
-History of live birth;pregnancy;$sct;726001007;History of live birth
-History of hemolysis-elevated liver enzymes-low platelet count syndrome (situation);pregnancy;$sct;726513006;History of hemolysis-elevated liver enzymes-low platelet count syndrome (situation)
-History of hemolysis-elevated liver enzymes-low platelet count syndrome;pregnancy;$sct;726513006;History of hemolysis-elevated liver enzymes-low platelet count syndrome
-History of haemolysis-elevated liver enzymes-low platelet count syndrome;pregnancy;$sct;726513006;History of haemolysis-elevated liver enzymes-low platelet count syndrome
-H/O: HELLP (hemolysis, elevated liver enzymes, low platelet count) syndrome;pregnancy;$sct;726513006;H/O: HELLP (hemolysis, elevated liver enzymes, low platelet count) syndrome
-H/O: HELLP (haemolysis, elevated liver enzymes, low platelet count) syndrome;pregnancy;$sct;726513006;H/O: HELLP (haemolysis, elevated liver enzymes, low platelet count) syndrome
-History of postpartum psychosis (situation);pregnancy;$sct;726623007;History of postpartum psychosis (situation)
-H/O: postpartum psychosis;pregnancy;$sct;726623007;H/O: postpartum psychosis
-History of postpartum psychosis;pregnancy;$sct;726623007;History of postpartum psychosis
-History of spontaneous onset of labor (situation);pregnancy;$sct;726597008;History of spontaneous onset of labor (situation)
-H/O: spontaneous onset of labor;pregnancy;$sct;726597008;H/O: spontaneous onset of labor
-H/O: spontaneous onset of labour;pregnancy;$sct;726597008;H/O: spontaneous onset of labour
-History of spontaneous onset of labor;pregnancy;$sct;726597008;History of spontaneous onset of labor
-History of spontaneous onset of labour;pregnancy;$sct;726597008;History of spontaneous onset of labour
-History of first degree perineal laceration (situation);pregnancy;$sct;726625000;History of first degree perineal laceration (situation)
-H/O: first degree perineal laceration;pregnancy;$sct;726625000;H/O: first degree perineal laceration
-History of first degree perineal laceration;pregnancy;$sct;726625000;History of first degree perineal laceration
-History of intrauterine fetal death (situation);pregnancy;$sct;1,62167E+16;History of intrauterine fetal death (situation)
-History of intrauterine fetal death;pregnancy;$sct;1,62167E+16;History of intrauterine fetal death
-History of intrauterine foetal death;pregnancy;$sct;1,62167E+16;History of intrauterine foetal death
-History of molar pregnancy (situation);pregnancy;$sct;1,62168E+16;History of molar pregnancy (situation)
-History of molar pregnancy;pregnancy;$sct;1,62168E+16;History of molar pregnancy
-History of cholestasis in pregnancy (situation);pregnancy;$sct;1,62168E+16;History of cholestasis in pregnancy (situation)
-History of cholestasis in pregnancy;pregnancy;$sct;1,62168E+16;History of cholestasis in pregnancy
-H/O: cholestasis of pregnancy;pregnancy;$sct;1,62168E+16;H/O: cholestasis of pregnancy
-Past history of small for gestational age baby (situation);pregnancy;$sct;726565008;Past history of small for gestational age baby (situation)
-Past history of small for gestational age baby;pregnancy;$sct;726565008;Past history of small for gestational age baby
-H/O: previous small for gestational age baby;pregnancy;$sct;726565008;H/O: previous small for gestational age baby
-History of previous small for gestational age baby;pregnancy;$sct;726565008;History of previous small for gestational age baby
-History of previous small-for-dates baby;pregnancy;$sct;726565008;History of previous small-for-dates baby
-Past history of baby with fetal growth restriction (situation);pregnancy;$sct;733899004;Past history of baby with fetal growth restriction (situation)
-H/O: previous baby with fetal growth restriction;pregnancy;$sct;733899004;H/O: previous baby with fetal growth restriction
-History of previous baby with fetal growth restriction;pregnancy;$sct;733899004;History of previous baby with fetal growth restriction
-History of previous baby with foetal growth restriction;pregnancy;$sct;733899004;History of previous baby with foetal growth restriction
-Past history of baby with fetal growth restriction;pregnancy;$sct;733899004;Past history of baby with fetal growth restriction
-Past history of baby with foetal growth restriction;pregnancy;$sct;733899004;Past history of baby with foetal growth restriction
-History of previous delivery by vacuum extraction (situation);pregnancy;$sct;726624001;History of previous delivery by vacuum extraction (situation)
-H/O: previous delivery by vacuum extraction;pregnancy;$sct;726624001;H/O: previous delivery by vacuum extraction
-History of previous delivery by vacuum extraction;pregnancy;$sct;726624001;History of previous delivery by vacuum extraction
-History of pregnancy loss in non-pregnant woman (situation);pregnancy;$sct;1,50E+13;History of pregnancy loss in non-pregnant woman (situation)
-History of pregnancy loss in non-pregnant woman;pregnancy;$sct;1,50E+13;History of pregnancy loss in non-pregnant woman
-History of preterm premature rupture of membranes (situation);pregnancy;$sct;1,09E+14;History of preterm premature rupture of membranes (situation)
-History of preterm premature rupture of membranes;pregnancy;$sct;1,09E+14;History of preterm premature rupture of membranes
-History of gestational trophoblastic disease (situation);pregnancy;$sct;736725001;History of gestational trophoblastic disease (situation)
-History of gestational trophoblastic disease;pregnancy;$sct;736725001;History of gestational trophoblastic disease
-History of antepartum haemorrhage;pregnancy;$sct;161804005;History of antepartum haemorrhage
-History of caesarean section;pregnancy;$sct;161805006;History of caesarean section
-Gravida 1;pregnancy;$sct;127364007;Gravida 1
-History of placental abruption;pregnancy;$sct;789776003;History of placental abruption
-History of placental abruption (situation);pregnancy;$sct;789776003;History of placental abruption (situation)
-History of shoulder dystocia;pregnancy;$sct;816150000;History of shoulder dystocia
-History of shoulder dystocia (situation);pregnancy;$sct;816150000;History of shoulder dystocia (situation)
-Measured gestational weight gain;pregnancy;$sct;816161008;Measured gestational weight gain
-Measured gestational weight gain (observable entity);pregnancy;$sct;816161008;Measured gestational weight gain (observable entity)
-Measured gestational weight loss;pregnancy;$sct;816172003;Measured gestational weight loss
-Measured gestational weight loss (observable entity);pregnancy;$sct;816172003;Measured gestational weight loss (observable entity)
-History of postpartum gestational hypertension;pregnancy;$sct;1,69161E+16;History of postpartum gestational hypertension
-History of postpartum gestational hypertension (situation);pregnancy;$sct;1,69161E+16;History of postpartum gestational hypertension (situation)
-History of hydatidiform mole;pregnancy;$sct;1,62168E+16;History of hydatidiform mole
-History of complication occurring during labour and delivery;pregnancy;$sct;1156096005;History of complication occurring during labour and delivery
-History of complication occurring during labor and delivery (situation);pregnancy;$sct;1156096005;History of complication occurring during labor and delivery (situation)
-History of complication occurring during labor and delivery;pregnancy;$sct;1156096005;History of complication occurring during labor and delivery
-History of complication of puerperium (situation);pregnancy;$sct;1156097001;History of complication of puerperium (situation)
-History of complication of puerperium;pregnancy;$sct;1156097001;History of complication of puerperium
-History of Rhesus isoimmunization affecting pregnancy;pregnancy;$sct;1156098006;History of Rhesus isoimmunization affecting pregnancy
-History of Rhesus isoimmunisation affecting pregnancy;pregnancy;$sct;1156098006;History of Rhesus isoimmunisation affecting pregnancy
-History of Rhesus isoimmunization affecting pregnancy (situation);pregnancy;$sct;1156098006;History of Rhesus isoimmunization affecting pregnancy (situation)
-History of abnormal glucose tolerance test in pregnancy;pregnancy;$sct;1156099003;History of abnormal glucose tolerance test in pregnancy
-History of pregnancy with abnormal glucose tolerance test;pregnancy;$sct;1156099003;History of pregnancy with abnormal glucose tolerance test
-History of pregnancy with abnormal glucose tolerance test (situation);pregnancy;$sct;1156099003;History of pregnancy with abnormal glucose tolerance test (situation)
-History of pregnancy with normal glucose tolerance test;pregnancy;$sct;1156101005;History of pregnancy with normal glucose tolerance test
-History of pregnancy with normal glucose tolerance test (situation);pregnancy;$sct;1156101005;History of pregnancy with normal glucose tolerance test (situation)
-History of normal glucose tolerance test in pregnancy;pregnancy;$sct;1156101005;History of normal glucose tolerance test in pregnancy
-Pyogenic granuloma of gingiva due to pregnancy (disorder);pregnancy;$sct;713249002;Pyogenic granuloma of gingiva due to pregnancy (disorder)
-Pyogenic granuloma of gingiva due to pregnancy;pregnancy;$sct;713249002;Pyogenic granuloma of gingiva due to pregnancy
-History of short umbilical cord (situation);pregnancy;$sct;1208622001;History of short umbilical cord (situation)
-History of short umbilical cord;pregnancy;$sct;1208622001;History of short umbilical cord
-Counseling for pregnancy;pregnancy;$sct;1230101008;Counseling for pregnancy
-Counseling for pregnancy (procedure);pregnancy;$sct;1230101008;Counseling for pregnancy (procedure)
-Counselling for pregnancy;pregnancy;$sct;1230101008;Counselling for pregnancy
-Pregnancy after cervical conization;pregnancy;$sct;5,68E+14;Pregnancy after cervical conization
-Pregnancy following cone biopsy of uterine cervix;pregnancy;$sct;5,68E+14;Pregnancy following cone biopsy of uterine cervix
-Pregnancy following cone biopsy of uterine cervix (finding);pregnancy;$sct;5,68E+14;Pregnancy following cone biopsy of uterine cervix (finding)
-Pregnancy after cervical conisation;pregnancy;$sct;5,68E+14;Pregnancy after cervical conisation
-Multiple pregnancy (finding);pregnancy;$sct;16356006;Multiple pregnancy (finding)
-Glucose in blood 1 hour after glucose dose in pregnancy;pregnancy;$sct;3,73E+14;Glucose in blood 1 hour after glucose dose in pregnancy
-Glucose in blood one hour after glucose dose in pregnancy;pregnancy;$sct;3,73E+14;Glucose in blood one hour after glucose dose in pregnancy
-Glucose in blood one hour after glucose dose in pregnancy (observable entity);pregnancy;$sct;3,73E+14;Glucose in blood one hour after glucose dose in pregnancy (observable entity)
-Past pregnancy history of perinatal death (situation);pregnancy;$sct;1290143004;Past pregnancy history of perinatal death (situation)
-Past pregnancy history of perinatal death;pregnancy;$sct;1290143004;Past pregnancy history of perinatal death
-Singleton pregnancy;pregnancy;$sct;1290152008;Singleton pregnancy
-Singleton pregnancy (finding);pregnancy;$sct;1290152008;Singleton pregnancy (finding)
-Past pregnancy history of stillbirth (situation);pregnancy;$sct;161743003;Past pregnancy history of stillbirth (situation)
-Past pregnancy history of stillbirth;pregnancy;$sct;161743003;Past pregnancy history of stillbirth
-Past pregnancy history of ectopic pregnancy (situation);pregnancy;$sct;161763005;Past pregnancy history of ectopic pregnancy (situation)
-Past pregnancy history of ectopic pregnancy;pregnancy;$sct;161763005;Past pregnancy history of ectopic pregnancy
-Past pregnancy history of premature delivery (situation);pregnancy;$sct;161765003;Past pregnancy history of premature delivery (situation)
-Past pregnancy history of premature delivery;pregnancy;$sct;161765003;Past pregnancy history of premature delivery
-Past pregnancy history of antepartum haemorrhage;pregnancy;$sct;161804005;Past pregnancy history of antepartum haemorrhage
-Past pregnancy history of antepartum hemorrhage (situation);pregnancy;$sct;161804005;Past pregnancy history of antepartum hemorrhage (situation)
-Past pregnancy history of antepartum hemorrhage;pregnancy;$sct;161804005;Past pregnancy history of antepartum hemorrhage
-Past pregnancy history of prolonged labor;pregnancy;$sct;161810005;Past pregnancy history of prolonged labor
-Past pregnancy history of prolonged labour;pregnancy;$sct;161810005;Past pregnancy history of prolonged labour
-Past pregnancy history of prolonged labor (situation);pregnancy;$sct;161810005;Past pregnancy history of prolonged labor (situation)
-Past pregnancy history of full term delivery (situation);pregnancy;$sct;267015005;Past pregnancy history of full term delivery (situation)
-Past pregnancy history of full term delivery;pregnancy;$sct;267015005;Past pregnancy history of full term delivery
-Past pregnancy history of premature labor (situation);pregnancy;$sct;441493008;Past pregnancy history of premature labor (situation)
-Past pregnancy history of premature labor;pregnancy;$sct;441493008;Past pregnancy history of premature labor
-Past pregnancy history of premature labour;pregnancy;$sct;441493008;Past pregnancy history of premature labour
-Past pregnancy history of live birth (situation);pregnancy;$sct;726001007;Past pregnancy history of live birth (situation)
-Past pregnancy history of live birth;pregnancy;$sct;726001007;Past pregnancy history of live birth
-Past pregnancy history of small for gestational age baby (situation);pregnancy;$sct;726565008;Past pregnancy history of small for gestational age baby (situation)
-Past pregnancy history of small for gestational age baby;pregnancy;$sct;726565008;Past pregnancy history of small for gestational age baby
-Past pregnancy history of induced onset of labor;pregnancy;$sct;725954003;Past pregnancy history of induced onset of labor
-Past pregnancy history of induced onset of labor (situation);pregnancy;$sct;725954003;Past pregnancy history of induced onset of labor (situation)
-Past pregnancy history of induced onset of labour;pregnancy;$sct;725954003;Past pregnancy history of induced onset of labour
-Past pregnancy history of cholestasis in pregnancy (situation);pregnancy;$sct;1,62168E+16;Past pregnancy history of cholestasis in pregnancy (situation)
-Past pregnancy history of cholestasis in pregnancy;pregnancy;$sct;1,62168E+16;Past pregnancy history of cholestasis in pregnancy
-Past pregnancy history of molar pregnancy;pregnancy;$sct;1,62168E+16;Past pregnancy history of molar pregnancy
-Past pregnancy history of molar pregnancy (situation);pregnancy;$sct;1,62168E+16;Past pregnancy history of molar pregnancy (situation)
-Past pregnancy history of pregnancy with abortive outcome (situation);pregnancy;$sct;713651007;Past pregnancy history of pregnancy with abortive outcome (situation)
-Past pregnancy history of pregnancy with abortive outcome;pregnancy;$sct;713651007;Past pregnancy history of pregnancy with abortive outcome
-Past pregnancy history of induced termination of pregnancy (situation);pregnancy;$sct;713649008;Past pregnancy history of induced termination of pregnancy (situation)
-Past pregnancy history of induced termination of pregnancy;pregnancy;$sct;713649008;Past pregnancy history of induced termination of pregnancy
-Past pregnancy history of pregnancy with normal glucose tolerance test (situation);pregnancy;$sct;1156101005;Past pregnancy history of pregnancy with normal glucose tolerance test (situation)
-Past pregnancy history of pregnancy with normal glucose tolerance test;pregnancy;$sct;1156101005;Past pregnancy history of pregnancy with normal glucose tolerance test
-Past pregnancy history of complication of pregnancy, childbirth and/or puerperium;pregnancy;$sct;4,51E+14;Past pregnancy history of complication of pregnancy, childbirth and/or puerperium
-Past pregnancy history of medical termination of pregnancy (situation);pregnancy;$sct;412758008;Past pregnancy history of medical termination of pregnancy (situation)
-Past pregnancy history of medical termination of pregnancy;pregnancy;$sct;412758008;Past pregnancy history of medical termination of pregnancy
-Past pregnancy history of miscarriage (situation);pregnancy;$sct;161744009;Past pregnancy history of miscarriage (situation)
-Past pregnancy history of miscarriage;pregnancy;$sct;161744009;Past pregnancy history of miscarriage
-Past pregnancy history of choriocarcinoma of placenta (situation);pregnancy;$sct;428978004;Past pregnancy history of choriocarcinoma of placenta (situation)
-Past pregnancy history of choriocarcinoma of placenta;pregnancy;$sct;428978004;Past pregnancy history of choriocarcinoma of placenta
-Past pregnancy history of complication occurring during labor and delivery (situation);pregnancy;$sct;1156096005;Past pregnancy history of complication occurring during labor and delivery (situation)
-Past pregnancy history of complication occurring during labor and delivery;pregnancy;$sct;1156096005;Past pregnancy history of complication occurring during labor and delivery
-Past pregnancy history of complication occurring during labour and delivery;pregnancy;$sct;1156096005;Past pregnancy history of complication occurring during labour and delivery
-Past pregnancy history of complication of puerperium (situation);pregnancy;$sct;1156097001;Past pregnancy history of complication of puerperium (situation)
-Past pregnancy history of complication of puerperium;pregnancy;$sct;1156097001;Past pregnancy history of complication of puerperium
-Past pregnancy history of fourth degree perineal laceration;pregnancy;$sct;725942003;Past pregnancy history of fourth degree perineal laceration
-Past pregnancy history of fourth degree perineal laceration (situation);pregnancy;$sct;725942003;Past pregnancy history of fourth degree perineal laceration (situation)
-Past pregnancy history of second degree perineal laceration;pregnancy;$sct;725943008;Past pregnancy history of second degree perineal laceration
-Past pregnancy history of second degree perineal laceration (situation);pregnancy;$sct;725943008;Past pregnancy history of second degree perineal laceration (situation)
-Past pregnancy history of shoulder dystocia;pregnancy;$sct;816150000;Past pregnancy history of shoulder dystocia
-Past pregnancy history of shoulder dystocia (situation);pregnancy;$sct;816150000;Past pregnancy history of shoulder dystocia (situation)
-Past pregnancy history of third degree perineal laceration;pregnancy;$sct;725941005;Past pregnancy history of third degree perineal laceration
-Past pregnancy history of third degree perineal laceration (situation);pregnancy;$sct;725941005;Past pregnancy history of third degree perineal laceration (situation)
-Past pregnancy history of first degree perineal laceration (situation);pregnancy;$sct;726625000;Past pregnancy history of first degree perineal laceration (situation)
-Past pregnancy history of first degree perineal laceration;pregnancy;$sct;726625000;Past pregnancy history of first degree perineal laceration
-Past pregnancy history of postpartum gestational hypertension;pregnancy;$sct;1,69161E+16;Past pregnancy history of postpartum gestational hypertension
-Past pregnancy history of postpartum gestational hypertension (situation);pregnancy;$sct;1,69161E+16;Past pregnancy history of postpartum gestational hypertension (situation)
-Past pregnancy history of postpartum haemorrhage;pregnancy;$sct;161809000;Past pregnancy history of postpartum haemorrhage
-Past pregnancy history of postpartum hemorrhage (situation);pregnancy;$sct;161809000;Past pregnancy history of postpartum hemorrhage (situation)
-Past pregnancy history of postpartum hemorrhage;pregnancy;$sct;161809000;Past pregnancy history of postpartum hemorrhage
-Past pregnancy history of postpartum psychosis (situation);pregnancy;$sct;726623007;Past pregnancy history of postpartum psychosis (situation)
-Past pregnancy history of postpartum psychosis;pregnancy;$sct;726623007;Past pregnancy history of postpartum psychosis
-Past pregnancy history of retained placenta (situation);pregnancy;$sct;725948004;Past pregnancy history of retained placenta (situation)
-Past pregnancy history of retained placenta;pregnancy;$sct;725948004;Past pregnancy history of retained placenta
-Past pregnancy history of Rhesus isoimmunization affecting pregnancy (situation);pregnancy;$sct;1156098006;Past pregnancy history of Rhesus isoimmunization affecting pregnancy (situation)
-Past pregnancy history of Rhesus isoimmunization affecting pregnancy;pregnancy;$sct;1156098006;Past pregnancy history of Rhesus isoimmunization affecting pregnancy
-Past pregnancy history of Rhesus isoimmunisation affecting pregnancy;pregnancy;$sct;1156098006;Past pregnancy history of Rhesus isoimmunisation affecting pregnancy
-Past pregnancy history of pregnancy with abnormal glucose tolerance test;pregnancy;$sct;1156099003;Past pregnancy history of pregnancy with abnormal glucose tolerance test
-Past pregnancy history of pregnancy with abnormal glucose tolerance test (situation);pregnancy;$sct;1156099003;Past pregnancy history of pregnancy with abnormal glucose tolerance test (situation)
-Past pregnancy history of delivery of macrosomal infant (situation);pregnancy;$sct;3,23E+13;Past pregnancy history of delivery of macrosomal infant (situation)
-Past pregnancy history of delivery of macrosomal infant;pregnancy;$sct;3,23E+13;Past pregnancy history of delivery of macrosomal infant
-Past pregnancy history of intrauterine fetal death (situation);pregnancy;$sct;1,62167E+16;Past pregnancy history of intrauterine fetal death (situation)
-Past pregnancy history of intrauterine foetal death;pregnancy;$sct;1,62167E+16;Past pregnancy history of intrauterine foetal death
-Past pregnancy history of intrauterine fetal death;pregnancy;$sct;1,62167E+16;Past pregnancy history of intrauterine fetal death
-Past pregnancy history of spontaneous onset of labor;pregnancy;$sct;726597008;Past pregnancy history of spontaneous onset of labor
-Past pregnancy history of spontaneous onset of labor (situation);pregnancy;$sct;726597008;Past pregnancy history of spontaneous onset of labor (situation)
-Past pregnancy history of spontaneous onset of labour;pregnancy;$sct;726597008;Past pregnancy history of spontaneous onset of labour
-Past pregnancy history of normal delivery;pregnancy;$sct;275568006;Past pregnancy history of normal delivery
-Past pregnancy history of normal delivery (situation);pregnancy;$sct;275568006;Past pregnancy history of normal delivery (situation)
-Past pregnancy history of previous delivery by vacuum extraction (situation);pregnancy;$sct;726624001;Past pregnancy history of previous delivery by vacuum extraction (situation)
-Past pregnancy history of previous delivery by vacuum extraction;pregnancy;$sct;726624001;Past pregnancy history of previous delivery by vacuum extraction
-Past pregnancy history of defibulation of vulva to facilitate delivery;pregnancy;$sct;719594003;Past pregnancy history of defibulation of vulva to facilitate delivery
-Past pregnancy history of defibulation of vulva to facilitate delivery (situation);pregnancy;$sct;719594003;Past pregnancy history of defibulation of vulva to facilitate delivery (situation)
-Past pregnancy history of delivery with no details (situation);pregnancy;$sct;275569003;Past pregnancy history of delivery with no details (situation)
-Past pregnancy history of delivery with no details;pregnancy;$sct;275569003;Past pregnancy history of delivery with no details
-Past pregnancy history of induced termination of pregnancy under unsafe conditions (situation);pregnancy;$sct;697994009;Past pregnancy history of induced termination of pregnancy under unsafe conditions (situation)
-Past pregnancy history of induced termination of pregnancy under unsafe conditions;pregnancy;$sct;697994009;Past pregnancy history of induced termination of pregnancy under unsafe conditions
-Past pregnancy history of previous forceps delivery (situation);pregnancy;$sct;161813007;Past pregnancy history of previous forceps delivery (situation)
-Past pregnancy history of previous forceps delivery;pregnancy;$sct;161813007;Past pregnancy history of previous forceps delivery
-Past pregnancy history of cesarean section (situation);pregnancy;$sct;161805006;Past pregnancy history of cesarean section (situation)
-Past pregnancy history of caesarean section;pregnancy;$sct;161805006;Past pregnancy history of caesarean section
-Past pregnancy history of cesarean section;pregnancy;$sct;161805006;Past pregnancy history of cesarean section
-Past pregnancy history of elective cesarean section (situation);pregnancy;$sct;725949007;Past pregnancy history of elective cesarean section (situation)
-Past pregnancy history of elective caesarean section;pregnancy;$sct;725949007;Past pregnancy history of elective caesarean section
-Past pregnancy history of elective cesarean section;pregnancy;$sct;725949007;Past pregnancy history of elective cesarean section
-Past pregnancy history of emergency caesarean section;pregnancy;$sct;725951006;Past pregnancy history of emergency caesarean section
-Past pregnancy history of emergency cesarean section (situation);pregnancy;$sct;725951006;Past pregnancy history of emergency cesarean section (situation)
-Past pregnancy history of emergency cesarean section;pregnancy;$sct;725951006;Past pregnancy history of emergency cesarean section
-Past pregnancy history of episiotomy (situation);pregnancy;$sct;725944002;Past pregnancy history of episiotomy (situation)
-Past pregnancy history of episiotomy;pregnancy;$sct;725944002;Past pregnancy history of episiotomy
-Past pregnancy history of neonatal death;pregnancy;$sct;1290167007;Past pregnancy history of neonatal death
-Past pregnancy history of neonatal death (situation);pregnancy;$sct;1290167007;Past pregnancy history of neonatal death (situation)
-Past pregnancy history of gestational diabetes mellitus;pregnancy;$sct;472971004;Past pregnancy history of gestational diabetes mellitus
-Past pregnancy history of gestational diabetes mellitus (situation);pregnancy;$sct;472971004;Past pregnancy history of gestational diabetes mellitus (situation)
-Past pregnancy history of eclampsia;pregnancy;$sct;161806007;Past pregnancy history of eclampsia
-Past pregnancy history of eclampsia (situation);pregnancy;$sct;161806007;Past pregnancy history of eclampsia (situation)
-Past pregnancy history of gestational trophoblastic disease (situation);pregnancy;$sct;736725001;Past pregnancy history of gestational trophoblastic disease (situation)
-Past pregnancy history of gestational trophoblastic disease;pregnancy;$sct;736725001;Past pregnancy history of gestational trophoblastic disease
-Past pregnancy history of gestational hypertension (situation);pregnancy;$sct;709881001;Past pregnancy history of gestational hypertension (situation)
-Past pregnancy history of gestational hypertension;pregnancy;$sct;709881001;Past pregnancy history of gestational hypertension
-Past pregnancy history of placenta accreta;pregnancy;$sct;725950007;Past pregnancy history of placenta accreta
-Past pregnancy history of placenta accreta (situation);pregnancy;$sct;725950007;Past pregnancy history of placenta accreta (situation)
-Past pregnancy history of pre-eclampsia (situation);pregnancy;$sct;1,06E+14;Past pregnancy history of pre-eclampsia (situation)
-Past pregnancy history of pre-eclampsia;pregnancy;$sct;1,06E+14;Past pregnancy history of pre-eclampsia
-Past pregnancy history of severe pre-eclampsia (situation);pregnancy;$sct;161807003;Past pregnancy history of severe pre-eclampsia (situation)
-Past pregnancy history of severe pre-eclampsia;pregnancy;$sct;161807003;Past pregnancy history of severe pre-eclampsia
-Past pregnancy history of hemolysis-elevated liver enzymes-low platelet count syndrome (situation);pregnancy;$sct;726513006;Past pregnancy history of hemolysis-elevated liver enzymes-low platelet count syndrome (situation)
-Past pregnancy history of hemolysis-elevated liver enzymes-low platelet count syndrome;pregnancy;$sct;726513006;Past pregnancy history of hemolysis-elevated liver enzymes-low platelet count syndrome
-Past pregnancy history of haemolysis-elevated liver enzymes-low platelet count syndrome;pregnancy;$sct;726513006;Past pregnancy history of haemolysis-elevated liver enzymes-low platelet count syndrome
-Past pregnancy history of placental abruption (situation);pregnancy;$sct;789776003;Past pregnancy history of placental abruption (situation)
-Past pregnancy history of placental abruption;pregnancy;$sct;789776003;Past pregnancy history of placental abruption
-Past pregnancy history of preterm premature rupture of membranes (situation);pregnancy;$sct;1,09E+14;Past pregnancy history of preterm premature rupture of membranes (situation)
-Past pregnancy history of preterm premature rupture of membranes;pregnancy;$sct;1,09E+14;Past pregnancy history of preterm premature rupture of membranes
-Past pregnancy history of short umbilical cord (situation);pregnancy;$sct;1208622001;Past pregnancy history of short umbilical cord (situation)
-Past pregnancy history of short umbilical cord;pregnancy;$sct;1208622001;Past pregnancy history of short umbilical cord
-Past pregnancy history of placenta previa (situation);pregnancy;$sct;725924008;Past pregnancy history of placenta previa (situation)
-Past pregnancy history of placenta praevia;pregnancy;$sct;725924008;Past pregnancy history of placenta praevia
-Past pregnancy history of placenta previa;pregnancy;$sct;725924008;Past pregnancy history of placenta previa
-Past pregnancy history of pregnancy loss in non-pregnant woman (situation);pregnancy;$sct;1,50E+13;Past pregnancy history of pregnancy loss in non-pregnant woman (situation)
-Past pregnancy history of pregnancy loss in non-pregnant woman;pregnancy;$sct;1,50E+13;Past pregnancy history of pregnancy loss in non-pregnant woman
-Past pregnancy history of fetal growth restriction (situation);pregnancy;$sct;733899004;Past pregnancy history of fetal growth restriction (situation)
-Past pregnancy history of fetal growth restriction;pregnancy;$sct;733899004;Past pregnancy history of fetal growth restriction
-Past pregnancy history of early neonatal death;pregnancy;$sct;1290170006;Past pregnancy history of early neonatal death
-Past pregnancy history of early neonatal death (situation);pregnancy;$sct;1290170006;Past pregnancy history of early neonatal death (situation)
-Past pregnancy history of late neonatal death;pregnancy;$sct;1290171005;Past pregnancy history of late neonatal death
-Past pregnancy history of late neonatal death (situation);pregnancy;$sct;1290171005;Past pregnancy history of late neonatal death (situation)
-Shared antenatal care (regime/therapy);pregnancy;$sct;1290175001;Shared antenatal care (regime/therapy)
-Shared antenatal care;pregnancy;$sct;1290175001;Shared antenatal care
-Hospital antenatal care (regime/therapy);pregnancy;$sct;1290176000;Hospital antenatal care (regime/therapy)
-Hospital antenatal care;pregnancy;$sct;1290176000;Hospital antenatal care
-Midwifery led antenatal care (regime/therapy);pregnancy;$sct;1290177009;Midwifery led antenatal care (regime/therapy)
-Midwifery led antenatal care;pregnancy;$sct;1290177009;Midwifery led antenatal care
-General practitioner led antenatal care (regime/therapy);pregnancy;$sct;1290178004;General practitioner led antenatal care (regime/therapy)
-General practitioner led antenatal care;pregnancy;$sct;1290178004;General practitioner led antenatal care
-Past pregnancy history of recurrent miscarriage (situation);pregnancy;$sct;1290209002;Past pregnancy history of recurrent miscarriage (situation)
-Past pregnancy history of recurrent miscarriage;pregnancy;$sct;1290209002;Past pregnancy history of recurrent miscarriage
-Past pregnancy history of multiple miscarriages;pregnancy;$sct;1290210007;Past pregnancy history of multiple miscarriages
-Past pregnancy history of multiple miscarriages (situation);pregnancy;$sct;1290210007;Past pregnancy history of multiple miscarriages (situation)
-Past pregnancy history of delivery procedure;pregnancy;$sct;272058002;Past pregnancy history of delivery procedure
-Past pregnancy history of delivery procedure (situation);pregnancy;$sct;272058002;Past pregnancy history of delivery procedure (situation)
-Past pregnancy history of multiple induced termination of pregnancy;pregnancy;$sct;1300163008;Past pregnancy history of multiple induced termination of pregnancy
-Past pregnancy history of multiple induced termination of pregnancy (situation);pregnancy;$sct;1300163008;Past pregnancy history of multiple induced termination of pregnancy (situation)
-History of multiple induced termination of pregnancy;pregnancy;$sct;1300163008;History of multiple induced termination of pregnancy
-Pregnancy resulting from natural conception (finding);pregnancy;$sct;1300203003;Pregnancy resulting from natural conception (finding)
-Pregnancy resulting from natural conception;pregnancy;$sct;1300203003;Pregnancy resulting from natural conception
-Medium risk pregnancy;pregnancy;$sct;1303255001;Medium risk pregnancy
-Medium risk pregnancy (finding);pregnancy;$sct;1303255001;Medium risk pregnancy (finding)
-HRP - high risk pregnancy;pregnancy;$sct;47200007;HRP - high risk pregnancy
-History of complication of pregnancy, childbirth and/or puerperium;pregnancy;$sct;4,51E+14;History of complication of pregnancy, childbirth and/or puerperium
-Pregnancy resulting from assisted conception;pregnancy;$sct;8,14E+14;Pregnancy resulting from assisted conception
-Normal breast feeding;breastfeeding;$sct;69840006;Normal breast feeding
-Effective breastfeeding;breastfeeding;$sct;69840006;Effective breastfeeding
-Normal breast feeding (finding);breastfeeding;$sct;69840006;Normal breast feeding (finding)
-Performs breastfeeding;breastfeeding;$sct;69840006;Performs breastfeeding
-Normal breastfeeding;breastfeeding;$sct;69840006;Normal breastfeeding
-Normal breastfeeding (finding);breastfeeding;$sct;69840006;Normal breastfeeding (finding)
-Lactose;lactose;$sct;47703008;Lactose
-Lactose (substance);lactose;$sct;47703008;Lactose (substance)
-Milk sugar;lactose;$sct;47703008;Milk sugar
-Lactose tolerance test;lactose;$sct;34271001;Lactose tolerance test
-Lactose challenge test;lactose;$sct;34271001;Lactose challenge test
-Lactose tolerance test (procedure);lactose;$sct;34271001;Lactose tolerance test (procedure)
-LTT - Lactose tolerance test;lactose;$sct;34271001;LTT - Lactose tolerance test
-Intolerance to lactose;lactose;$sct;782415009;Intolerance to lactose
-Intolerance to lactose (finding);lactose;$sct;782415009;Intolerance to lactose (finding)
-Primary lactose intolerance;lactose;$sct;190751001;Primary lactose intolerance
-Primary lactose intolerance (disorder);lactose;$sct;190751001;Primary lactose intolerance (disorder)
-Primary intolerance to lactose;lactose;$sct;190751001;Primary intolerance to lactose
-Primary intolerance to lactose (finding);lactose;$sct;190751001;Primary intolerance to lactose (finding)
-Diabetes mellitus;diabetes;$sct;73211009;Diabetes mellitus
-DM - Diabetes mellitus;diabetes;$sct;73211009;DM - Diabetes mellitus
-Diabetes mellitus (disorder);diabetes;$sct;73211009;Diabetes mellitus (disorder)
-Insulin dependent diabetes mellitus;diabetes;$sct;46635009;Insulin dependent diabetes mellitus
-Diabetes mellitus type I;diabetes;$sct;46635009;Diabetes mellitus type I
-IDDM;diabetes;$sct;46635009;IDDM
-Type 1 diabetes mellitus;diabetes;$sct;46635009;Type 1 diabetes mellitus
-Diabetes mellitus type 1;diabetes;$sct;46635009;Diabetes mellitus type 1
-IDDM - Insulin-dependent diabetes mellitus;diabetes;$sct;46635009;IDDM - Insulin-dependent diabetes mellitus
-Insulin-dependent diabetes mellitus;diabetes;$sct;46635009;Insulin-dependent diabetes mellitus
-Type I diabetes mellitus;diabetes;$sct;46635009;Type I diabetes mellitus
-Juvenile onset diabetes mellitus;diabetes;$sct;46635009;Juvenile onset diabetes mellitus
-Diabetes mellitus type 1 (disorder);diabetes;$sct;46635009;Diabetes mellitus type 1 (disorder)
-T1DM - type 1 diabetes mellitus;diabetes;$sct;46635009;T1DM - type 1 diabetes mellitus
-Diabetes mellitus type II;diabetes;$sct;44054006;Diabetes mellitus type II
-Non-insulin dependent diabetes mellitus;diabetes;$sct;44054006;Non-insulin dependent diabetes mellitus
-NCDMM;diabetes;$sct;44054006;NCDMM
-Type 2 diabetes mellitus;diabetes;$sct;44054006;Type 2 diabetes mellitus
-NIDDM;diabetes;$sct;44054006;NIDDM
-Diabetes mellitus type 2;diabetes;$sct;44054006;Diabetes mellitus type 2
-Non-insulin-dependent diabetes mellitus;diabetes;$sct;44054006;Non-insulin-dependent diabetes mellitus
-Maturity onset diabetes mellitus;diabetes;$sct;44054006;Maturity onset diabetes mellitus
-NIDDM - Non-insulin dependent diabetes mellitus;diabetes;$sct;44054006;NIDDM - Non-insulin dependent diabetes mellitus
-Type II diabetes mellitus;diabetes;$sct;44054006;Type II diabetes mellitus
-Diabetes mellitus - adult onset;diabetes;$sct;44054006;Diabetes mellitus - adult onset
-Diabetes mellitus type 2 (disorder);diabetes;$sct;44054006;Diabetes mellitus type 2 (disorder)
-T2DM - diabetes mellitus type 2;diabetes;$sct;44054006;T2DM - diabetes mellitus type 2
-Insulin resistance (disorder);diabetes;$sct;763325000;Insulin resistance (disorder)
-Insulin resistance;diabetes;$sct;763325000;Insulin resistance
-Human immunodeficiency virus infection;hiv;$sct;86406008;Human immunodeficiency virus infection
-HIV infection;hiv;$sct;86406008;HIV infection
-Human immunodeficiency virus infection (disorder);hiv;$sct;86406008;Human immunodeficiency virus infection (disorder)
-HIV - Human immunodeficiency virus infection;hiv;$sct;86406008;HIV - Human immunodeficiency virus infection
-Disease of nervous system;nervoussystem;$sct;118940003;Disease of nervous system
-Neurological disorder;nervoussystem;$sct;118940003;Neurological disorder
-Nervous system disease;nervoussystem;$sct;118940003;Nervous system disease
-Disease of nervous system (disorder);nervoussystem;$sct;118940003;Disease of nervous system (disorder)
-Disorder of nervous system (disorder);nervoussystem;$sct;118940003;Disorder of nervous system (disorder)
-Disorder of nervous system;nervoussystem;$sct;118940003;Disorder of nervous system
-HTLV-3 antibody positive;hiv;$sct;165816005;HTLV-3 antibody positive
-HIV positive;hiv;$sct;165816005;HIV positive
-HIV positive (finding);hiv;$sct;165816005;HIV positive (finding)
-Human immunodeficiency virus (HIV) positive (finding);hiv;$sct;165816005;Human immunodeficiency virus (HIV) positive (finding)
-Human immunodeficiency virus (HIV) positive;hiv;$sct;165816005;Human immunodeficiency virus (HIV) positive
-Human immunodeficiency virus positive (finding);hiv;$sct;165816005;Human immunodeficiency virus positive (finding)
-Human immunodeficiency virus positive;hiv;$sct;165816005;Human immunodeficiency virus positive
-Human immunodeficiency virus detected (finding);hiv;$sct;165816005;Human immunodeficiency virus detected (finding)
-Human immunodeficiency virus detected;hiv;$sct;165816005;Human immunodeficiency virus detected
-HIV detected;hiv;$sct;165816005;HIV detected
-Human immunodeficiency virus;hiv;$sct;19030005;Human immunodeficiency virus
-HIV;hiv;$sct;19030005;HIV
-AIDS virus;hiv;$sct;19030005;AIDS virus
-Human immunodeficiency virus (organism);hiv;$sct;19030005;Human immunodeficiency virus (organism)
-HIV - Human immunodeficiency virus;hiv;$sct;19030005;HIV - Human immunodeficiency virus
-Hypericum perforatum;hperforatum;https://gsrs.ncats.nih.gov/ginas/app/beta;XK4IUX8MNB;Hypericum perforatum
-Hypericum perforatum L.;hperforatum;https://gsrs.ncats.nih.gov/ginas/app/beta;XK4IUX8MNB;Hypericum perforatum L.
-St. John's wort;hperforatum;https://gsrs.ncats.nih.gov/ginas/app/beta;XK4IUX8MNB;St. John's wort
- Multiple pregnancy;pregnancy;$sct;77386006;Pregnancy
- Normal pregnancy;pregnancy;$sct;77386006;Pregnancy
- Precocious pregnancy;pregnancy;$sct;77386006;Pregnancy
- Pregnancy following cone biopsy of uterine cervix;pregnancy;$sct;77386006;Pregnancy
- breast-feeding;breastfeeding;$sct;69840006;Normal breast feeding
- lactation;pregnancy;$sct;69840006;Normal breast feeding
-during pregnancy;pregnancy;$sct;77386006;Pregnancy
-if you are pregnant;pregnancy;$sct;77386006;Pregnancy
-when pregnant;pregnancy;$sct;77386006;Pregnancy
-while pregnant;pregnancy;$sct;77386006;Pregnancy
-planning to became pregnant;pregnancy;$sct;77386006;Pregnancy
-safe for use during pregnancy;pregnancy;$sct;77386006;Pregnancy
-no known risk during pregnancy;pregnancy;$sct;77386006;Pregnancy
-gestation;pregnancy;$sct;77386006;Pregnancy
-prenatal;pregnancy;$sct;77386006;Pregnancy
-antenatal;pregnancy;$sct;77386006;Pregnancy
-Normal breast feeding;breastfeeding;$sct;69840006;Normal breast feeding
-Effective breastfeeding;breastfeeding;$sct;69840006;Normal breast feeding
+keyword_en;class;system;code;display;keyword_es;keyword_da;keyword_pt
+Normal breast feeding;breastfeeding;$sct;69840006;Normal breast feeding;Lactancia materna normal;Normal amning;
+Pregnancy;pregnancy;$sct;77386006;Pregnancy;Embarazo;Graviditet;
+Pregnancy;pregnancy;icpc-2;W78;Pregnancy;Embarazo;Graviditet;
+Number of pregnancies, currently pregnant;pregnancy;$sct;127363001;Number of pregnancies, currently pregnant;;;
+Primigravida;pregnancy;$sct;127364007;Primigravida;;;
+Primiparity;pregnancy;$sct;3882004;Primiparity;;;
+Primipara;pregnancy;$sct;3882004;Primipara;;;
+Extra-amniotic pregnancy;pregnancy;$sct;9279009;Extra-amniotic pregnancy;;;
+Abnormal pregnancy;pregnancy;$sct;11082009;Abnormal pregnancy;;;
+Precocious pregnancy;pregnancy;$sct;14418008;Precocious pregnancy;;;
+Multiple gestation;pregnancy;$sct;16356006;Multiple gestation;;;
+Multiple pregnancy;pregnancy;$sct;16356006;Multiple pregnancy;;;
+Prenatal examination and care of mother;pregnancy;$sct;18114009;Prenatal examination and care of mother;;;
+Antepartum care of mother;pregnancy;$sct;18114009;Antepartum care of mother;;;
+Multiparity;pregnancy;$sct;28079008;Multiparity;;;
+Antepartum state of mother;pregnancy;$sct;34784006;Antepartum state of mother;;;
+Third trimester pregnancy;pregnancy;$sct;41587001;Third trimester pregnancy;;;
+Last trimester of pregnancy;pregnancy;$sct;41587001;Last trimester of pregnancy;;;
+Pre-admission observation, undelivered mother;pregnancy;$sct;42102002;Pre-admission observation, undelivered mother;;;
+Extrachorial pregnancy;pregnancy;$sct;45307008;Extrachorial pregnancy;;;
+High risk pregnancy;pregnancy;$sct;47200007;High risk pregnancy;;;
+First trimester pregnancy;pregnancy;$sct;57630001;First trimester pregnancy;;;
+Unwanted pregnancy;pregnancy;$sct;58532003;Unwanted pregnancy;;;
+Second trimester pregnancy;pregnancy;$sct;59466002;Second trimester pregnancy;;;
+Intrauterine pregnancy;pregnancy;$sct;65727000;Intrauterine pregnancy;;;
+Normal pregnancy;pregnancy;$sct;72892002;Normal pregnancy;;;
+Unintended pregnancy;pregnancy;$sct;83074005;Unintended pregnancy;;;
+Term pregnancy;pregnancy;$sct;87527008;Term pregnancy;;;
+Megaloblastic anemia due to pregnancy;pregnancy;$sct;91217009;Megaloblastic anemia due to pregnancy;;;
+Unconfirmed pregnancy;pregnancy;$sct;102874004;Unconfirmed pregnancy;;;
+Surrogate pregnancy;pregnancy;$sct;102875003;Surrogate pregnancy;;;
+Multiple previous pregnancies;pregnancy;$sct;102876002;Multiple previous pregnancies;;;
+Multigravida;pregnancy;$sct;102876002;Multigravida;;;
+Nulliparity;pregnancy;$sct;102877006;Nulliparity;;;
+Nullipara;pregnancy;$sct;102877006;Nullipara;;;
+First pregnancy;pregnancy;$sct;127364007;First pregnancy;;;
+Routine antenatal care;pregnancy;$sct;134435003;Routine antenatal care;;;
+Possible pregnancy;pregnancy;$sct;146799005;Possible pregnancy;;;
+Wife pregnant;pregnancy;$sct;160884000;Wife pregnant;;;
+H/O: stillbirth;pregnancy;$sct;161743003;H/O: stillbirth;;;
+H/O: miscarriage;pregnancy;$sct;161744009;H/O: miscarriage;;;
+No history of miscarriage;pregnancy;$sct;161745005;No history of miscarriage;;;
+H/O: 1 miscarriage;pregnancy;$sct;161747002;H/O: 1 miscarriage;;;
+H/O: 2 miscarriages;pregnancy;$sct;161748007;H/O: 2 miscarriages;;;
+H/O: 3 miscarriages;pregnancy;$sct;161749004;H/O: 3 miscarriages;;;
+H/O: 4 miscarriages;pregnancy;$sct;161750004;H/O: 4 miscarriages;;;
+H/O: 5 miscarriages;pregnancy;$sct;161751000;H/O: 5 miscarriages;;;
+H/O: 6 miscarriages;pregnancy;$sct;161752007;H/O: 6 miscarriages;;;
+H/O: miscarriage NOS;pregnancy;$sct;161753002;H/O: miscarriage NOS;;;
+No history of abortion;pregnancy;$sct;161755009;No history of abortion;;;
+H/O: 1 abortion;pregnancy;$sct;161756005;H/O: 1 abortion;;;
+H/O: 2 abortions;pregnancy;$sct;161757001;H/O: 2 abortions;;;
+H/O: 3 abortions;pregnancy;$sct;161758006;H/O: 3 abortions;;;
+H/O: 4 abortions;pregnancy;$sct;161759003;H/O: 4 abortions;;;
+H/O: 5 abortions;pregnancy;$sct;161760008;H/O: 5 abortions;;;
+H/O: 6 abortions;pregnancy;$sct;161761007;H/O: 6 abortions;;;
+H/O: abortion NOS;pregnancy;$sct;161762000;H/O: abortion NOS;;;
+H/O: ectopic pregnancy;pregnancy;$sct;161763005;H/O: ectopic pregnancy;;;
+H/O: premature delivery;pregnancy;$sct;161765003;H/O: premature delivery;;;
+Past pregnancy outcome NOS;pregnancy;$sct;161766002;Past pregnancy outcome NOS;;;
+H/O: obstetric problem;pregnancy;$sct;161803004;H/O: obstetric problem;;;
+H/O: antepartum hemorrhage;pregnancy;$sct;161804005;H/O: antepartum hemorrhage;;;
+H/O: antepartum haemorrhage;pregnancy;$sct;161804005;H/O: antepartum haemorrhage;;;
+H/O: caesarean section;pregnancy;$sct;161805006;H/O: caesarean section;;;
+H/O: cesarean section;pregnancy;$sct;161805006;H/O: cesarean section;;;
+H/O: eclampsia;pregnancy;$sct;161806007;H/O: eclampsia;;;
+H/O: severe pre-eclampsia;pregnancy;$sct;161807003;H/O: severe pre-eclampsia;;;
+H/O:manual removal of placenta;pregnancy;$sct;161808008;H/O:manual removal of placenta;;;
+H/O: postpartum hemorrhage;pregnancy;$sct;161809000;H/O: postpartum hemorrhage;;;
+H/O: postpartum haemorrhage;pregnancy;$sct;161809000;H/O: postpartum haemorrhage;;;
+H/O: long labour;pregnancy;$sct;161810005;H/O: long labour;;;
+H/O: prolonged labour;pregnancy;$sct;161810005;H/O: prolonged labour;;;
+H/O: long labor;pregnancy;$sct;161810005;H/O: long labor;;;
+H/O: prolonged labor;pregnancy;$sct;161810005;H/O: prolonged labor;;;
+H/O: perinatal fetal loss;pregnancy;$sct;161811009;H/O: perinatal fetal loss;;;
+H/O: perinatal death;pregnancy;$sct;161811009;H/O: perinatal death;;;
+H/O: previous forceps delivery;pregnancy;$sct;161813007;H/O: previous forceps delivery;;;
+H/O: obstetric problem NOS;pregnancy;$sct;161814001;H/O: obstetric problem NOS;;;
+Obstetric examination;pregnancy;$sct;163497009;Obstetric examination;;;
+Nulliparous;pregnancy;$sct;102877006;Nulliparous;;;
+Pregnant - urine test confirms;pregnancy;$sct;169560008;Pregnant - urine test confirms;;;
+Pregnant - blood test confirms;pregnancy;$sct;169561007;Pregnant - blood test confirms;;;
+Pregnant - V.E. confirms;pregnancy;$sct;169562000;Pregnant - V.E. confirms;;;
+Pregnant - on history;pregnancy;$sct;169563005;Pregnant - on history;;;
+Pregnant - on abdom. palpation;pregnancy;$sct;169564004;Pregnant - on abdom. palpation;;;
+Patient pregnant NOS;pregnancy;$sct;169571009;Patient pregnant NOS;;;
+Antenatal booking examination;pregnancy;$sct;169711001;Antenatal booking examination;;;
+Antenatal 12 weeks examination;pregnancy;$sct;169712008;Antenatal 12 weeks examination;;;
+Antenatal 16 week examination;pregnancy;$sct;169713003;Antenatal 16 week examination;;;
+A/N 16 week examination;pregnancy;$sct;169713003;A/N 16 week examination;;;
+Antenatal 20 week examination;pregnancy;$sct;169714009;Antenatal 20 week examination;;;
+Antenatal 24 week examination;pregnancy;$sct;169715005;Antenatal 24 week examination;;;
+Antenatal 28 week examination;pregnancy;$sct;169716006;Antenatal 28 week examination;;;
+Antenatal 30 week examination;pregnancy;$sct;169717002;Antenatal 30 week examination;;;
+Antenatal 32 week examination;pregnancy;$sct;169718007;Antenatal 32 week examination;;;
+Antenatal 34 week examination;pregnancy;$sct;169719004;Antenatal 34 week examination;;;
+Antenatal 35 week examination;pregnancy;$sct;169720005;Antenatal 35 week examination;;;
+Antenatal 36 week examination;pregnancy;$sct;169721009;Antenatal 36 week examination;;;
+Antenatal 37 week examination;pregnancy;$sct;169722002;Antenatal 37 week examination;;;
+Antenatal 38 week examination;pregnancy;$sct;169723007;Antenatal 38 week examination;;;
+Antenatal 39 week examination;pregnancy;$sct;169724001;Antenatal 39 week examination;;;
+Antenatal 40 week examination;pregnancy;$sct;169725000;Antenatal 40 week examination;;;
+Antenatal 41 week examination;pregnancy;$sct;169726004;Antenatal 41 week examination;;;
+Antenatal 42 week examination;pregnancy;$sct;169727008;Antenatal 42 week examination;;;
+Mother currently breast-feeding;pregnancy;$sct;169750002;Mother currently breast-feeding;;;
+Postnatal visit;pregnancy;$sct;169762003;Postnatal visit;;;
+Postnatal - first day visit;pregnancy;$sct;169763008;Postnatal - first day visit;;;
+Postnatal - second day visit;pregnancy;$sct;169764002;Postnatal - second day visit;;;
+Postnatal - third day visit;pregnancy;$sct;169765001;Postnatal - third day visit;;;
+Postnatal - fourth day visit;pregnancy;$sct;169766000;Postnatal - fourth day visit;;;
+Postnatal - fifth day visit;pregnancy;$sct;169767009;Postnatal - fifth day visit;;;
+Postnatal - sixth day visit;pregnancy;$sct;169768004;Postnatal - sixth day visit;;;
+Postnatal - seventh day visit;pregnancy;$sct;169769007;Postnatal - seventh day visit;;;
+Postnatal - eighth day visit;pregnancy;$sct;169770008;Postnatal - eighth day visit;;;
+Postnatal - ninth day visit;pregnancy;$sct;169771007;Postnatal - ninth day visit;;;
+Postnatal - tenth day visit;pregnancy;$sct;169772000;Postnatal - tenth day visit;;;
+Infections of urethra in pregnancy;pregnancy;$sct;199206009;Infections of urethra in pregnancy;;;
+Albuminuria in pregnancy without hypertension;pregnancy;$sct;237232007;Albuminuria in pregnancy without hypertension;;;
+Low risk pregnancy;pregnancy;$sct;237239003;Low risk pregnancy;;;
+H/O: abortion;pregnancy;$sct;267014009;H/O: abortion;;;
+H/O: full term delivery;pregnancy;$sct;267015005;H/O: full term delivery;;;
+H/O: myomectomy/hysterotomy;pregnancy;$sct;267021009;H/O: myomectomy/hysterotomy;;;
+H/O: pregnancy;pregnancy;$sct;271903000;H/O: pregnancy;;;
+H/O fetal loss;pregnancy;$sct;271904006;H/O fetal loss;;;
+History of past delivery;pregnancy;$sct;272058002;History of past delivery;;;
+H/O: termination;pregnancy;$sct;275567001;H/O: termination;;;
+H/O: normal delivery;pregnancy;$sct;275568006;H/O: normal delivery;;;
+H/O: delivery no details;pregnancy;$sct;275569003;H/O: delivery no details;;;
+H/O: hysterotomy;pregnancy;$sct;275573000;H/O: hysterotomy;;;
+H/O: myomectomy;pregnancy;$sct;275574006;H/O: myomectomy;;;
+Pregnancy-related examination;pregnancy;$sct;312891008;Pregnancy-related examination;;;
+Antenatal examination;pregnancy;$sct;18114009;Antenatal examination;;;
+Multiparous;pregnancy;$sct;28079008;Multiparous;;;
+Primiparous;pregnancy;$sct;3882004;Primiparous;;;
+Unplanned pregnancy;pregnancy;$sct;83074005;Unplanned pregnancy;;;
+Megaloblastic anaemia due to pregnancy;pregnancy;$sct;91217009;Megaloblastic anaemia due to pregnancy;;;
+Routine antenatal care (procedure);pregnancy;$sct;134435003;Routine antenatal care (procedure);;;
+Wife pregnant (context-dependent category);pregnancy;$sct;160884000;Wife pregnant (context-dependent category);;;
+History of - stillbirth (context-dependent category);pregnancy;$sct;161743003;History of - stillbirth (context-dependent category);;;
+History of - miscarriage (context-dependent category);pregnancy;$sct;161744009;History of - miscarriage (context-dependent category);;;
+No history of miscarriage (context-dependent category);pregnancy;$sct;161745005;No history of miscarriage (context-dependent category);;;
+History of - 1 miscarriage (context-dependent category);pregnancy;$sct;161747002;History of - 1 miscarriage (context-dependent category);;;
+History of - 2 miscarriages (context-dependent category);pregnancy;$sct;161748007;History of - 2 miscarriages (context-dependent category);;;
+History of - 3 miscarriages (context-dependent category);pregnancy;$sct;161749004;History of - 3 miscarriages (context-dependent category);;;
+History of - 4 miscarriages (context-dependent category);pregnancy;$sct;161750004;History of - 4 miscarriages (context-dependent category);;;
+History of - 5 miscarriages (context-dependent category);pregnancy;$sct;161751000;History of - 5 miscarriages (context-dependent category);;;
+History of - 6 miscarriages (context-dependent category);pregnancy;$sct;161752007;History of - 6 miscarriages (context-dependent category);;;
+History of - miscarriage NOS (context-dependent category);pregnancy;$sct;161753002;History of - miscarriage NOS (context-dependent category);;;
+No history of abortion (context-dependent category);pregnancy;$sct;161755009;No history of abortion (context-dependent category);;;
+History of - 1 abortion (context-dependent category);pregnancy;$sct;161756005;History of - 1 abortion (context-dependent category);;;
+History of - 2 abortions (context-dependent category);pregnancy;$sct;161757001;History of - 2 abortions (context-dependent category);;;
+History of - 3 abortions (context-dependent category);pregnancy;$sct;161758006;History of - 3 abortions (context-dependent category);;;
+History of - 4 abortions (context-dependent category);pregnancy;$sct;161759003;History of - 4 abortions (context-dependent category);;;
+History of - 5 abortions (context-dependent category);pregnancy;$sct;161760008;History of - 5 abortions (context-dependent category);;;
+History of - 6 abortions (context-dependent category);pregnancy;$sct;161761007;History of - 6 abortions (context-dependent category);;;
+History of - abortion NOS (context-dependent category);pregnancy;$sct;161762000;History of - abortion NOS (context-dependent category);;;
+History of - ectopic pregnancy (context-dependent category);pregnancy;$sct;161763005;History of - ectopic pregnancy (context-dependent category);;;
+History of - premature delivery (context-dependent category);pregnancy;$sct;161765003;History of - premature delivery (context-dependent category);;;
+Past pregnancy outcome NOS (context-dependent category);pregnancy;$sct;161766002;Past pregnancy outcome NOS (context-dependent category);;;
+History of - obstetric problem (context-dependent category);pregnancy;$sct;161803004;History of - obstetric problem (context-dependent category);;;
+History of - antepartum hemorrhage (context-dependent category);pregnancy;$sct;161804005;History of - antepartum hemorrhage (context-dependent category);;;
+History of - cesarean section (context-dependent category);pregnancy;$sct;161805006;History of - cesarean section (context-dependent category);;;
+History of - eclampsia (context-dependent category);pregnancy;$sct;161806007;History of - eclampsia (context-dependent category);;;
+History of - severe pre-eclampsia (context-dependent category);pregnancy;$sct;161807003;History of - severe pre-eclampsia (context-dependent category);;;
+History of - manual removal of placenta (context-dependent category);pregnancy;$sct;161808008;History of - manual removal of placenta (context-dependent category);;;
+History of - postpartum hemorrhage (context-dependent category);pregnancy;$sct;161809000;History of - postpartum hemorrhage (context-dependent category);;;
+History of - prolonged labor (context-dependent category);pregnancy;$sct;161810005;History of - prolonged labor (context-dependent category);;;
+History of - perinatal fetal loss (context-dependent category);pregnancy;$sct;161811009;History of - perinatal fetal loss (context-dependent category);;;
+History of - previous forceps delivery (context-dependent category);pregnancy;$sct;161813007;History of - previous forceps delivery (context-dependent category);;;
+History of - obstetric problem NOS (context-dependent category);pregnancy;$sct;161814001;History of - obstetric problem NOS (context-dependent category);;;
+Obstetric examination (procedure);pregnancy;$sct;163497009;Obstetric examination (procedure);;;
+Possible pregnancy (finding);pregnancy;$sct;102874004;Possible pregnancy (finding);;;
+Surrogate pregnancy (finding);pregnancy;$sct;102875003;Surrogate pregnancy (finding);;;
+Multigravida (finding);pregnancy;$sct;102876002;Multigravida (finding);;;
+Nulliparous (finding);pregnancy;$sct;102877006;Nulliparous (finding);;;
+Pregnant - urine test confirms (finding);pregnancy;$sct;169560008;Pregnant - urine test confirms (finding);;;
+Pregnant - blood test confirms (finding);pregnancy;$sct;169561007;Pregnant - blood test confirms (finding);;;
+Pregnant - vaginal examination confirms (finding);pregnancy;$sct;169562000;Pregnant - vaginal examination confirms (finding);;;
+Pregnant - on history (finding);pregnancy;$sct;169563005;Pregnant - on history (finding);;;
+Pregnant - on abdominal palpation (finding);pregnancy;$sct;169564004;Pregnant - on abdominal palpation (finding);;;
+Patient pregnant NOS (finding);pregnancy;$sct;169571009;Patient pregnant NOS (finding);;;
+Antenatal booking examination (procedure);pregnancy;$sct;169711001;Antenatal booking examination (procedure);;;
+Antenatal 12 weeks examination (procedure);pregnancy;$sct;169712008;Antenatal 12 weeks examination (procedure);;;
+Antenatal 16 week examination (procedure);pregnancy;$sct;169713003;Antenatal 16 week examination (procedure);;;
+Antenatal 20 week examination (procedure);pregnancy;$sct;169714009;Antenatal 20 week examination (procedure);;;
+Antenatal 24 week examination (procedure);pregnancy;$sct;169715005;Antenatal 24 week examination (procedure);;;
+Antenatal 28 week examination (procedure);pregnancy;$sct;169716006;Antenatal 28 week examination (procedure);;;
+Antenatal 30 week examination (procedure);pregnancy;$sct;169717002;Antenatal 30 week examination (procedure);;;
+Antenatal 32 week examination (procedure);pregnancy;$sct;169718007;Antenatal 32 week examination (procedure);;;
+Antenatal 34 week examination (procedure);pregnancy;$sct;169719004;Antenatal 34 week examination (procedure);;;
+Antenatal 35 week examination (procedure);pregnancy;$sct;169720005;Antenatal 35 week examination (procedure);;;
+Antenatal 36 week examination (procedure);pregnancy;$sct;169721009;Antenatal 36 week examination (procedure);;;
+Antenatal 37 week examination (procedure);pregnancy;$sct;169722002;Antenatal 37 week examination (procedure);;;
+Antenatal 38 week examination (procedure);pregnancy;$sct;169723007;Antenatal 38 week examination (procedure);;;
+Antenatal 39 week examination (procedure);pregnancy;$sct;169724001;Antenatal 39 week examination (procedure);;;
+Antenatal 40 week examination (procedure);pregnancy;$sct;169725000;Antenatal 40 week examination (procedure);;;
+Antenatal 41 week examination (procedure);pregnancy;$sct;169726004;Antenatal 41 week examination (procedure);;;
+Antenatal 42 week examination (procedure);pregnancy;$sct;169727008;Antenatal 42 week examination (procedure);;;
+Mother currently breast-feeding (finding);pregnancy;$sct;169750002;Mother currently breast-feeding (finding);;;
+Postnatal visit (procedure);pregnancy;$sct;169762003;Postnatal visit (procedure);;;
+Postnatal - first day visit (procedure);pregnancy;$sct;169763008;Postnatal - first day visit (procedure);;;
+Postnatal - second day visit (procedure);pregnancy;$sct;169764002;Postnatal - second day visit (procedure);;;
+Postnatal - third day visit (procedure);pregnancy;$sct;169765001;Postnatal - third day visit (procedure);;;
+Postnatal - fourth day visit (procedure);pregnancy;$sct;169766000;Postnatal - fourth day visit (procedure);;;
+Postnatal - fifth day visit (procedure);pregnancy;$sct;169767009;Postnatal - fifth day visit (procedure);;;
+Postnatal - sixth day visit (procedure);pregnancy;$sct;169768004;Postnatal - sixth day visit (procedure);;;
+Postnatal - seventh day visit (procedure);pregnancy;$sct;169769007;Postnatal - seventh day visit (procedure);;;
+Postnatal - eighth day visit (procedure);pregnancy;$sct;169770008;Postnatal - eighth day visit (procedure);;;
+Postnatal - ninth day visit (procedure);pregnancy;$sct;169771007;Postnatal - ninth day visit (procedure);;;
+Postnatal - tenth day visit (procedure);pregnancy;$sct;169772000;Postnatal - tenth day visit (procedure);;;
+Infections of urethra in pregnancy (disorder);pregnancy;$sct;199206009;Infections of urethra in pregnancy (disorder);;;
+Abnormal pregnancy (finding);pregnancy;$sct;11082009;Abnormal pregnancy (finding);;;
+Albuminuria in pregnancy without hypertension (finding);pregnancy;$sct;237232007;Albuminuria in pregnancy without hypertension (finding);;;
+Low risk pregnancy (finding);pregnancy;$sct;237239003;Low risk pregnancy (finding);;;
+History of - abortion (context-dependent category);pregnancy;$sct;267014009;History of - abortion (context-dependent category);;;
+History of - full term delivery (context-dependent category);pregnancy;$sct;267015005;History of - full term delivery (context-dependent category);;;
+History of - myomectomy/hysterotomy (context-dependent category);pregnancy;$sct;267021009;History of - myomectomy/hysterotomy (context-dependent category);;;
+History of - pregnancy (context-dependent category);pregnancy;$sct;271903000;History of - pregnancy (context-dependent category);;;
+History of - fetal loss (context-dependent category);pregnancy;$sct;271904006;History of - fetal loss (context-dependent category);;;
+History of past delivery (context-dependent category);pregnancy;$sct;272058002;History of past delivery (context-dependent category);;;
+History of - termination (context-dependent category);pregnancy;$sct;275567001;History of - termination (context-dependent category);;;
+History of - normal delivery (context-dependent category);pregnancy;$sct;275568006;History of - normal delivery (context-dependent category);;;
+History of - delivery no details (context-dependent category);pregnancy;$sct;275569003;History of - delivery no details (context-dependent category);;;
+History of - hysterotomy (context-dependent category);pregnancy;$sct;275573000;History of - hysterotomy (context-dependent category);;;
+History of - myomectomy (context-dependent category);pregnancy;$sct;275574006;History of - myomectomy (context-dependent category);;;
+Pregnancy-related examination (procedure);pregnancy;$sct;312891008;Pregnancy-related examination (procedure);;;
+Number of pregnancies, currently pregnant (finding);pregnancy;$sct;127363001;Number of pregnancies, currently pregnant (finding);;;
+Primigravida (finding);pregnancy;$sct;127364007;Primigravida (finding);;;
+Precocious pregnancy (finding);pregnancy;$sct;14418008;Precocious pregnancy (finding);;;
+Multiple pregnancy (disorder);pregnancy;$sct;16356006;Multiple pregnancy (disorder);;;
+Prenatal examination and care of mother (procedure);pregnancy;$sct;18114009;Prenatal examination and care of mother (procedure);;;
+Multiparous (finding);pregnancy;$sct;28079008;Multiparous (finding);;;
+Antepartum state of mother (finding);pregnancy;$sct;34784006;Antepartum state of mother (finding);;;
+Primiparous (finding);pregnancy;$sct;3882004;Primiparous (finding);;;
+Third trimester pregnancy (finding);pregnancy;$sct;41587001;Third trimester pregnancy (finding);;;
+Pre-admission observation, undelivered mother (procedure);pregnancy;$sct;42102002;Pre-admission observation, undelivered mother (procedure);;;
+Extrachorial pregnancy (finding);pregnancy;$sct;45307008;Extrachorial pregnancy (finding);;;
+High risk pregnancy (finding);pregnancy;$sct;47200007;High risk pregnancy (finding);;;
+First trimester pregnancy (finding);pregnancy;$sct;57630001;First trimester pregnancy (finding);;;
+Unwanted pregnancy (finding);pregnancy;$sct;58532003;Unwanted pregnancy (finding);;;
+Second trimester pregnancy (finding);pregnancy;$sct;59466002;Second trimester pregnancy (finding);;;
+Intrauterine pregnancy (finding);pregnancy;$sct;65727000;Intrauterine pregnancy (finding);;;
+Normal pregnancy (finding);pregnancy;$sct;72892002;Normal pregnancy (finding);;;
+Unplanned pregnancy (finding);pregnancy;$sct;83074005;Unplanned pregnancy (finding);;;
+Term pregnancy (finding);pregnancy;$sct;87527008;Term pregnancy (finding);;;
+Megaloblastic anemia due to pregnancy (disorder);pregnancy;$sct;91217009;Megaloblastic anemia due to pregnancy (disorder);;;
+Extra-amniotic pregnancy (finding);pregnancy;$sct;9279009;Extra-amniotic pregnancy (finding);;;
+Patient ? pregnant;pregnancy;$sct;102874004;Patient ? pregnant;;;
+Think I am pregnant;pregnancy;$sct;102874004;Think I am pregnant;;;
+Think I am going to have a baby;pregnancy;$sct;102874004;Think I am going to have a baby;;;
+Multip;pregnancy;$sct;102876002;Multip;;;
+Primip;pregnancy;$sct;127364007;Primip;;;
+HRP - High risk pregnancy;pregnancy;$sct;47200007;HRP - High risk pregnancy;;;
+Accidental pregnancy;pregnancy;$sct;83074005;Accidental pregnancy;;;
+Postnatal maternal examination (procedure);pregnancy;$sct;384634009;Postnatal maternal examination (procedure);;;
+Full postnatal examination (procedure);pregnancy;$sct;384635005;Full postnatal examination (procedure);;;
+Maternal postnatal 6 week examination (procedure);pregnancy;$sct;384636006;Maternal postnatal 6 week examination (procedure);;;
+Childbirth preparation (regime/therapy);pregnancy;$sct;386235000;Childbirth preparation (regime/therapy);;;
+Postnatal visit (regime/therapy);pregnancy;$sct;169762003;Postnatal visit (regime/therapy);;;
+Postnatal - first day visit (regime/therapy);pregnancy;$sct;169763008;Postnatal - first day visit (regime/therapy);;;
+Postnatal - second day visit (regime/therapy);pregnancy;$sct;169764002;Postnatal - second day visit (regime/therapy);;;
+Postnatal - third day visit (regime/therapy);pregnancy;$sct;169765001;Postnatal - third day visit (regime/therapy);;;
+Postnatal - fourth day visit (regime/therapy);pregnancy;$sct;169766000;Postnatal - fourth day visit (regime/therapy);;;
+Postnatal - fifth day visit (regime/therapy);pregnancy;$sct;169767009;Postnatal - fifth day visit (regime/therapy);;;
+Postnatal - sixth day visit (regime/therapy);pregnancy;$sct;169768004;Postnatal - sixth day visit (regime/therapy);;;
+Postnatal - seventh day visit (regime/therapy);pregnancy;$sct;169769007;Postnatal - seventh day visit (regime/therapy);;;
+Postnatal - eighth day visit (regime/therapy);pregnancy;$sct;169770008;Postnatal - eighth day visit (regime/therapy);;;
+Postnatal - ninth day visit (regime/therapy);pregnancy;$sct;169771007;Postnatal - ninth day visit (regime/therapy);;;
+Postnatal - tenth day visit (regime/therapy);pregnancy;$sct;169772000;Postnatal - tenth day visit (regime/therapy);;;
+Routine antenatal care (regime/therapy);pregnancy;$sct;134435003;Routine antenatal care (regime/therapy);;;
+Postnatal maternal examination;pregnancy;$sct;384634009;Postnatal maternal examination;;;
+Full postnatal examination;pregnancy;$sct;384635005;Full postnatal examination;;;
+Maternal postnatal 6 week examination;pregnancy;$sct;384636006;Maternal postnatal 6 week examination;;;
+Childbirth preparation;pregnancy;$sct;386235000;Childbirth preparation;;;
+Pregnancy follow-up examination;pregnancy;$sct;384634009;Pregnancy follow-up examination;;;
+Postnatal appointment;pregnancy;$sct;384634009;Postnatal appointment;;;
+H/O: medical termination of pregnancy (context-dependent category);pregnancy;$sct;412758008;H/O: medical termination of pregnancy (context-dependent category);;;
+H/O: medical termination of pregnancy;pregnancy;$sct;412758008;H/O: medical termination of pregnancy;;;
+History of - fetal loss;pregnancy;$sct;267014009;History of - fetal loss;;;
+History of - medical termination of pregnancy (context-dependent category);pregnancy;$sct;412758008;History of - medical termination of pregnancy (context-dependent category);;;
+Wife pregnant (situation);pregnancy;$sct;160884000;Wife pregnant (situation);;;
+History of - perinatal fetal loss (situation);pregnancy;$sct;161811009;History of - perinatal fetal loss (situation);;;
+History of - previous forceps delivery (situation);pregnancy;$sct;161813007;History of - previous forceps delivery (situation);;;
+History of - obstetric problem NOS (situation);pregnancy;$sct;161814001;History of - obstetric problem NOS (situation);;;
+History of - obstetric problem (situation);pregnancy;$sct;161803004;History of - obstetric problem (situation);;;
+History of - antepartum hemorrhage (situation);pregnancy;$sct;161804005;History of - antepartum hemorrhage (situation);;;
+History of - cesarean section (situation);pregnancy;$sct;161805006;History of - cesarean section (situation);;;
+History of - eclampsia (situation);pregnancy;$sct;161806007;History of - eclampsia (situation);;;
+History of - severe pre-eclampsia (situation);pregnancy;$sct;161807003;History of - severe pre-eclampsia (situation);;;
+History of - manual removal of placenta (situation);pregnancy;$sct;161808008;History of - manual removal of placenta (situation);;;
+History of - postpartum hemorrhage (situation);pregnancy;$sct;161809000;History of - postpartum hemorrhage (situation);;;
+History of - prolonged labor (situation);pregnancy;$sct;161810005;History of - prolonged labor (situation);;;
+History of - stillbirth (situation);pregnancy;$sct;161743003;History of - stillbirth (situation);;;
+History of - miscarriage (situation);pregnancy;$sct;161744009;History of - miscarriage (situation);;;
+No history of miscarriage (situation);pregnancy;$sct;161745005;No history of miscarriage (situation);;;
+History of - 1 miscarriage (situation);pregnancy;$sct;161747002;History of - 1 miscarriage (situation);;;
+History of - 2 miscarriages (situation);pregnancy;$sct;161748007;History of - 2 miscarriages (situation);;;
+History of - 3 miscarriages (situation);pregnancy;$sct;161749004;History of - 3 miscarriages (situation);;;
+History of - 4 miscarriages (situation);pregnancy;$sct;161750004;History of - 4 miscarriages (situation);;;
+History of - 5 miscarriages (situation);pregnancy;$sct;161751000;History of - 5 miscarriages (situation);;;
+History of - 6 miscarriages (situation);pregnancy;$sct;161752007;History of - 6 miscarriages (situation);;;
+History of - miscarriage NOS (situation);pregnancy;$sct;161753002;History of - miscarriage NOS (situation);;;
+No history of abortion (situation);pregnancy;$sct;161755009;No history of abortion (situation);;;
+History of - 1 abortion (situation);pregnancy;$sct;161756005;History of - 1 abortion (situation);;;
+History of - 2 abortions (situation);pregnancy;$sct;161757001;History of - 2 abortions (situation);;;
+History of - 3 abortions (situation);pregnancy;$sct;161758006;History of - 3 abortions (situation);;;
+History of - 4 abortions (situation);pregnancy;$sct;161759003;History of - 4 abortions (situation);;;
+History of - 5 abortions (situation);pregnancy;$sct;161760008;History of - 5 abortions (situation);;;
+History of - 6 abortions (situation);pregnancy;$sct;161761007;History of - 6 abortions (situation);;;
+History of - abortion NOS (situation);pregnancy;$sct;161762000;History of - abortion NOS (situation);;;
+History of - ectopic pregnancy (situation);pregnancy;$sct;161763005;History of - ectopic pregnancy (situation);;;
+History of - premature delivery (situation);pregnancy;$sct;161765003;History of - premature delivery (situation);;;
+Past pregnancy outcome NOS (situation);pregnancy;$sct;161766002;Past pregnancy outcome NOS (situation);;;
+History of - abortion (situation);pregnancy;$sct;267014009;History of - abortion (situation);;;
+History of - full term delivery (situation);pregnancy;$sct;267015005;History of - full term delivery (situation);;;
+History of - myomectomy/hysterotomy (situation);pregnancy;$sct;267021009;History of - myomectomy/hysterotomy (situation);;;
+History of past delivery (situation);pregnancy;$sct;272058002;History of past delivery (situation);;;
+History of - hysterotomy (situation);pregnancy;$sct;275573000;History of - hysterotomy (situation);;;
+History of - myomectomy (situation);pregnancy;$sct;275574006;History of - myomectomy (situation);;;
+History of - pregnancy (situation);pregnancy;$sct;271903000;History of - pregnancy (situation);;;
+History of - normal delivery (situation);pregnancy;$sct;275568006;History of - normal delivery (situation);;;
+History of - delivery no details (situation);pregnancy;$sct;275569003;History of - delivery no details (situation);;;
+History of - medical termination of pregnancy (situation);pregnancy;$sct;412758008;History of - medical termination of pregnancy (situation);;;
+Prenatal visit (regime/therapy);pregnancy;$sct;424619006;Prenatal visit (regime/therapy);;;
+Prenatal initial visit (regime/therapy);pregnancy;$sct;424441002;Prenatal initial visit (regime/therapy);;;
+Prenatal continuous visit (regime/therapy);pregnancy;$sct;422808006;Prenatal continuous visit (regime/therapy);;;
+Prenatal visit;pregnancy;$sct;424619006;Prenatal visit;;;
+Prenatal initial visit;pregnancy;$sct;424441002;Prenatal initial visit;;;
+Prenatal supplemental visit;pregnancy;$sct;422808006;Prenatal supplemental visit;;;
+Patient thinks they are pregnant;pregnancy;$sct;102874004;Patient thinks they are pregnant;;;
+Initial prenatal visit;pregnancy;$sct;424441002;Initial prenatal visit;;;
+Antepartum initial visit;pregnancy;$sct;424441002;Antepartum initial visit;;;
+Supplemental prenatal visit;pregnancy;$sct;422808006;Supplemental prenatal visit;;;
+Antepartum supplemental visit;pregnancy;$sct;422808006;Antepartum supplemental visit;;;
+Prenatal continuous visit;pregnancy;$sct;422808006;Prenatal continuous visit;;;
+History of - perinatal fetal loss;pregnancy;$sct;161811009;History of - perinatal fetal loss;;;
+History of - previous forceps delivery;pregnancy;$sct;161813007;History of - previous forceps delivery;;;
+History of - obstetric problem NOS;pregnancy;$sct;161814001;History of - obstetric problem NOS;;;
+History of - obstetric problem;pregnancy;$sct;161803004;History of - obstetric problem;;;
+History of - antepartum hemorrhage;pregnancy;$sct;161804005;History of - antepartum hemorrhage;;;
+History of - cesarean section;pregnancy;$sct;161805006;History of - cesarean section;;;
+History of - eclampsia;pregnancy;$sct;161806007;History of - eclampsia;;;
+History of - severe pre-eclampsia;pregnancy;$sct;161807003;History of - severe pre-eclampsia;;;
+History of - manual removal of placenta;pregnancy;$sct;161808008;History of - manual removal of placenta;;;
+History of - postpartum hemorrhage;pregnancy;$sct;161809000;History of - postpartum hemorrhage;;;
+History of - prolonged labor;pregnancy;$sct;161810005;History of - prolonged labor;;;
+History of - 5 miscarriages;pregnancy;$sct;161751000;History of - 5 miscarriages;;;
+History of - 6 miscarriages;pregnancy;$sct;161752007;History of - 6 miscarriages;;;
+History of - miscarriage NOS;pregnancy;$sct;161753002;History of - miscarriage NOS;;;
+History of - 1 abortion;pregnancy;$sct;161756005;History of - 1 abortion;;;
+History of - 2 abortions;pregnancy;$sct;161757001;History of - 2 abortions;;;
+History of - 3 abortions;pregnancy;$sct;161758006;History of - 3 abortions;;;
+History of - 4 abortions;pregnancy;$sct;161759003;History of - 4 abortions;;;
+History of - 5 abortions;pregnancy;$sct;161760008;History of - 5 abortions;;;
+History of - 6 abortions;pregnancy;$sct;161761007;History of - 6 abortions;;;
+History of - abortion NOS;pregnancy;$sct;161762000;History of - abortion NOS;;;
+History of - ectopic pregnancy;pregnancy;$sct;161763005;History of - ectopic pregnancy;;;
+History of - premature delivery;pregnancy;$sct;161765003;History of - premature delivery;;;
+History of - stillbirth;pregnancy;$sct;161743003;History of - stillbirth;;;
+History of - miscarriage;pregnancy;$sct;161744009;History of - miscarriage;;;
+History of - 1 miscarriage;pregnancy;$sct;161747002;History of - 1 miscarriage;;;
+History of - 2 miscarriages;pregnancy;$sct;161748007;History of - 2 miscarriages;;;
+History of - 3 miscarriages;pregnancy;$sct;161749004;History of - 3 miscarriages;;;
+History of - 4 miscarriages;pregnancy;$sct;161750004;History of - 4 miscarriages;;;
+Pregnant - on abdominal palpation;pregnancy;$sct;169564004;Pregnant - on abdominal palpation;;;
+History of - abortion;pregnancy;$sct;267014009;History of - abortion;;;
+History of - full term delivery;pregnancy;$sct;267015005;History of - full term delivery;;;
+History of - pregnancy;pregnancy;$sct;271903000;History of - pregnancy;;;
+History of - normal delivery;pregnancy;$sct;275568006;History of - normal delivery;;;
+History of - delivery no details;pregnancy;$sct;275569003;History of - delivery no details;;;
+History of - myomectomy/hysterotomy;pregnancy;$sct;267021009;History of - myomectomy/hysterotomy;;;
+History of - hysterotomy;pregnancy;$sct;275573000;History of - hysterotomy;;;
+History of - myomectomy;pregnancy;$sct;275574006;History of - myomectomy;;;
+History of - medical termination of pregnancy;pregnancy;$sct;412758008;History of - medical termination of pregnancy;;;
+History of choriocarcinoma of placenta (situation);pregnancy;$sct;428978004;History of choriocarcinoma of placenta (situation);;;
+History of choriocarcinoma of placenta;pregnancy;$sct;428978004;History of choriocarcinoma of placenta;;;
+Gastrointestinal tract finding associated with pregnancy (finding);pregnancy;$sct;430257003;Gastrointestinal tract finding associated with pregnancy (finding);;;
+Possible pregnancy (situation);pregnancy;$sct;146799005;Possible pregnancy (situation);;;
+Gastrointestinal tract finding associated with pregnancy;pregnancy;$sct;430257003;Gastrointestinal tract finding associated with pregnancy;;;
+Pregnant - vaginal examination confirms;pregnancy;$sct;169562000;Pregnant - vaginal examination confirms;;;
+Intends to continue pregnancy (finding);pregnancy;$sct;439311009;Intends to continue pregnancy (finding);;;
+Intends to continue pregnancy;pregnancy;$sct;439311009;Intends to continue pregnancy;;;
+History of premature labor;pregnancy;$sct;441493008;History of premature labor;;;
+History of premature labour;pregnancy;$sct;441493008;History of premature labour;;;
+History of premature labor (situation);pregnancy;$sct;441493008;History of premature labor (situation);;;
+History of - foetal loss;pregnancy;$sct;267014009;History of - foetal loss;;;
+Granuloma gravidarum (disorder);pregnancy;$sct;447222001;Granuloma gravidarum (disorder);;;
+Granuloma gravidarum;pregnancy;$sct;447222001;Granuloma gravidarum;;;
+History of gestational diabetes mellitus (situation);pregnancy;$sct;472971004;History of gestational diabetes mellitus (situation);;;
+History of gestational diabetes mellitus;pregnancy;$sct;472971004;History of gestational diabetes mellitus;;;
+No history of induced termination of pregnancy;pregnancy;$sct;161755009;No history of induced termination of pregnancy;;;
+History of obstetric problem (situation);pregnancy;$sct;161803004;History of obstetric problem (situation);;;
+History of delivery with no details;pregnancy;$sct;275569003;History of delivery with no details;;;
+History of one miscarriage;pregnancy;$sct;161747002;History of one miscarriage;;;
+History of three miscarriages;pregnancy;$sct;161749004;History of three miscarriages;;;
+History of five miscarriages;pregnancy;$sct;161751000;History of five miscarriages;;;
+History of cesarean section;pregnancy;$sct;161805006;History of cesarean section;;;
+History of severe pre-eclampsia;pregnancy;$sct;161807003;History of severe pre-eclampsia;;;
+History of four abortions (situation);pregnancy;$sct;161759003;History of four abortions (situation);;;
+History of prolonged labor;pregnancy;$sct;161810005;History of prolonged labor;;;
+History of five abortions (situation);pregnancy;$sct;161760008;History of five abortions (situation);;;
+History of myomectomy (situation);pregnancy;$sct;275574006;History of myomectomy (situation);;;
+History of miscarriage (situation);pregnancy;$sct;161744009;History of miscarriage (situation);;;
+History of five miscarriages (situation);pregnancy;$sct;161751000;History of five miscarriages (situation);;;
+History of eclampsia;pregnancy;$sct;161806007;History of eclampsia;;;
+History of full term delivery;pregnancy;$sct;267015005;History of full term delivery;;;
+History of previous forceps delivery;pregnancy;$sct;161813007;History of previous forceps delivery;;;
+History of myomectomy or hysterotomy (situation);pregnancy;$sct;267021009;History of myomectomy or hysterotomy (situation);;;
+History of cesarean section (situation);pregnancy;$sct;161805006;History of cesarean section (situation);;;
+History of manual removal of placenta;pregnancy;$sct;161808008;History of manual removal of placenta;;;
+History of full term delivery (situation);pregnancy;$sct;267015005;History of full term delivery (situation);;;
+History of perinatal fetal loss (situation);pregnancy;$sct;161811009;History of perinatal fetal loss (situation);;;
+History of four miscarriages;pregnancy;$sct;161750004;History of four miscarriages;;;
+History of premature delivery;pregnancy;$sct;161765003;History of premature delivery;;;
+History of fetal loss;pregnancy;$sct;267014009;History of fetal loss;;;
+History of perinatal fetal loss;pregnancy;$sct;161811009;History of perinatal fetal loss;;;
+History of six abortions;pregnancy;$sct;161761007;History of six abortions;;;
+History of pregnancy (situation);pregnancy;$sct;271903000;History of pregnancy (situation);;;
+History of postpartum haemorrhage;pregnancy;$sct;161809000;History of postpartum haemorrhage;;;
+History of prolonged labor (situation);pregnancy;$sct;161810005;History of prolonged labor (situation);;;
+History of one abortion (situation);pregnancy;$sct;161756005;History of one abortion (situation);;;
+History of one miscarriage (situation);pregnancy;$sct;161747002;History of one miscarriage (situation);;;
+History of hysterotomy;pregnancy;$sct;275573000;History of hysterotomy;;;
+History of four abortions;pregnancy;$sct;161759003;History of four abortions;;;
+History of ectopic pregnancy;pregnancy;$sct;161763005;History of ectopic pregnancy;;;
+History of abortion (situation);pregnancy;$sct;267014009;History of abortion (situation);;;
+History of two abortions;pregnancy;$sct;161757001;History of two abortions;;;
+History of previous forceps delivery (situation);pregnancy;$sct;161813007;History of previous forceps delivery (situation);;;
+History of normal delivery (situation);pregnancy;$sct;275568006;History of normal delivery (situation);;;
+History of premature delivery (situation);pregnancy;$sct;161765003;History of premature delivery (situation);;;
+History of antepartum hemorrhage;pregnancy;$sct;161804005;History of antepartum hemorrhage;;;
+History of six abortions (situation);pregnancy;$sct;161761007;History of six abortions (situation);;;
+History of obstetric problem;pregnancy;$sct;161803004;History of obstetric problem;;;
+History of stillbirth (situation);pregnancy;$sct;161743003;History of stillbirth (situation);;;
+History of severe pre-eclampsia (situation);pregnancy;$sct;161807003;History of severe pre-eclampsia (situation);;;
+History of postpartum hemorrhage;pregnancy;$sct;161809000;History of postpartum hemorrhage;;;
+History of eclampsia (situation);pregnancy;$sct;161806007;History of eclampsia (situation);;;
+History of four miscarriages (situation);pregnancy;$sct;161750004;History of four miscarriages (situation);;;
+History of two miscarriages (situation);pregnancy;$sct;161748007;History of two miscarriages (situation);;;
+History of delivery with no details (situation);pregnancy;$sct;275569003;History of delivery with no details (situation);;;
+History of medical termination of pregnancy (situation);pregnancy;$sct;412758008;History of medical termination of pregnancy (situation);;;
+History of three miscarriages (situation);pregnancy;$sct;161749004;History of three miscarriages (situation);;;
+History of antepartum hemorrhage (situation);pregnancy;$sct;161804005;History of antepartum hemorrhage (situation);;;
+History of three abortions (situation);pregnancy;$sct;161758006;History of three abortions (situation);;;
+History of manual removal of placenta (situation);pregnancy;$sct;161808008;History of manual removal of placenta (situation);;;
+History of medical termination of pregnancy;pregnancy;$sct;412758008;History of medical termination of pregnancy;;;
+History of ectopic pregnancy (situation);pregnancy;$sct;161763005;History of ectopic pregnancy (situation);;;
+History of miscarriage;pregnancy;$sct;161744009;History of miscarriage;;;
+History of two abortions (situation);pregnancy;$sct;161757001;History of two abortions (situation);;;
+History of abortion;pregnancy;$sct;267014009;History of abortion;;;
+History of myomectomy;pregnancy;$sct;275574006;History of myomectomy;;;
+History of pregnancy;pregnancy;$sct;271903000;History of pregnancy;;;
+History of stillbirth;pregnancy;$sct;161743003;History of stillbirth;;;
+History of foetal loss;pregnancy;$sct;267014009;History of foetal loss;;;
+History of five abortions;pregnancy;$sct;161760008;History of five abortions;;;
+History of one abortion;pregnancy;$sct;161756005;History of one abortion;;;
+History of normal delivery;pregnancy;$sct;275568006;History of normal delivery;;;
+History of postpartum hemorrhage (situation);pregnancy;$sct;161809000;History of postpartum hemorrhage (situation);;;
+History of six miscarriages (situation);pregnancy;$sct;161752007;History of six miscarriages (situation);;;
+History of hysterotomy (situation);pregnancy;$sct;275573000;History of hysterotomy (situation);;;
+History of myomectomy or hysterotomy;pregnancy;$sct;267021009;History of myomectomy or hysterotomy;;;
+History of six miscarriages;pregnancy;$sct;161752007;History of six miscarriages;;;
+History of three abortions;pregnancy;$sct;161758006;History of three abortions;;;
+History of two miscarriages;pregnancy;$sct;161748007;History of two miscarriages;;;
+History of prolonged labour;pregnancy;$sct;161810005;History of prolonged labour;;;
+History of induced termination of pregnancy under unsafe conditions (situation);pregnancy;$sct;697994009;History of induced termination of pregnancy under unsafe conditions (situation);;;
+History of induced termination of pregnancy under unsafe conditions;pregnancy;$sct;697994009;History of induced termination of pregnancy under unsafe conditions;;;
+History of preterm delivery;pregnancy;$sct;161765003;History of preterm delivery;;;
+H/O: perinatal foetal loss;pregnancy;$sct;161811009;H/O: perinatal foetal loss;;;
+History of - perinatal foetal loss;pregnancy;$sct;161811009;History of - perinatal foetal loss;;;
+Partner pregnant (situation);pregnancy;$sct;704502000;Partner pregnant (situation);;;
+Partner pregnant;pregnancy;$sct;704502000;Partner pregnant;;;
+History of gestational hypertension;pregnancy;$sct;709881001;History of gestational hypertension;;;
+History of gestational hypertension (situation);pregnancy;$sct;709881001;History of gestational hypertension (situation);;;
+History of preeclampsia;pregnancy;$sct;105651000119100;History of preeclampsia;;;
+History of preeclampsia (situation);pregnancy;$sct;105651000119100;History of preeclampsia (situation);;;
+History of delivery of macrosomal infant (situation);pregnancy;$sct;32271000119102;History of delivery of macrosomal infant (situation);;;
+History of delivery of macrosomal infant;pregnancy;$sct;32271000119102;History of delivery of macrosomal infant;;;
+History of pregnancy with abortive outcome;pregnancy;$sct;713651007;History of pregnancy with abortive outcome;;;
+History of induced termination of pregnancy (situation);pregnancy;$sct;713649008;History of induced termination of pregnancy (situation);;;
+History of pregnancy with abortive outcome (situation);pregnancy;$sct;713651007;History of pregnancy with abortive outcome (situation);;;
+History of induced termination of pregnancy;pregnancy;$sct;713649008;History of induced termination of pregnancy;;;
+Pyogenic granuloma of gingiva co-occurrent and due to pregnancy (disorder);pregnancy;$sct;713249002;Pyogenic granuloma of gingiva co-occurrent and due to pregnancy (disorder);;;
+Pyogenic granuloma of gingiva co-occurrent and due to pregnancy;pregnancy;$sct;713249002;Pyogenic granuloma of gingiva co-occurrent and due to pregnancy;;;
+History of pre-eclampsia (situation);pregnancy;$sct;105651000119100;History of pre-eclampsia (situation);;;
+History of pre-eclampsia;pregnancy;$sct;105651000119100;History of pre-eclampsia;;;
+History of defibulation of vulva to facilitate delivery (situation);pregnancy;$sct;719594003;History of defibulation of vulva to facilitate delivery (situation);;;
+History of defibulation of vulva to facilitate delivery;pregnancy;$sct;719594003;History of defibulation of vulva to facilitate delivery;;;
+History of placenta previa (situation);pregnancy;$sct;725924008;History of placenta previa (situation);;;
+History of placenta previa;pregnancy;$sct;725924008;History of placenta previa;;;
+History of placenta praevia;pregnancy;$sct;725924008;History of placenta praevia;;;
+History of third degree perineal laceration (situation);pregnancy;$sct;725941005;History of third degree perineal laceration (situation);;;
+History of third degree perineal laceration;pregnancy;$sct;725941005;History of third degree perineal laceration;;;
+History of fourth degree perineal laceration (situation);pregnancy;$sct;725942003;History of fourth degree perineal laceration (situation);;;
+History of fourth degree perineal laceration;pregnancy;$sct;725942003;History of fourth degree perineal laceration;;;
+History of second degree perineal laceration (situation);pregnancy;$sct;725943008;History of second degree perineal laceration (situation);;;
+History of second degree perineal laceration;pregnancy;$sct;725943008;History of second degree perineal laceration;;;
+History of episiotomy (situation);pregnancy;$sct;725944002;History of episiotomy (situation);;;
+History of episiotomy;pregnancy;$sct;725944002;History of episiotomy;;;
+History of retained placenta (situation);pregnancy;$sct;725948004;History of retained placenta (situation);;;
+History of retained placenta;pregnancy;$sct;725948004;History of retained placenta;;;
+History of elective cesarean section (situation);pregnancy;$sct;725949007;History of elective cesarean section (situation);;;
+History of elective cesarean section;pregnancy;$sct;725949007;History of elective cesarean section;;;
+History of elective caesarean section;pregnancy;$sct;725949007;History of elective caesarean section;;;
+History of placenta accreta (situation);pregnancy;$sct;725950007;History of placenta accreta (situation);;;
+History of placenta accreta;pregnancy;$sct;725950007;History of placenta accreta;;;
+History of emergency cesarean section (situation);pregnancy;$sct;725951006;History of emergency cesarean section (situation);;;
+History of emergency cesarean section;pregnancy;$sct;725951006;History of emergency cesarean section;;;
+History of emergency caesarean section;pregnancy;$sct;725951006;History of emergency caesarean section;;;
+History of induced onset of labor (situation);pregnancy;$sct;725954003;History of induced onset of labor (situation);;;
+History of induced onset of labor;pregnancy;$sct;725954003;History of induced onset of labor;;;
+History of induced onset of labour;pregnancy;$sct;725954003;History of induced onset of labour;;;
+History of live birth (situation);pregnancy;$sct;726001007;History of live birth (situation);;;
+History of live birth;pregnancy;$sct;726001007;History of live birth;;;
+History of hemolysis-elevated liver enzymes-low platelet count syndrome (situation);pregnancy;$sct;726513006;History of hemolysis-elevated liver enzymes-low platelet count syndrome (situation);;;
+History of hemolysis-elevated liver enzymes-low platelet count syndrome;pregnancy;$sct;726513006;History of hemolysis-elevated liver enzymes-low platelet count syndrome;;;
+History of haemolysis-elevated liver enzymes-low platelet count syndrome;pregnancy;$sct;726513006;History of haemolysis-elevated liver enzymes-low platelet count syndrome;;;
+H/O: HELLP (hemolysis, elevated liver enzymes, low platelet count) syndrome;pregnancy;$sct;726513006;H/O: HELLP (hemolysis, elevated liver enzymes, low platelet count) syndrome;;;
+H/O: HELLP (haemolysis, elevated liver enzymes, low platelet count) syndrome;pregnancy;$sct;726513006;H/O: HELLP (haemolysis, elevated liver enzymes, low platelet count) syndrome;;;
+History of postpartum psychosis (situation);pregnancy;$sct;726623007;History of postpartum psychosis (situation);;;
+H/O: postpartum psychosis;pregnancy;$sct;726623007;H/O: postpartum psychosis;;;
+History of postpartum psychosis;pregnancy;$sct;726623007;History of postpartum psychosis;;;
+History of spontaneous onset of labor (situation);pregnancy;$sct;726597008;History of spontaneous onset of labor (situation);;;
+H/O: spontaneous onset of labor;pregnancy;$sct;726597008;H/O: spontaneous onset of labor;;;
+H/O: spontaneous onset of labour;pregnancy;$sct;726597008;H/O: spontaneous onset of labour;;;
+History of spontaneous onset of labor;pregnancy;$sct;726597008;History of spontaneous onset of labor;;;
+History of spontaneous onset of labour;pregnancy;$sct;726597008;History of spontaneous onset of labour;;;
+History of first degree perineal laceration (situation);pregnancy;$sct;726625000;History of first degree perineal laceration (situation);;;
+H/O: first degree perineal laceration;pregnancy;$sct;726625000;H/O: first degree perineal laceration;;;
+History of first degree perineal laceration;pregnancy;$sct;726625000;History of first degree perineal laceration;;;
+History of intrauterine fetal death (situation);pregnancy;$sct;1,62167E+16;History of intrauterine fetal death (situation);;;
+History of intrauterine fetal death;pregnancy;$sct;1,62167E+16;History of intrauterine fetal death;;;
+History of intrauterine foetal death;pregnancy;$sct;1,62167E+16;History of intrauterine foetal death;;;
+History of molar pregnancy (situation);pregnancy;$sct;1,62168E+16;History of molar pregnancy (situation);;;
+History of molar pregnancy;pregnancy;$sct;1,62168E+16;History of molar pregnancy;;;
+History of cholestasis in pregnancy (situation);pregnancy;$sct;1,62168E+16;History of cholestasis in pregnancy (situation);;;
+History of cholestasis in pregnancy;pregnancy;$sct;1,62168E+16;History of cholestasis in pregnancy;;;
+H/O: cholestasis of pregnancy;pregnancy;$sct;1,62168E+16;H/O: cholestasis of pregnancy;;;
+Past history of small for gestational age baby (situation);pregnancy;$sct;726565008;Past history of small for gestational age baby (situation);;;
+Past history of small for gestational age baby;pregnancy;$sct;726565008;Past history of small for gestational age baby;;;
+H/O: previous small for gestational age baby;pregnancy;$sct;726565008;H/O: previous small for gestational age baby;;;
+History of previous small for gestational age baby;pregnancy;$sct;726565008;History of previous small for gestational age baby;;;
+History of previous small-for-dates baby;pregnancy;$sct;726565008;History of previous small-for-dates baby;;;
+Past history of baby with fetal growth restriction (situation);pregnancy;$sct;733899004;Past history of baby with fetal growth restriction (situation);;;
+H/O: previous baby with fetal growth restriction;pregnancy;$sct;733899004;H/O: previous baby with fetal growth restriction;;;
+History of previous baby with fetal growth restriction;pregnancy;$sct;733899004;History of previous baby with fetal growth restriction;;;
+History of previous baby with foetal growth restriction;pregnancy;$sct;733899004;History of previous baby with foetal growth restriction;;;
+Past history of baby with fetal growth restriction;pregnancy;$sct;733899004;Past history of baby with fetal growth restriction;;;
+Past history of baby with foetal growth restriction;pregnancy;$sct;733899004;Past history of baby with foetal growth restriction;;;
+History of previous delivery by vacuum extraction (situation);pregnancy;$sct;726624001;History of previous delivery by vacuum extraction (situation);;;
+H/O: previous delivery by vacuum extraction;pregnancy;$sct;726624001;H/O: previous delivery by vacuum extraction;;;
+History of previous delivery by vacuum extraction;pregnancy;$sct;726624001;History of previous delivery by vacuum extraction;;;
+History of pregnancy loss in non-pregnant woman (situation);pregnancy;$sct;1,5E+13;History of pregnancy loss in non-pregnant woman (situation);;;
+History of pregnancy loss in non-pregnant woman;pregnancy;$sct;1,5E+13;History of pregnancy loss in non-pregnant woman;;;
+History of preterm premature rupture of membranes (situation);pregnancy;$sct;1,09E+14;History of preterm premature rupture of membranes (situation);;;
+History of preterm premature rupture of membranes;pregnancy;$sct;1,09E+14;History of preterm premature rupture of membranes;;;
+History of gestational trophoblastic disease (situation);pregnancy;$sct;736725001;History of gestational trophoblastic disease (situation);;;
+History of gestational trophoblastic disease;pregnancy;$sct;736725001;History of gestational trophoblastic disease;;;
+History of antepartum haemorrhage;pregnancy;$sct;161804005;History of antepartum haemorrhage;;;
+History of caesarean section;pregnancy;$sct;161805006;History of caesarean section;;;
+Gravida 1;pregnancy;$sct;127364007;Gravida 1;;;
+History of placental abruption;pregnancy;$sct;789776003;History of placental abruption;;;
+History of placental abruption (situation);pregnancy;$sct;789776003;History of placental abruption (situation);;;
+History of shoulder dystocia;pregnancy;$sct;816150000;History of shoulder dystocia;;;
+History of shoulder dystocia (situation);pregnancy;$sct;816150000;History of shoulder dystocia (situation);;;
+Measured gestational weight gain;pregnancy;$sct;816161008;Measured gestational weight gain;;;
+Measured gestational weight gain (observable entity);pregnancy;$sct;816161008;Measured gestational weight gain (observable entity);;;
+Measured gestational weight loss;pregnancy;$sct;816172003;Measured gestational weight loss;;;
+Measured gestational weight loss (observable entity);pregnancy;$sct;816172003;Measured gestational weight loss (observable entity);;;
+History of postpartum gestational hypertension;pregnancy;$sct;1,69161E+16;History of postpartum gestational hypertension;;;
+History of postpartum gestational hypertension (situation);pregnancy;$sct;1,69161E+16;History of postpartum gestational hypertension (situation);;;
+History of hydatidiform mole;pregnancy;$sct;1,62168E+16;History of hydatidiform mole;;;
+History of complication occurring during labour and delivery;pregnancy;$sct;1156096005;History of complication occurring during labour and delivery;;;
+History of complication occurring during labor and delivery (situation);pregnancy;$sct;1156096005;History of complication occurring during labor and delivery (situation);;;
+History of complication occurring during labor and delivery;pregnancy;$sct;1156096005;History of complication occurring during labor and delivery;;;
+History of complication of puerperium (situation);pregnancy;$sct;1156097001;History of complication of puerperium (situation);;;
+History of complication of puerperium;pregnancy;$sct;1156097001;History of complication of puerperium;;;
+History of Rhesus isoimmunization affecting pregnancy;pregnancy;$sct;1156098006;History of Rhesus isoimmunization affecting pregnancy;;;
+History of Rhesus isoimmunisation affecting pregnancy;pregnancy;$sct;1156098006;History of Rhesus isoimmunisation affecting pregnancy;;;
+History of Rhesus isoimmunization affecting pregnancy (situation);pregnancy;$sct;1156098006;History of Rhesus isoimmunization affecting pregnancy (situation);;;
+History of abnormal glucose tolerance test in pregnancy;pregnancy;$sct;1156099003;History of abnormal glucose tolerance test in pregnancy;;;
+History of pregnancy with abnormal glucose tolerance test;pregnancy;$sct;1156099003;History of pregnancy with abnormal glucose tolerance test;;;
+History of pregnancy with abnormal glucose tolerance test (situation);pregnancy;$sct;1156099003;History of pregnancy with abnormal glucose tolerance test (situation);;;
+History of pregnancy with normal glucose tolerance test;pregnancy;$sct;1156101005;History of pregnancy with normal glucose tolerance test;;;
+History of pregnancy with normal glucose tolerance test (situation);pregnancy;$sct;1156101005;History of pregnancy with normal glucose tolerance test (situation);;;
+History of normal glucose tolerance test in pregnancy;pregnancy;$sct;1156101005;History of normal glucose tolerance test in pregnancy;;;
+Pyogenic granuloma of gingiva due to pregnancy (disorder);pregnancy;$sct;713249002;Pyogenic granuloma of gingiva due to pregnancy (disorder);;;
+Pyogenic granuloma of gingiva due to pregnancy;pregnancy;$sct;713249002;Pyogenic granuloma of gingiva due to pregnancy;;;
+History of short umbilical cord (situation);pregnancy;$sct;1208622001;History of short umbilical cord (situation);;;
+History of short umbilical cord;pregnancy;$sct;1208622001;History of short umbilical cord;;;
+Counseling for pregnancy;pregnancy;$sct;1230101008;Counseling for pregnancy;;;
+Counseling for pregnancy (procedure);pregnancy;$sct;1230101008;Counseling for pregnancy (procedure);;;
+Counselling for pregnancy;pregnancy;$sct;1230101008;Counselling for pregnancy;;;
+Pregnancy after cervical conization;pregnancy;$sct;5,68E+14;Pregnancy after cervical conization;;;
+Pregnancy following cone biopsy of uterine cervix;pregnancy;$sct;5,68E+14;Pregnancy following cone biopsy of uterine cervix;;;
+Pregnancy following cone biopsy of uterine cervix (finding);pregnancy;$sct;5,68E+14;Pregnancy following cone biopsy of uterine cervix (finding);;;
+Pregnancy after cervical conisation;pregnancy;$sct;5,68E+14;Pregnancy after cervical conisation;;;
+Multiple pregnancy (finding);pregnancy;$sct;16356006;Multiple pregnancy (finding);;;
+Glucose in blood 1 hour after glucose dose in pregnancy;pregnancy;$sct;3,73E+14;Glucose in blood 1 hour after glucose dose in pregnancy;;;
+Glucose in blood one hour after glucose dose in pregnancy;pregnancy;$sct;3,73E+14;Glucose in blood one hour after glucose dose in pregnancy;;;
+Glucose in blood one hour after glucose dose in pregnancy (observable entity);pregnancy;$sct;3,73E+14;Glucose in blood one hour after glucose dose in pregnancy (observable entity);;;
+Past pregnancy history of perinatal death (situation);pregnancy;$sct;1290143004;Past pregnancy history of perinatal death (situation);;;
+Past pregnancy history of perinatal death;pregnancy;$sct;1290143004;Past pregnancy history of perinatal death;;;
+Singleton pregnancy;pregnancy;$sct;1290152008;Singleton pregnancy;;;
+Singleton pregnancy (finding);pregnancy;$sct;1290152008;Singleton pregnancy (finding);;;
+Past pregnancy history of stillbirth (situation);pregnancy;$sct;161743003;Past pregnancy history of stillbirth (situation);;;
+Past pregnancy history of stillbirth;pregnancy;$sct;161743003;Past pregnancy history of stillbirth;;;
+Past pregnancy history of ectopic pregnancy (situation);pregnancy;$sct;161763005;Past pregnancy history of ectopic pregnancy (situation);;;
+Past pregnancy history of ectopic pregnancy;pregnancy;$sct;161763005;Past pregnancy history of ectopic pregnancy;;;
+Past pregnancy history of premature delivery (situation);pregnancy;$sct;161765003;Past pregnancy history of premature delivery (situation);;;
+Past pregnancy history of premature delivery;pregnancy;$sct;161765003;Past pregnancy history of premature delivery;;;
+Past pregnancy history of antepartum haemorrhage;pregnancy;$sct;161804005;Past pregnancy history of antepartum haemorrhage;;;
+Past pregnancy history of antepartum hemorrhage (situation);pregnancy;$sct;161804005;Past pregnancy history of antepartum hemorrhage (situation);;;
+Past pregnancy history of antepartum hemorrhage;pregnancy;$sct;161804005;Past pregnancy history of antepartum hemorrhage;;;
+Past pregnancy history of prolonged labor;pregnancy;$sct;161810005;Past pregnancy history of prolonged labor;;;
+Past pregnancy history of prolonged labour;pregnancy;$sct;161810005;Past pregnancy history of prolonged labour;;;
+Past pregnancy history of prolonged labor (situation);pregnancy;$sct;161810005;Past pregnancy history of prolonged labor (situation);;;
+Past pregnancy history of full term delivery (situation);pregnancy;$sct;267015005;Past pregnancy history of full term delivery (situation);;;
+Past pregnancy history of full term delivery;pregnancy;$sct;267015005;Past pregnancy history of full term delivery;;;
+Past pregnancy history of premature labor (situation);pregnancy;$sct;441493008;Past pregnancy history of premature labor (situation);;;
+Past pregnancy history of premature labor;pregnancy;$sct;441493008;Past pregnancy history of premature labor;;;
+Past pregnancy history of premature labour;pregnancy;$sct;441493008;Past pregnancy history of premature labour;;;
+Past pregnancy history of live birth (situation);pregnancy;$sct;726001007;Past pregnancy history of live birth (situation);;;
+Past pregnancy history of live birth;pregnancy;$sct;726001007;Past pregnancy history of live birth;;;
+Past pregnancy history of small for gestational age baby (situation);pregnancy;$sct;726565008;Past pregnancy history of small for gestational age baby (situation);;;
+Past pregnancy history of small for gestational age baby;pregnancy;$sct;726565008;Past pregnancy history of small for gestational age baby;;;
+Past pregnancy history of induced onset of labor;pregnancy;$sct;725954003;Past pregnancy history of induced onset of labor;;;
+Past pregnancy history of induced onset of labor (situation);pregnancy;$sct;725954003;Past pregnancy history of induced onset of labor (situation);;;
+Past pregnancy history of induced onset of labour;pregnancy;$sct;725954003;Past pregnancy history of induced onset of labour;;;
+Past pregnancy history of cholestasis in pregnancy (situation);pregnancy;$sct;1,62168E+16;Past pregnancy history of cholestasis in pregnancy (situation);;;
+Past pregnancy history of cholestasis in pregnancy;pregnancy;$sct;1,62168E+16;Past pregnancy history of cholestasis in pregnancy;;;
+Past pregnancy history of molar pregnancy;pregnancy;$sct;1,62168E+16;Past pregnancy history of molar pregnancy;;;
+Past pregnancy history of molar pregnancy (situation);pregnancy;$sct;1,62168E+16;Past pregnancy history of molar pregnancy (situation);;;
+Past pregnancy history of pregnancy with abortive outcome (situation);pregnancy;$sct;713651007;Past pregnancy history of pregnancy with abortive outcome (situation);;;
+Past pregnancy history of pregnancy with abortive outcome;pregnancy;$sct;713651007;Past pregnancy history of pregnancy with abortive outcome;;;
+Past pregnancy history of induced termination of pregnancy (situation);pregnancy;$sct;713649008;Past pregnancy history of induced termination of pregnancy (situation);;;
+Past pregnancy history of induced termination of pregnancy;pregnancy;$sct;713649008;Past pregnancy history of induced termination of pregnancy;;;
+Past pregnancy history of pregnancy with normal glucose tolerance test (situation);pregnancy;$sct;1156101005;Past pregnancy history of pregnancy with normal glucose tolerance test (situation);;;
+Past pregnancy history of pregnancy with normal glucose tolerance test;pregnancy;$sct;1156101005;Past pregnancy history of pregnancy with normal glucose tolerance test;;;
+Past pregnancy history of complication of pregnancy, childbirth and/or puerperium;pregnancy;$sct;4,51E+14;Past pregnancy history of complication of pregnancy, childbirth and/or puerperium;;;
+Past pregnancy history of medical termination of pregnancy (situation);pregnancy;$sct;412758008;Past pregnancy history of medical termination of pregnancy (situation);;;
+Past pregnancy history of medical termination of pregnancy;pregnancy;$sct;412758008;Past pregnancy history of medical termination of pregnancy;;;
+Past pregnancy history of miscarriage (situation);pregnancy;$sct;161744009;Past pregnancy history of miscarriage (situation);;;
+Past pregnancy history of miscarriage;pregnancy;$sct;161744009;Past pregnancy history of miscarriage;;;
+Past pregnancy history of choriocarcinoma of placenta (situation);pregnancy;$sct;428978004;Past pregnancy history of choriocarcinoma of placenta (situation);;;
+Past pregnancy history of choriocarcinoma of placenta;pregnancy;$sct;428978004;Past pregnancy history of choriocarcinoma of placenta;;;
+Past pregnancy history of complication occurring during labor and delivery (situation);pregnancy;$sct;1156096005;Past pregnancy history of complication occurring during labor and delivery (situation);;;
+Past pregnancy history of complication occurring during labor and delivery;pregnancy;$sct;1156096005;Past pregnancy history of complication occurring during labor and delivery;;;
+Past pregnancy history of complication occurring during labour and delivery;pregnancy;$sct;1156096005;Past pregnancy history of complication occurring during labour and delivery;;;
+Past pregnancy history of complication of puerperium (situation);pregnancy;$sct;1156097001;Past pregnancy history of complication of puerperium (situation);;;
+Past pregnancy history of complication of puerperium;pregnancy;$sct;1156097001;Past pregnancy history of complication of puerperium;;;
+Past pregnancy history of fourth degree perineal laceration;pregnancy;$sct;725942003;Past pregnancy history of fourth degree perineal laceration;;;
+Past pregnancy history of fourth degree perineal laceration (situation);pregnancy;$sct;725942003;Past pregnancy history of fourth degree perineal laceration (situation);;;
+Past pregnancy history of second degree perineal laceration;pregnancy;$sct;725943008;Past pregnancy history of second degree perineal laceration;;;
+Past pregnancy history of second degree perineal laceration (situation);pregnancy;$sct;725943008;Past pregnancy history of second degree perineal laceration (situation);;;
+Past pregnancy history of shoulder dystocia;pregnancy;$sct;816150000;Past pregnancy history of shoulder dystocia;;;
+Past pregnancy history of shoulder dystocia (situation);pregnancy;$sct;816150000;Past pregnancy history of shoulder dystocia (situation);;;
+Past pregnancy history of third degree perineal laceration;pregnancy;$sct;725941005;Past pregnancy history of third degree perineal laceration;;;
+Past pregnancy history of third degree perineal laceration (situation);pregnancy;$sct;725941005;Past pregnancy history of third degree perineal laceration (situation);;;
+Past pregnancy history of first degree perineal laceration (situation);pregnancy;$sct;726625000;Past pregnancy history of first degree perineal laceration (situation);;;
+Past pregnancy history of first degree perineal laceration;pregnancy;$sct;726625000;Past pregnancy history of first degree perineal laceration;;;
+Past pregnancy history of postpartum gestational hypertension;pregnancy;$sct;1,69161E+16;Past pregnancy history of postpartum gestational hypertension;;;
+Past pregnancy history of postpartum gestational hypertension (situation);pregnancy;$sct;1,69161E+16;Past pregnancy history of postpartum gestational hypertension (situation);;;
+Past pregnancy history of postpartum haemorrhage;pregnancy;$sct;161809000;Past pregnancy history of postpartum haemorrhage;;;
+Past pregnancy history of postpartum hemorrhage (situation);pregnancy;$sct;161809000;Past pregnancy history of postpartum hemorrhage (situation);;;
+Past pregnancy history of postpartum hemorrhage;pregnancy;$sct;161809000;Past pregnancy history of postpartum hemorrhage;;;
+Past pregnancy history of postpartum psychosis (situation);pregnancy;$sct;726623007;Past pregnancy history of postpartum psychosis (situation);;;
+Past pregnancy history of postpartum psychosis;pregnancy;$sct;726623007;Past pregnancy history of postpartum psychosis;;;
+Past pregnancy history of retained placenta (situation);pregnancy;$sct;725948004;Past pregnancy history of retained placenta (situation);;;
+Past pregnancy history of retained placenta;pregnancy;$sct;725948004;Past pregnancy history of retained placenta;;;
+Past pregnancy history of Rhesus isoimmunization affecting pregnancy (situation);pregnancy;$sct;1156098006;Past pregnancy history of Rhesus isoimmunization affecting pregnancy (situation);;;
+Past pregnancy history of Rhesus isoimmunization affecting pregnancy;pregnancy;$sct;1156098006;Past pregnancy history of Rhesus isoimmunization affecting pregnancy;;;
+Past pregnancy history of Rhesus isoimmunisation affecting pregnancy;pregnancy;$sct;1156098006;Past pregnancy history of Rhesus isoimmunisation affecting pregnancy;;;
+Past pregnancy history of pregnancy with abnormal glucose tolerance test;pregnancy;$sct;1156099003;Past pregnancy history of pregnancy with abnormal glucose tolerance test;;;
+Past pregnancy history of pregnancy with abnormal glucose tolerance test (situation);pregnancy;$sct;1156099003;Past pregnancy history of pregnancy with abnormal glucose tolerance test (situation);;;
+Past pregnancy history of delivery of macrosomal infant (situation);pregnancy;$sct;3,23E+13;Past pregnancy history of delivery of macrosomal infant (situation);;;
+Past pregnancy history of delivery of macrosomal infant;pregnancy;$sct;3,23E+13;Past pregnancy history of delivery of macrosomal infant;;;
+Past pregnancy history of intrauterine fetal death (situation);pregnancy;$sct;1,62167E+16;Past pregnancy history of intrauterine fetal death (situation);;;
+Past pregnancy history of intrauterine foetal death;pregnancy;$sct;1,62167E+16;Past pregnancy history of intrauterine foetal death;;;
+Past pregnancy history of intrauterine fetal death;pregnancy;$sct;1,62167E+16;Past pregnancy history of intrauterine fetal death;;;
+Past pregnancy history of spontaneous onset of labor;pregnancy;$sct;726597008;Past pregnancy history of spontaneous onset of labor;;;
+Past pregnancy history of spontaneous onset of labor (situation);pregnancy;$sct;726597008;Past pregnancy history of spontaneous onset of labor (situation);;;
+Past pregnancy history of spontaneous onset of labour;pregnancy;$sct;726597008;Past pregnancy history of spontaneous onset of labour;;;
+Past pregnancy history of normal delivery;pregnancy;$sct;275568006;Past pregnancy history of normal delivery;;;
+Past pregnancy history of normal delivery (situation);pregnancy;$sct;275568006;Past pregnancy history of normal delivery (situation);;;
+Past pregnancy history of previous delivery by vacuum extraction (situation);pregnancy;$sct;726624001;Past pregnancy history of previous delivery by vacuum extraction (situation);;;
+Past pregnancy history of previous delivery by vacuum extraction;pregnancy;$sct;726624001;Past pregnancy history of previous delivery by vacuum extraction;;;
+Past pregnancy history of defibulation of vulva to facilitate delivery;pregnancy;$sct;719594003;Past pregnancy history of defibulation of vulva to facilitate delivery;;;
+Past pregnancy history of defibulation of vulva to facilitate delivery (situation);pregnancy;$sct;719594003;Past pregnancy history of defibulation of vulva to facilitate delivery (situation);;;
+Past pregnancy history of delivery with no details (situation);pregnancy;$sct;275569003;Past pregnancy history of delivery with no details (situation);;;
+Past pregnancy history of delivery with no details;pregnancy;$sct;275569003;Past pregnancy history of delivery with no details;;;
+Past pregnancy history of induced termination of pregnancy under unsafe conditions (situation);pregnancy;$sct;697994009;Past pregnancy history of induced termination of pregnancy under unsafe conditions (situation);;;
+Past pregnancy history of induced termination of pregnancy under unsafe conditions;pregnancy;$sct;697994009;Past pregnancy history of induced termination of pregnancy under unsafe conditions;;;
+Past pregnancy history of previous forceps delivery (situation);pregnancy;$sct;161813007;Past pregnancy history of previous forceps delivery (situation);;;
+Past pregnancy history of previous forceps delivery;pregnancy;$sct;161813007;Past pregnancy history of previous forceps delivery;;;
+Past pregnancy history of cesarean section (situation);pregnancy;$sct;161805006;Past pregnancy history of cesarean section (situation);;;
+Past pregnancy history of caesarean section;pregnancy;$sct;161805006;Past pregnancy history of caesarean section;;;
+Past pregnancy history of cesarean section;pregnancy;$sct;161805006;Past pregnancy history of cesarean section;;;
+Past pregnancy history of elective cesarean section (situation);pregnancy;$sct;725949007;Past pregnancy history of elective cesarean section (situation);;;
+Past pregnancy history of elective caesarean section;pregnancy;$sct;725949007;Past pregnancy history of elective caesarean section;;;
+Past pregnancy history of elective cesarean section;pregnancy;$sct;725949007;Past pregnancy history of elective cesarean section;;;
+Past pregnancy history of emergency caesarean section;pregnancy;$sct;725951006;Past pregnancy history of emergency caesarean section;;;
+Past pregnancy history of emergency cesarean section (situation);pregnancy;$sct;725951006;Past pregnancy history of emergency cesarean section (situation);;;
+Past pregnancy history of emergency cesarean section;pregnancy;$sct;725951006;Past pregnancy history of emergency cesarean section;;;
+Past pregnancy history of episiotomy (situation);pregnancy;$sct;725944002;Past pregnancy history of episiotomy (situation);;;
+Past pregnancy history of episiotomy;pregnancy;$sct;725944002;Past pregnancy history of episiotomy;;;
+Past pregnancy history of neonatal death;pregnancy;$sct;1290167007;Past pregnancy history of neonatal death;;;
+Past pregnancy history of neonatal death (situation);pregnancy;$sct;1290167007;Past pregnancy history of neonatal death (situation);;;
+Past pregnancy history of gestational diabetes mellitus;pregnancy;$sct;472971004;Past pregnancy history of gestational diabetes mellitus;;;
+Past pregnancy history of gestational diabetes mellitus (situation);pregnancy;$sct;472971004;Past pregnancy history of gestational diabetes mellitus (situation);;;
+Past pregnancy history of eclampsia;pregnancy;$sct;161806007;Past pregnancy history of eclampsia;;;
+Past pregnancy history of eclampsia (situation);pregnancy;$sct;161806007;Past pregnancy history of eclampsia (situation);;;
+Past pregnancy history of gestational trophoblastic disease (situation);pregnancy;$sct;736725001;Past pregnancy history of gestational trophoblastic disease (situation);;;
+Past pregnancy history of gestational trophoblastic disease;pregnancy;$sct;736725001;Past pregnancy history of gestational trophoblastic disease;;;
+Past pregnancy history of gestational hypertension (situation);pregnancy;$sct;709881001;Past pregnancy history of gestational hypertension (situation);;;
+Past pregnancy history of gestational hypertension;pregnancy;$sct;709881001;Past pregnancy history of gestational hypertension;;;
+Past pregnancy history of placenta accreta;pregnancy;$sct;725950007;Past pregnancy history of placenta accreta;;;
+Past pregnancy history of placenta accreta (situation);pregnancy;$sct;725950007;Past pregnancy history of placenta accreta (situation);;;
+Past pregnancy history of pre-eclampsia (situation);pregnancy;$sct;1,06E+14;Past pregnancy history of pre-eclampsia (situation);;;
+Past pregnancy history of pre-eclampsia;pregnancy;$sct;1,06E+14;Past pregnancy history of pre-eclampsia;;;
+Past pregnancy history of severe pre-eclampsia (situation);pregnancy;$sct;161807003;Past pregnancy history of severe pre-eclampsia (situation);;;
+Past pregnancy history of severe pre-eclampsia;pregnancy;$sct;161807003;Past pregnancy history of severe pre-eclampsia;;;
+Past pregnancy history of hemolysis-elevated liver enzymes-low platelet count syndrome (situation);pregnancy;$sct;726513006;Past pregnancy history of hemolysis-elevated liver enzymes-low platelet count syndrome (situation);;;
+Past pregnancy history of hemolysis-elevated liver enzymes-low platelet count syndrome;pregnancy;$sct;726513006;Past pregnancy history of hemolysis-elevated liver enzymes-low platelet count syndrome;;;
+Past pregnancy history of haemolysis-elevated liver enzymes-low platelet count syndrome;pregnancy;$sct;726513006;Past pregnancy history of haemolysis-elevated liver enzymes-low platelet count syndrome;;;
+Past pregnancy history of placental abruption (situation);pregnancy;$sct;789776003;Past pregnancy history of placental abruption (situation);;;
+Past pregnancy history of placental abruption;pregnancy;$sct;789776003;Past pregnancy history of placental abruption;;;
+Past pregnancy history of preterm premature rupture of membranes (situation);pregnancy;$sct;1,09E+14;Past pregnancy history of preterm premature rupture of membranes (situation);;;
+Past pregnancy history of preterm premature rupture of membranes;pregnancy;$sct;1,09E+14;Past pregnancy history of preterm premature rupture of membranes;;;
+Past pregnancy history of short umbilical cord (situation);pregnancy;$sct;1208622001;Past pregnancy history of short umbilical cord (situation);;;
+Past pregnancy history of short umbilical cord;pregnancy;$sct;1208622001;Past pregnancy history of short umbilical cord;;;
+Past pregnancy history of placenta previa (situation);pregnancy;$sct;725924008;Past pregnancy history of placenta previa (situation);;;
+Past pregnancy history of placenta praevia;pregnancy;$sct;725924008;Past pregnancy history of placenta praevia;;;
+Past pregnancy history of placenta previa;pregnancy;$sct;725924008;Past pregnancy history of placenta previa;;;
+Past pregnancy history of pregnancy loss in non-pregnant woman (situation);pregnancy;$sct;1,5E+13;Past pregnancy history of pregnancy loss in non-pregnant woman (situation);;;
+Past pregnancy history of pregnancy loss in non-pregnant woman;pregnancy;$sct;1,5E+13;Past pregnancy history of pregnancy loss in non-pregnant woman;;;
+Past pregnancy history of fetal growth restriction (situation);pregnancy;$sct;733899004;Past pregnancy history of fetal growth restriction (situation);;;
+Past pregnancy history of fetal growth restriction;pregnancy;$sct;733899004;Past pregnancy history of fetal growth restriction;;;
+Past pregnancy history of early neonatal death;pregnancy;$sct;1290170006;Past pregnancy history of early neonatal death;;;
+Past pregnancy history of early neonatal death (situation);pregnancy;$sct;1290170006;Past pregnancy history of early neonatal death (situation);;;
+Past pregnancy history of late neonatal death;pregnancy;$sct;1290171005;Past pregnancy history of late neonatal death;;;
+Past pregnancy history of late neonatal death (situation);pregnancy;$sct;1290171005;Past pregnancy history of late neonatal death (situation);;;
+Shared antenatal care (regime/therapy);pregnancy;$sct;1290175001;Shared antenatal care (regime/therapy);;;
+Shared antenatal care;pregnancy;$sct;1290175001;Shared antenatal care;;;
+Hospital antenatal care (regime/therapy);pregnancy;$sct;1290176000;Hospital antenatal care (regime/therapy);;;
+Hospital antenatal care;pregnancy;$sct;1290176000;Hospital antenatal care;;;
+Midwifery led antenatal care (regime/therapy);pregnancy;$sct;1290177009;Midwifery led antenatal care (regime/therapy);;;
+Midwifery led antenatal care;pregnancy;$sct;1290177009;Midwifery led antenatal care;;;
+General practitioner led antenatal care (regime/therapy);pregnancy;$sct;1290178004;General practitioner led antenatal care (regime/therapy);;;
+General practitioner led antenatal care;pregnancy;$sct;1290178004;General practitioner led antenatal care;;;
+Past pregnancy history of recurrent miscarriage (situation);pregnancy;$sct;1290209002;Past pregnancy history of recurrent miscarriage (situation);;;
+Past pregnancy history of recurrent miscarriage;pregnancy;$sct;1290209002;Past pregnancy history of recurrent miscarriage;;;
+Past pregnancy history of multiple miscarriages;pregnancy;$sct;1290210007;Past pregnancy history of multiple miscarriages;;;
+Past pregnancy history of multiple miscarriages (situation);pregnancy;$sct;1290210007;Past pregnancy history of multiple miscarriages (situation);;;
+Past pregnancy history of delivery procedure;pregnancy;$sct;272058002;Past pregnancy history of delivery procedure;;;
+Past pregnancy history of delivery procedure (situation);pregnancy;$sct;272058002;Past pregnancy history of delivery procedure (situation);;;
+Past pregnancy history of multiple induced termination of pregnancy;pregnancy;$sct;1300163008;Past pregnancy history of multiple induced termination of pregnancy;;;
+Past pregnancy history of multiple induced termination of pregnancy (situation);pregnancy;$sct;1300163008;Past pregnancy history of multiple induced termination of pregnancy (situation);;;
+History of multiple induced termination of pregnancy;pregnancy;$sct;1300163008;History of multiple induced termination of pregnancy;;;
+Pregnancy resulting from natural conception (finding);pregnancy;$sct;1300203003;Pregnancy resulting from natural conception (finding);;;
+Pregnancy resulting from natural conception;pregnancy;$sct;1300203003;Pregnancy resulting from natural conception;;;
+Medium risk pregnancy;pregnancy;$sct;1303255001;Medium risk pregnancy;;;
+Medium risk pregnancy (finding);pregnancy;$sct;1303255001;Medium risk pregnancy (finding);;;
+HRP - high risk pregnancy;pregnancy;$sct;47200007;HRP - high risk pregnancy;;;
+History of complication of pregnancy, childbirth and/or puerperium;pregnancy;$sct;4,51E+14;History of complication of pregnancy, childbirth and/or puerperium;;;
+Pregnancy resulting from assisted conception;pregnancy;$sct;8,14E+14;Pregnancy resulting from assisted conception;;;
+Normal breast feeding;breastfeeding;$sct;69840006;Normal breast feeding;;;
+Effective breastfeeding;breastfeeding;$sct;69840006;Effective breastfeeding;;;
+Normal breast feeding (finding);breastfeeding;$sct;69840006;Normal breast feeding (finding);;;
+Performs breastfeeding;breastfeeding;$sct;69840006;Performs breastfeeding;;;
+Normal breastfeeding;breastfeeding;$sct;69840006;Normal breastfeeding;;;
+Normal breastfeeding (finding);breastfeeding;$sct;69840006;Normal breastfeeding (finding);;;
+Lactose;lactose;$sct;47703008;Lactose;;;
+Lactose (substance);lactose;$sct;47703008;Lactose (substance);;;
+Milk sugar;lactose;$sct;47703008;Milk sugar;;;
+Lactose tolerance test;lactose;$sct;34271001;Lactose tolerance test;;;
+Lactose challenge test;lactose;$sct;34271001;Lactose challenge test;;;
+Lactose tolerance test (procedure);lactose;$sct;34271001;Lactose tolerance test (procedure);;;
+LTT - Lactose tolerance test;lactose;$sct;34271001;LTT - Lactose tolerance test;;;
+Intolerance to lactose;lactose;$sct;782415009;Intolerance to lactose;;;
+Intolerance to lactose (finding);lactose;$sct;782415009;Intolerance to lactose (finding);;;
+Primary lactose intolerance;lactose;$sct;190751001;Primary lactose intolerance;;;
+Primary lactose intolerance (disorder);lactose;$sct;190751001;Primary lactose intolerance (disorder);;;
+Primary intolerance to lactose;lactose;$sct;190751001;Primary intolerance to lactose;;;
+Primary intolerance to lactose (finding);lactose;$sct;190751001;Primary intolerance to lactose (finding);;;
+Diabetes mellitus;diabetes;$sct;73211009;Diabetes mellitus;Diabetes mellitus;Diabetes mellitus;Diabetes mellitus
+DM - Diabetes mellitus;diabetes;$sct;73211009;DM - Diabetes mellitus;;;
+Diabetes mellitus (disorder);diabetes;$sct;73211009;Diabetes mellitus (disorder);;;
+Insulin dependent diabetes mellitus;diabetes;$sct;46635009;Insulin dependent diabetes mellitus;;;
+Diabetes mellitus type I;diabetes;$sct;46635009;Diabetes mellitus type I;;;
+IDDM;diabetes;$sct;46635009;IDDM;;;
+Type 1 diabetes mellitus;diabetes;$sct;46635009;Type 1 diabetes mellitus;;;
+Diabetes mellitus type 1;diabetes;$sct;46635009;Diabetes mellitus type 1;;;
+IDDM - Insulin-dependent diabetes mellitus;diabetes;$sct;46635009;IDDM - Insulin-dependent diabetes mellitus;;;
+Insulin-dependent diabetes mellitus;diabetes;$sct;46635009;Insulin-dependent diabetes mellitus;;;
+Type I diabetes mellitus;diabetes;$sct;46635009;Type I diabetes mellitus;;;
+Juvenile onset diabetes mellitus;diabetes;$sct;46635009;Juvenile onset diabetes mellitus;;;
+Diabetes mellitus type 1 (disorder);diabetes;$sct;46635009;Diabetes mellitus type 1 (disorder);;;
+T1DM - type 1 diabetes mellitus;diabetes;$sct;46635009;T1DM - type 1 diabetes mellitus;;;
+Diabetes mellitus type II;diabetes;$sct;44054006;Diabetes mellitus type II;;;
+Non-insulin dependent diabetes mellitus;diabetes;$sct;44054006;Non-insulin dependent diabetes mellitus;;;
+NCDMM;diabetes;$sct;44054006;NCDMM;;;
+Type 2 diabetes mellitus;diabetes;$sct;44054006;Type 2 diabetes mellitus;;;
+NIDDM;diabetes;$sct;44054006;NIDDM;;;
+Diabetes mellitus type 2;diabetes;$sct;44054006;Diabetes mellitus type 2;;;
+Non-insulin-dependent diabetes mellitus;diabetes;$sct;44054006;Non-insulin-dependent diabetes mellitus;;;
+Maturity onset diabetes mellitus;diabetes;$sct;44054006;Maturity onset diabetes mellitus;;;
+NIDDM - Non-insulin dependent diabetes mellitus;diabetes;$sct;44054006;NIDDM - Non-insulin dependent diabetes mellitus;;;
+Type II diabetes mellitus;diabetes;$sct;44054006;Type II diabetes mellitus;;;
+Diabetes mellitus - adult onset;diabetes;$sct;44054006;Diabetes mellitus - adult onset;;;
+Diabetes mellitus type 2 (disorder);diabetes;$sct;44054006;Diabetes mellitus type 2 (disorder);;;
+T2DM - diabetes mellitus type 2;diabetes;$sct;44054006;T2DM - diabetes mellitus type 2;;;
+Insulin resistance (disorder);diabetes;$sct;763325000;Insulin resistance (disorder);;;
+Insulin resistance;diabetes;$sct;763325000;Insulin resistance;;;
+Human immunodeficiency virus infection;hiv;$sct;86406008;Human immunodeficiency virus infection;;;
+HIV infection;hiv;$sct;86406008;HIV infection;;;
+Human immunodeficiency virus infection (disorder);hiv;$sct;86406008;Human immunodeficiency virus infection (disorder);;;
+HIV - Human immunodeficiency virus infection;hiv;$sct;86406008;HIV - Human immunodeficiency virus infection;;;
+Disease of nervous system;nervoussystem;$sct;118940003;Disease of nervous system;;;
+Neurological disorder;nervoussystem;$sct;118940003;Neurological disorder;;;
+Nervous system disease;nervoussystem;$sct;118940003;Nervous system disease;;;
+Disease of nervous system (disorder);nervoussystem;$sct;118940003;Disease of nervous system (disorder);;;
+Disorder of nervous system (disorder);nervoussystem;$sct;118940003;Disorder of nervous system (disorder);;;
+Disorder of nervous system;nervoussystem;$sct;118940003;Disorder of nervous system;;;
+HTLV-3 antibody positive;hiv;$sct;165816005;HTLV-3 antibody positive;;;
+HIV positive;hiv;$sct;165816005;HIV positive;;;
+HIV positive (finding);hiv;$sct;165816005;HIV positive (finding);;;
+Human immunodeficiency virus (HIV) positive (finding);hiv;$sct;165816005;Human immunodeficiency virus (HIV) positive (finding);;;
+Human immunodeficiency virus (HIV) positive;hiv;$sct;165816005;Human immunodeficiency virus (HIV) positive;;;
+Human immunodeficiency virus positive (finding);hiv;$sct;165816005;Human immunodeficiency virus positive (finding);;;
+Human immunodeficiency virus positive;hiv;$sct;165816005;Human immunodeficiency virus positive;;;
+Human immunodeficiency virus detected (finding);hiv;$sct;165816005;Human immunodeficiency virus detected (finding);;;
+Human immunodeficiency virus detected;hiv;$sct;165816005;Human immunodeficiency virus detected;;;
+HIV detected;hiv;$sct;165816005;HIV detected;;;
+Human immunodeficiency virus;hiv;$sct;19030005;Human immunodeficiency virus;;;
+HIV;hiv;$sct;19030005;HIV;HIV;HIV;HIV
+AIDS virus;hiv;$sct;19030005;AIDS virus;;;
+Human immunodeficiency virus (organism);hiv;$sct;19030005;Human immunodeficiency virus (organism);;;
+HIV - Human immunodeficiency virus;hiv;$sct;19030005;HIV - Human immunodeficiency virus;;;
+Hypericum perforatum;hperforatum;https://gsrs.ncats.nih.gov/ginas/app/beta;XK4IUX8MNB;Hypericum perforatum;Hypericum perforatum;Hypericum perforatum;Hypericum perforatum
+Hypericum perforatum L.;hperforatum;https://gsrs.ncats.nih.gov/ginas/app/beta;XK4IUX8MNB;Hypericum perforatum L.;Hypericum perforatum L.;Hypericum perforatum L.;Hypericum perforatum L.
+St. John's wort;hperforatum;https://gsrs.ncats.nih.gov/ginas/app/beta;XK4IUX8MNB;St. John's wort;;;
+Multiple pregnancy;pregnancy;$sct;77386006;Pregnancy; Múltiple embarazo;Flerfoldsgraviditet;
+Normal pregnancy;pregnancy;$sct;77386006;Pregnancy; Embarazo normal;Normal graviditet;
+Precocious pregnancy;pregnancy;$sct;77386006;Pregnancy; Embarazo precoz;For tidlig graviditet;
+Pregnancy following cone biopsy of uterine cervix;pregnancy;$sct;77386006;Pregnancy; Embarazo tras biopsia con cono de cuello uterino;Graviditet efter konisering af cervix uteri;
+breast-feeding;breastfeeding;$sct;69840006;Normal breast feeding; lactancia materna;amning;
+lactation;pregnancy;$sct;69840006;Normal breast feeding; Lactancia;Amning;
+during pregnancy;pregnancy;$sct;77386006;Pregnancy;;;durante a gravidez
+if you are pregnant;pregnancy;$sct;77386006;Pregnancy;;;
+when pregnant;pregnancy;$sct;77386006;Pregnancy;;;
+while pregnant;pregnancy;$sct;77386006;Pregnancy;;;
+planning to became pregnant;pregnancy;$sct;77386006;Pregnancy;;;
+safe for use during pregnancy;pregnancy;$sct;77386006;Pregnancy;;;
+no known risk during pregnancy;pregnancy;$sct;77386006;Pregnancy;;;
+gestation;pregnancy;$sct;77386006;Pregnancy;;;gestação
+prenatal;pregnancy;$sct;77386006;Pregnancy;;;prenatal
+antenatal;pregnancy;$sct;77386006;Pregnancy;;;
+Normal breast feeding;breastfeeding;$sct;69840006;Normal breast feeding;;;
+"
+children
+";"
+pediatric
+";"
+$sct
+";"
+376171000221106
+";"
+Pediatric population (qualifier value)
+";;;
+"
+rash
+";"rash";"
+$sct
+";"
+
+827160004";"
+
+Erythematous rash (disorder)";;;
+"
+elderly
+";"elderly";"
+$sct
+";"105436006";"
+
+Elderly person (person)";;;
+"
+Adults
+";"adult";"
+$sct
+";376161000221102;"Adult population (qualifier value)";;;
+"
+hepatitis B
+";"
+hepb
+";"
+$sct
+";"
+66071002
+";"
+Viral hepatitis type B (disorder)
+";;;
+"
+help reading text diabetes
+";"
+support-diabetes
+";"
+$sct
+";"
+6143009
+";"
+Diabetic education (procedure)
+";;;

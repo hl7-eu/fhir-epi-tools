@@ -1,7 +1,7 @@
 import argparse
 import csv
 import re
-from collections import Counter
+from collections import Counter, defaultdict
 
 import textstat
 from bs4 import BeautifulSoup
@@ -24,7 +24,7 @@ parser.add_argument("bundle", help="Path to a FHIR Bundle FSH file")
 parser.add_argument(
     "--keywords", default="keywords.csv", help="CSV file with keyword metadata"
 )
-parser.add_argument("--bundle", help="Path to a FHIR Bundle JSON file", default=None)
+
 
 args = parser.parse_args()
 
@@ -32,53 +32,9 @@ source_path = args.source
 destination_path = args.destination
 
 # Define keywords and highlight classes
-DIFFICULT_CLASS = "difficult"
 DICTWORD = {"icpc-2": "https://icpc2.icd.com/", "snomed": "$sct"}
 
-keywords = {
-    "diabetes": {
-        "class": "diabetes",
-        "code": "DB01234",
-        "system": "$sct",
-        "display": "METFORMIN",
-    },
-    "children": {
-        "class": "children",
-        "code": "DB99999",
-        "system": "$sct",
-        "display": "PARACETAMOL",
-    },
-    "rash": {
-        "class": "rash",
-        "code": "DB99998",
-        "system": "$sct",
-        "display": "PARACETAMOL",
-    },
-    "elderly": {
-        "class": "jonwort",
-        "code": "DB00099",
-        "system": "$sct",
-        "display": "HYPERICUM",
-    },
-    "Adults": {
-        "class": "jonwort",
-        "code": "DB00099",
-        "system": "$sct",
-        "display": "HYPERICUM",
-    },
-    "hepatitis B": {
-        "class": "jonwort",
-        "code": "66071002",
-        "system": "$sct",
-        "display": "Viral hepatitis type B (disorder)",
-    },
-    "difficult": {
-        "class": DIFFICULT_CLASS,
-        "code": "diff001",
-        "system": "http://gravitatehealth.eu/codes",
-        "display": "Difficult text",
-    },
-}
+
 # Load keywords from CSV
 
 
@@ -134,17 +90,23 @@ def extract_and_patch_bundles(
 
 with open(args.keywords, newline="", encoding="utf-8") as csvfile:
     reader = csv.DictReader(csvfile, delimiter=";")
+    keywords = defaultdict(dict)  # Ensures keywords[lang] is always a dict
+
     for row in reader:
-        # print(row)
-        keyword = row["keyword"].strip()
-        keywords[keyword] = {
+        concept_metadata = {
             "class": row["class"].strip(),
-            "system": row["system"].strip(),
             "code": row["code"].strip(),
+            "system": row["system"].strip(),
             "display": row["display"].strip(),
         }
 
-
+        # Go through all columns and find those starting with "keyword_"
+        for col in row:
+            if col.startswith("keyword_"):
+                lang = col.split("_")[1]
+                keyword = row[col].strip()
+                if keyword:
+                    keywords[lang][keyword] = concept_metadata
 # Count matches
 keyword_counter = Counter()
 
@@ -194,13 +156,17 @@ with open(source_path, "r", encoding="utf-8") as f:
 # --- Update text.div blocks ---
 pattern = r'(\* .*?text\.div\s*=\s*""")(.*?)("""\s*)'
 matches = re.findall(pattern, fsh_content, flags=re.DOTALL)
-
-for start, html, end in matches:
-    html_tagged = tag_deepest_elements(html.strip(), keywords)
-    fsh_content = fsh_content.replace(
-        f"{start}{html}{end}", f"{start}\n{html_tagged}\n{end}"
-    )
-
+language = re.findall(r"\* language = \#(\w{2})\n", fsh_content)[0]
+print(language)
+if language in ["en", "da", "pt", "es"]:
+    # print(keywords[language])
+    for start, html, end in matches:
+        html_tagged = tag_deepest_elements(html.strip(), keywords[language])
+        fsh_content = fsh_content.replace(
+            f"{start}{html}{end}", f"{start}\n{html_tagged}\n{end}"
+        )
+else:
+    raise "no language!!"
 # --- Modify Instance name ---
 instance_match = re.search(r"^Instance:\s*(\S+)", fsh_content, flags=re.MULTILINE)
 if instance_match:
@@ -229,15 +195,21 @@ else:
 extension_lines = []
 tagged = []
 for keyword, count in keyword_counter.items():
-    if keyword not in keywords:
+    if keyword not in keywords[language] and keyword != "difficult":
         continue
 
-    data = keywords[keyword]
+    data = keywords[language][keyword]
     css_class = data["class"]
     code = data["code"]
     display = data["display"]
     system = data["system"]
     formated_system = DICTWORD.get(system, system)
+    if keyword == "difficult":
+        css_class = "difficult"
+        code = "diff001"
+        display = "http://gravitatehealth.eu/codes"
+        system = "Difficult text"
+
     if code + display + system + css_class not in tagged:
         extension_lines.extend(
             [
@@ -288,3 +260,5 @@ if len(extension_lines) > 0:
     print("✅ Keyword counts:")
     for word, count in keyword_counter.items():
         print(f"  {word}: {count}")
+else:
+    print("⚠️ Warning: No extensions found. ")

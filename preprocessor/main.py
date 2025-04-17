@@ -13,8 +13,11 @@ target_folder = "/Users/joaoalmeida/Desktop/hl7Europe/gravitate/gravitate-health
 
 for dirpath, dirnames, filenames in os.walk(root_folder):
     for filename in filenames:
-        if filename.startswith("composition-en"):
-            target_filename = "pproc_en_" + filename.split("-")[-1][:-4] + ".fsh"
+        if filename.startswith("composition-"):
+            language = filename.split("-")[1]
+            target_filename = (
+                "pproc_" + language + "_" + filename.split("-")[-1][:-4] + ".fsh"
+            )
             print(target_filename)
             # creat bundle file
             bundle_path = os.path.join(dirpath, "Bundle.fsh")
