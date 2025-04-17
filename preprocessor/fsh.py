@@ -195,7 +195,7 @@ else:
 extension_lines = []
 tagged = []
 for keyword, count in keyword_counter.items():
-    if keyword not in keywords[language] and keyword != "difficult":
+    if keyword not in keywords[language]:
         continue
 
     data = keywords[language][keyword]
@@ -204,11 +204,6 @@ for keyword, count in keyword_counter.items():
     display = data["display"]
     system = data["system"]
     formated_system = DICTWORD.get(system, system)
-    if keyword == "difficult":
-        css_class = "difficult"
-        code = "diff001"
-        display = "http://gravitatehealth.eu/codes"
-        system = "Difficult text"
 
     if code + display + system + css_class not in tagged:
         extension_lines.extend(
