@@ -6,7 +6,8 @@ from collections import Counter, defaultdict
 import textstat
 from bs4 import BeautifulSoup
 
-READABILITY_THRESHOLD = 40  # Ex: Flesch Reading Ease: the lower, the harder it is.
+READABILITY_THRESHOLD = 20  # Ex: Flesch Reading Ease: the lower, the harder it is.
+READABILITY_LENGTH_THRESHOLD = 100
 DIFFICULT_CLASS = "difficult"
 DIFFICULTY_EXTENSION = {
     "class": DIFFICULT_CLASS,
@@ -110,8 +111,13 @@ with open(args.keywords, newline="", encoding="utf-8") as csvfile:
 # Count matches
 keyword_counter = Counter()
 
+to_explain = []
 
-def tag_deepest_elements(html: str, keywords: dict) -> str:
+
+def tag_deepest_elements(
+    html: str, keywords: dict, create_plain_language: bool = False
+) -> str:
+    idx = 0
     soup = BeautifulSoup(html, "lxml")
     known_classes = [v["class"] for v in keywords.values()]
 
@@ -136,9 +142,17 @@ def tag_deepest_elements(html: str, keywords: dict) -> str:
         matches = matches_keyword(tag_text)
 
         # Check readability difficulty
-        if tag_text and textstat.flesch_reading_ease(tag_text) < READABILITY_THRESHOLD:
+        if (
+            tag_text
+            and textstat.flesch_reading_ease(tag_text) < READABILITY_THRESHOLD
+            and len(tag_text) > READABILITY_LENGTH_THRESHOLD
+        ):
+            idx += 1
             #   print(textstat.flesch_reading_ease(tag_text))
             matches.append(("difficult_text", DIFFICULT_CLASS))
+            if create_plain_language:
+                matches.append(("plain-language", "plain-language-" + str(idx)))
+                to_explain.append(("plain-language-" + str(idx), tag_text))
 
         for keyword, css_class in matches:
             keyword_counter[keyword] += 1
@@ -218,6 +232,26 @@ for keyword, count in keyword_counter.items():
         )
         tagged.append(code + display + system + css_class)
 
+## explain language
+for x in to_explain:
+    print(x)
+
+    # response = explaining_plain_language(x[1])
+    response = x[1]
+    extension_lines.extend(
+        [
+            '* extension[+].url = "http://hl7.eu/fhir/ig/gravitate-health/StructureDefinition/AdditionalInformation"',
+            '* extension[=].extension[+].url = "elementClass"',
+            f"* extension[=].extension[=].valueString = {x[0]}",
+            '* extension[=].extension[+].url = "type"',
+            '* extension[=].extension[=].valueCodeableConcept.coding[0].system = "http://hl7.eu/fhir/ig/gravitate-health/CodeSystem/type-of-data-cs"',
+            "* extension[=].extension[=].valueCodeableConcept.coding[0].code = #TXT",
+            '* extension[=].extension[=].valueCodeableConcept.coding[0].display = "Text"',
+            '* extension[=].extension[+].url = "concept"',
+            f"* extension[=].extension[=].valueString = {response}",
+            "",
+        ]
+    )
 # if anything added, create preproc
 if len(extension_lines) > 0:
     # Combine extension lines into a single string block
